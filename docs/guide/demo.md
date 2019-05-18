@@ -33,13 +33,13 @@ Apart from this, user can create his own configuration variable by
 
 - Clicking on **New Variable** <br/>
 
-![Configuration Variable](/configurationVariable.jpg "Configuration Variable")
+![Configuration Variable](/pdffiddler/configurationVariable.jpg "Configuration Variable")
 
 <br/><br/>
 
 - **Drawing region on PDF** (preview mode)<br/>
   
-![Draw Region](/pdffiddler/drawRegion.jpg "Draw Region")
+![Draw Region](/pdffiddler/drawregion.jpg "Draw Region")
 
 ## Write Script
 
