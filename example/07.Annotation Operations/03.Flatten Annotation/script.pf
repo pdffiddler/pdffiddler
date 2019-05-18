@@ -1,0 +1,15 @@
+//load input document
+doc = load($input[0])
+
+//clone document for sample input
+d1 = doc.clone()
+d2 = doc.clone()
+
+//Flatten all annotation within page
+d1.getPage(1).flattenAnnotation()
+
+//Flatten all annotation within left region
+d2.getPage(1).flattenAnnotation($left)
+
+//output document
+output([d1, d2])

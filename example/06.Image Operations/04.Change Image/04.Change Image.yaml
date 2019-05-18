@@ -1,0 +1,25 @@
+---
+script: "#./script.pf"
+id: "06.Image Operations<_&_>04.Change Image"
+name: "04.Change Image"
+configurationVariable:
+- type: "Region"
+  name: "logo"
+  value:
+    left: "4.200"
+    top: "4.109"
+    width: "32.331"
+    height: "20.849"
+    id: "1555448381290"
+    resourceId: "input/singlePurchaseOrder.pdf"
+    pageNumber: "1"
+inputFiles:
+  singlePurchaseOrder.pdf:
+    fileName: "singlePurchaseOrder.pdf"
+    relativePath: "input/singlePurchaseOrder.pdf"
+    size: 46640
+resources:
+  pdffiddle64.png:
+    fileName: "pdffiddle64.png"
+    relativePath: "resource/pdffiddle64.png"
+    size: 2149

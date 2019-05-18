@@ -1,0 +1,11 @@
+//load input document
+doc = load($input[0])
+
+//delete all images within region logo
+doc.getPage(1).deleteImages($logo)
+//or
+//delete all images within page
+//doc.getPage(1).deleteImages()
+
+//output document
+output(doc)

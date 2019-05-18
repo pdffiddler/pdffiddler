@@ -1,0 +1,8 @@
+//load document and split into invoices
+invoices = load($input[0]).split(1)
+//attach 'attachement.pdf' to every invoice 
+invoices.each{
+    d -> d.attach($resource["attachment.pdf"])
+}
+//merge and output document
+output(merge(invoices))

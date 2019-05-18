@@ -1,0 +1,17 @@
+//load input document
+doc = load($input[0])
+//get first page
+p = doc.getPage(1)
+//extract name from fix location
+name = p.extractText($name)
+//extract invoice from fix location
+invoice = p.extractText($invoice)
+//extract due date relative to keyword Due DATE
+duedate = p.extractText($due)
+//extract amount relative to keyword BALANCE DUE
+amount = p.extractText($balance)
+//output in CSV
+outputCSV([["Name":name, "Invoice": invoice, "Due Date": duedate, "Amount": amount]], "basicExtraction")
+//output in JSON
+outputJSON([["Name":name, "Invoice": invoice, "Due Date": duedate, "Amount": amount]], "basicExtraction")
+

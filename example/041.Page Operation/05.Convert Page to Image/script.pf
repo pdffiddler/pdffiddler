@@ -1,0 +1,9 @@
+//Load input document
+doc = load($input[0])
+//Convert page to image at 100%
+im1 = doc.getPage(1).toImage()
+//Convert page to image at 200% scale
+im2 = doc.getPage(1).toImage(200)
+//output document
+outputImage(im1, "image100")
+outputImage(im2, "image200")

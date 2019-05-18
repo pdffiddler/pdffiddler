@@ -1,0 +1,15 @@
+---
+script: "#./script.pf"
+id: "04.Document<_&_>01.Attachment"
+name: "01.Attachment"
+configurationVariable: []
+inputFiles:
+  singleInvoice.pdf:
+    fileName: "singleInvoice.pdf"
+    relativePath: "input/singleInvoice.pdf"
+    size: 17322
+resources:
+  attachment.pdf:
+    fileName: "attachment.pdf"
+    relativePath: "resource/attachment.pdf"
+    size: 2081

@@ -1,0 +1,6 @@
+//load document
+doc = load($input[0])
+//make document, if odd number of page, then add one blank page at end
+doc.duplex()
+//output document
+output(doc)

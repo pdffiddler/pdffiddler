@@ -1,0 +1,15 @@
+//load input document
+doc = load($input[0])
+
+//clone document for sample input
+d1 = doc.clone()
+d2 = doc.clone()
+
+//Remove annotation from whole page
+d1.getPage(1).removeAnnotation()
+
+//Remove annotation within left region
+d2.getPage(1).removeAnnotation($left)
+
+//output document
+output([d1, d2])

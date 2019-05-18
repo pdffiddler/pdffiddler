@@ -1,0 +1,6 @@
+//load document
+doc = load($input[0])
+//Reverse Page Order of the document
+doc.reversePages()
+//output document
+output(doc)

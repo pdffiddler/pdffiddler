@@ -1,0 +1,11 @@
+---
+script: "#./script.pf"
+id: "09.MetaData<_&_>02.Remove MetaData"
+name: "02.Remove MetaData"
+configurationVariable: []
+inputFiles:
+  singleInvoiceWithMetaData.pdf:
+    fileName: "singleInvoiceWithMetaData.pdf"
+    relativePath: "input/singleInvoiceWithMetaData.pdf"
+    size: 18827
+resources: {}

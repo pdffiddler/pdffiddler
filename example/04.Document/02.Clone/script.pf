@@ -1,0 +1,6 @@
+//load document
+doc = load($input[0])
+//clone document
+cloned = doc.clone()
+//output list of document
+output([doc, cloned])

@@ -1,0 +1,21 @@
+---
+script: "#./script.pf"
+id: "05.Text Operation<_&_>06.Find And Replace Text"
+name: "06.Find And Replace Text"
+configurationVariable:
+- type: "Region"
+  name: "ShipTo"
+  value:
+    left: "9.910"
+    top: "8.263"
+    width: "85.428"
+    height: "49.483"
+    id: "1555434369523"
+    resourceId: "input/singleInvoice.pdf"
+    pageNumber: "1"
+inputFiles:
+  singleInvoice.pdf:
+    fileName: "singleInvoice.pdf"
+    relativePath: "input/singleInvoice.pdf"
+    size: 17322
+resources: {}

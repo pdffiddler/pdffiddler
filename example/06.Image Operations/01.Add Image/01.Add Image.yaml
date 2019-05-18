@@ -1,0 +1,39 @@
+---
+script: "#./script.pf"
+id: "06.Image Operations<_&_>01.Add Image"
+name: "01.Add Image"
+configurationVariable:
+- type: "Region"
+  name: "logo"
+  value:
+    left: "144.975"
+    top: "12.923"
+    width: "18"
+    height: "18"
+    id: "1555447016517"
+    resourceId: "input/singleInvoice.pdf"
+    pageNumber: "1"
+- type: "Region"
+  name: "background"
+  value:
+    left: "33.519"
+    top: "42.745"
+    width: "150"
+    height: "150"
+    id: "1555447544912"
+    resourceId: "input/singleInvoice.pdf"
+    pageNumber: "1"
+inputFiles:
+  singleInvoice.pdf:
+    fileName: "singleInvoice.pdf"
+    relativePath: "input/singleInvoice.pdf"
+    size: 17322
+resources:
+  pdffiddle64.jpg:
+    fileName: "pdffiddle64.jpg"
+    relativePath: "resource/pdffiddle64.jpg"
+    size: 3970
+  pdffiddle64.png:
+    fileName: "pdffiddle64.png"
+    relativePath: "resource/pdffiddle64.png"
+    size: 2149

@@ -1,0 +1,13 @@
+//load input document
+doc = load($input[0])
+
+d1 = doc.clone()
+d2 = doc.clone()
+
+//Find "BALANCE DUE" within whole page and redact with default black color
+d1.getPage(1).findAndRedactText("BALANCE DUE")
+output(d1, "BalanceDueRedact")
+
+//Find "02/26/2019" within invoice region and redact it with RED color
+d2.getPage(1).findAndRedactText("02/26/2019", $invoice, RED)
+output(d2, "DueDateRedact")

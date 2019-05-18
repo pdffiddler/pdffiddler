@@ -1,0 +1,11 @@
+---
+script: "#./script.pf"
+id: "04.Document<_&_>10.Rotate Pages"
+name: "10.Rotate Pages"
+configurationVariable: []
+inputFiles:
+  multipleInvoices.pdf:
+    fileName: "multipleInvoices.pdf"
+    relativePath: "input/multipleInvoices.pdf"
+    size: 52923
+resources: {}

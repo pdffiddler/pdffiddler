@@ -1,0 +1,17 @@
+---
+script: "#./script.pf"
+id: "01.Basic Operations<_&_>04.Date Operations"
+name: "04.Date Operations"
+configurationVariable:
+- type: "Region"
+  name: "due"
+  value:
+    left: "163.370"
+    top: "57.035"
+    width: "21.435"
+    height: "4.660"
+    id: "1555776489139"
+    resourceId: "input/singleInvoice.pdf"
+    pageNumber: "1"
+inputFiles: {}
+resources: {}

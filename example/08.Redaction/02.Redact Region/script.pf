@@ -1,0 +1,8 @@
+//load input document
+doc = load($input[0])
+
+//Redact invoice region with BLUE color
+doc.getPage(1).redactRegion($invoice, BLUE)
+
+//output document
+output(doc, "RedactRegion")

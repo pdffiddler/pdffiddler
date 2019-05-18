@@ -1,0 +1,11 @@
+//load input document
+doc = load($input[0])
+
+//split into invoices
+invoices = doc.split(1)
+
+//sort invoices in ascending order based on refNum region in first page
+sortedInvoices = sort(invoices, [$refNum])
+
+//merge and output sortedInvoices invoices
+output(merge(sortedInvoices))

@@ -1,0 +1,21 @@
+---
+script: "#./script.pf"
+id: "10.Barcode Operations<_&_>04.Korea Post"
+name: "04.Korea Post"
+configurationVariable:
+- type: "Region"
+  name: "barcode"
+  value:
+    left: "10.847"
+    top: "118.023"
+    width: "49.882"
+    height: "7.670"
+    id: "1555762108564"
+    resourceId: "input/singlePurchaseOrder.pdf"
+    pageNumber: "1"
+inputFiles:
+  singlePurchaseOrder.pdf:
+    fileName: "singlePurchaseOrder.pdf"
+    relativePath: "input/singlePurchaseOrder.pdf"
+    size: 46640
+resources: {}

@@ -1,0 +1,21 @@
+---
+script: "#./script.pf"
+id: "11.Advanced Operation<_&_>03.Group Documents"
+name: "03.Group Documents"
+configurationVariable:
+- type: "Region"
+  name: "refNum"
+  value:
+    left: "114.697"
+    top: "49.559"
+    width: "27.908"
+    height: "5.827"
+    id: "1557353552927"
+    resourceId: "input/multipleInvoices2.pdf"
+    pageNumber: "1"
+inputFiles:
+  multipleInvoices2.pdf:
+    fileName: "multipleInvoices2.pdf"
+    relativePath: "input/multipleInvoices2.pdf"
+    size: 467580
+resources: {}

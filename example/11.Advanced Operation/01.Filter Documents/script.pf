@@ -1,0 +1,11 @@
+//load input document
+doc = load($input[0])
+//split into invoices
+invoices = doc.split(1)
+//filter invoices whose balance greater than zero
+filteredInvoices = invoices.findAll{ i ->
+    balance = i.getPage(1).extractText($due)
+    return !balance.contains('$0.00')
+}
+//merge and output filtered invoices
+output(merge(filteredInvoices))

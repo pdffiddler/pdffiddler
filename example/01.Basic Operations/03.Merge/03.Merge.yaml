@@ -1,0 +1,15 @@
+---
+script: "#./script.pf"
+id: "01.Basic Operations<_&_>03.Merge"
+name: "03.Merge"
+configurationVariable: []
+inputFiles:
+  multipleInvoices.pdf:
+    fileName: "multipleInvoices.pdf"
+    relativePath: "input/multipleInvoices.pdf"
+    size: 52923
+  multipleInvoices4.pdf:
+    fileName: "multipleInvoices4.pdf"
+    relativePath: "input/multipleInvoices4.pdf"
+    size: 346056
+resources: {}

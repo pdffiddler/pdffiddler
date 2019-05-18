@@ -1,0 +1,6 @@
+//Load input document
+doc = load($input[0])
+//Rotate page by 90
+doc.getPage(1).rotate(90)
+//output document
+output(doc)

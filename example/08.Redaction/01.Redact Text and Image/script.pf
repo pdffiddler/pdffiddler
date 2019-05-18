@@ -1,0 +1,24 @@
+//load input document
+doc = load($input[0])
+
+//clone document for sample
+d1 = doc.clone()
+d2 = doc.clone()
+d3 = doc.clone()
+d4 = doc.clone()
+
+//Redact only text within invoice region with default black color
+d1.getPage(1).redactText($invoice)
+output(d1, "RedactTextOnly")
+
+//Redact only image within invoice region with RED color
+d2.getPage(1).redactImage($invoice, RED)
+output(d2, "RedactImageOnly")
+
+//Redact text and image within invoice region with GREEN color
+d3.getPage(1).redact($invoice, GREEN)
+output(d3, "RedactTextAndImage")
+
+//Redact text and image in whole page with Black color
+d4.getPage(1).redact()
+output(d4, "RedactWholePage")

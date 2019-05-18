@@ -1,0 +1,35 @@
+---
+script: "#./script.pf"
+id: "01.Basic Operations<_&_>01.Input Output"
+name: "01.Input Output"
+configurationVariable: []
+inputFiles:
+  singleInvoice.pdf:
+    fileName: "singleInvoice.pdf"
+    relativePath: "input/singleInvoice.pdf"
+    size: 17322
+  singlePurchaseOrder.pdf:
+    fileName: "singlePurchaseOrder.pdf"
+    relativePath: "input/singlePurchaseOrder.pdf"
+    size: 46640
+resources:
+  pdffiddle64.jpg:
+    fileName: "pdffiddle64.jpg"
+    relativePath: "resource/pdffiddle64.jpg"
+    size: 3970
+  pdffiddle64.png:
+    fileName: "pdffiddle64.png"
+    relativePath: "resource/pdffiddle64.png"
+    size: 2149
+  singleInvoice.json:
+    fileName: "singleInvoice.json"
+    relativePath: "resource/singleInvoice.json"
+    size: 87
+  singleInvoice.csv:
+    fileName: "singleInvoice.csv"
+    relativePath: "resource/singleInvoice.csv"
+    size: 68
+  singleInvoice.txt:
+    fileName: "singleInvoice.txt"
+    relativePath: "resource/singleInvoice.txt"
+    size: 68

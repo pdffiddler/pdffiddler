@@ -1,0 +1,21 @@
+---
+script: "#./script.pf"
+id: "07.Annotation Operations<_&_>02.Delete Annotation"
+name: "02.Delete Annotation"
+configurationVariable:
+- type: "Region"
+  name: "left"
+  value:
+    left: "7.735"
+    top: "8.885"
+    width: "97.854"
+    height: "149.421"
+    id: "1555604539765"
+    resourceId: "input/singleInvoiceWithAnnotation.pdf"
+    pageNumber: "1"
+inputFiles:
+  singleInvoiceWithAnnotation.pdf:
+    fileName: "singleInvoiceWithAnnotation.pdf"
+    relativePath: "input/singleInvoiceWithAnnotation.pdf"
+    size: 22618
+resources: {}

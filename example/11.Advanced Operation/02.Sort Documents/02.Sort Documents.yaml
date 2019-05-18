@@ -1,0 +1,21 @@
+---
+script: "#./script.pf"
+id: "11.Advanced Operation<_&_>02.Sort Documents"
+name: "02.Sort Documents"
+configurationVariable:
+- type: "Region"
+  name: "refNum"
+  value:
+    left: "114.390"
+    top: "48.946"
+    width: "22.081"
+    height: "7.360"
+    id: "1557353438554"
+    resourceId: "input/multipleInvoices2.pdf"
+    pageNumber: "1"
+inputFiles:
+  multipleInvoices2.pdf:
+    fileName: "multipleInvoices2.pdf"
+    relativePath: "input/multipleInvoices2.pdf"
+    size: 467580
+resources: {}

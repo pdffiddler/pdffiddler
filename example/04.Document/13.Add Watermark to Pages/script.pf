@@ -1,0 +1,17 @@
+// load input document
+doc = load($input[0])
+
+//create blank watermark page
+watermarkPage = Page()
+//Add text to watermark page
+watermarkPage.addText("PDFFiddler", $watermark.bottomLeft(), HELVETICA, 108, 36, RED, 0.2)
+
+// add watermark to all pages of document 
+d1 = doc.clone()
+d1.addWatermarkToPages(watermarkPage)
+output(d1, "AddWatermarkToAllPages")
+
+// add watermark to only 1 and 3 pages of document 
+d2 = doc.clone()
+d2.addWatermarkToPages(watermarkPage, BACKGROUND, [1,3])
+output(d2, "AddWatermarkTo1st3rdPage")

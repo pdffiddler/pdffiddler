@@ -1,0 +1,14 @@
+//load input document
+doc = load($input[0])
+
+//create blank watermark page
+watermarkPage = Page()
+//Add text or image or both to watermark page
+watermarkPage.addText("PDFFiddler", $watermark.bottomLeft(), HELVETICA, 108, 45, RED, 0.2)
+watermarkPage.addImage($resource[0], $watermark, null, null, 0, 0.2)
+
+//apply watermark to each page of document
+doc.getPage(1).addWatermark(watermarkPage, BACKGROUND)
+
+//output document
+output(doc)

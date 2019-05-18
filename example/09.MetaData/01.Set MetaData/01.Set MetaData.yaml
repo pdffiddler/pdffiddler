@@ -1,0 +1,11 @@
+---
+script: "#./script.pf"
+id: "09.MetaData<_&_>01.Set MetaData"
+name: "01.Set MetaData"
+configurationVariable: []
+inputFiles:
+  singleInvoice.pdf:
+    fileName: "singleInvoice.pdf"
+    relativePath: "input/singleInvoice.pdf"
+    size: 17322
+resources: {}

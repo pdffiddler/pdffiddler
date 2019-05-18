@@ -1,0 +1,27 @@
+---
+script: "#./script.pf"
+id: "11.Advanced Operation<_&_>01.Filter Documents"
+name: "01.Filter Documents"
+configurationVariable:
+- type: "Region"
+  name: "due"
+  value:
+    left: "182.472"
+    top: "144.322"
+    width: "23.001"
+    height: "8.280"
+    id: "1557329399009"
+    resourceId: "input/multipleInvoices4.pdf"
+    pageNumber: "1"
+    position: "Relative"
+    anchorText: "Balance due"
+    anchorTextX: "109.94319"
+    anchorTextY: "145.32997"
+    anchorTextWidth: "25.315338"
+    anchorTextHeight: "2.4500427"
+inputFiles:
+  multipleInvoices4.pdf:
+    fileName: "multipleInvoices4.pdf"
+    relativePath: "input/multipleInvoices4.pdf"
+    size: 346056
+resources: {}

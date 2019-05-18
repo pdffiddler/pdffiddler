@@ -1,0 +1,11 @@
+---
+script: "#./script.pf"
+id: "04.Document<_&_>11.Translate Pages"
+name: "11.Translate Pages"
+configurationVariable: []
+inputFiles:
+  multipleInvoices.pdf:
+    fileName: "multipleInvoices.pdf"
+    relativePath: "input/multipleInvoices.pdf"
+    size: 52923
+resources: {}

@@ -1,0 +1,17 @@
+doc = load($input[0])
+
+//Get first page of document
+firstPage = doc.getPage(1)
+
+//Get last page of partition
+lastPage = doc.getPage(1, true)
+
+//Get Page count
+doc.getPageCount()
+
+//Iterate over pages
+doc.getPages().each{
+    p -> //do anything with each page
+}
+
+output(doc)

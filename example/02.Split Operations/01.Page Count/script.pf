@@ -1,0 +1,6 @@
+//load document
+doc = load($input[0])
+//split document into one one page invoice
+invoices = doc.split(1)
+//output
+output(invoices)

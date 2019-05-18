@@ -1,0 +1,12 @@
+// load input document
+doc = load($input[0])
+
+// rotate all pages of document to 90 clockwise
+d1 = doc.clone()
+d1.rotatePages(90)
+output(d1, "RotateAllPages")
+
+// rotate only 1 and 3 pages of document to 90 clockwise
+d2 = doc.clone()
+d2.rotatePages(90, [1,3])
+output(d2, "Rotate1st3rdPage")

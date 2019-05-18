@@ -1,0 +1,12 @@
+//Load input document
+doc = load($input[0])
+
+//Korea POST
+d1 = doc.clone()
+d1.getPage(1).addBarcode(KOREAPOST, "123456", $barcode.topLeft())
+output(d1, "KoreaPost")
+
+//Korea POST One digit
+d2 = doc.clone()
+d2.getPage(1).addBarcode(KOREAPOST, "7", $barcode.topLeft())
+output(d2, "KoreaPost1Digit")

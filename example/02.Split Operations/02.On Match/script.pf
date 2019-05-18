@@ -1,0 +1,6 @@
+//load document
+doc = load($input[0])
+//split document into invoices, if Page1 region contains Page 1
+invoices = doc.split(OnMatch($Page1, "Page 1"))
+//output
+output(invoices)

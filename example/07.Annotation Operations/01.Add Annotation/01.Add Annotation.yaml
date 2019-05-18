@@ -1,0 +1,61 @@
+---
+script: "#./script.pf"
+id: "07.Annotation Operations<_&_>01.Add Annotation"
+name: "01.Add Annotation"
+configurationVariable:
+- type: "Region"
+  name: "balance"
+  value:
+    left: "174.553"
+    top: "141.220"
+    width: "24.852"
+    height: "8.698"
+    id: "1555449186066"
+    resourceId: "input/singleInvoice.pdf"
+    pageNumber: "1"
+- type: "Region"
+  name: "due"
+  value:
+    left: "163.680"
+    top: "57.035"
+    width: "20.192"
+    height: "5.281"
+    id: "1555449196944"
+    resourceId: "input/singleInvoice.pdf"
+    pageNumber: "1"
+- type: "Region"
+  name: "bill"
+  value:
+    left: "14.259"
+    top: "45.852"
+    width: "18.018"
+    height: "7.145"
+    id: "1555449243772"
+    resourceId: "input/singleInvoice.pdf"
+    pageNumber: "1"
+- type: "Region"
+  name: "thank"
+  value:
+    left: "13.948"
+    top: "121.650"
+    width: "68.653"
+    height: "5.592"
+    id: "1555449640954"
+    resourceId: "input/singleInvoice.pdf"
+    pageNumber: "1"
+- type: "Region"
+  name: "invoice"
+  value:
+    left: "13.948"
+    top: "34.358"
+    width: "29.822"
+    height: "9.319"
+    id: "1555449821883"
+    resourceId: "input/singleInvoice.pdf"
+    pageNumber: "1"
+inputFiles:
+  singleInvoice.pdf:
+    fileName: "singleInvoice.pdf"
+    relativePath: "input/singleInvoice.pdf"
+    size: 17322
+resources: {}

@@ -1,0 +1,14 @@
+//load input document
+doc = load($input[0])
+
+//Add Image within logo region
+doc.getPage(1).addImage($resource[1], $logo)
+
+//load image resource
+im = loadImage($resource["pdffiddle64.jpg"])
+
+//add loaded image in background region with opacity 0.2 as inline image
+doc.getPage(1).addImage(image:im, at: $background, opacity: 0.2, inline: true)
+
+//output document
+output(doc)

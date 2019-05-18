@@ -1,0 +1,21 @@
+---
+script: "#./script.pf"
+id: "11.Advanced Operation<_&_>04.Partition Documents"
+name: "04.Partition Documents"
+configurationVariable:
+- type: "Region"
+  name: "refNum"
+  value:
+    left: "115.004"
+    top: "49.252"
+    width: "27.601"
+    height: "6.440"
+    id: "1557353637495"
+    resourceId: "input/multipleInvoices2.pdf"
+    pageNumber: "1"
+inputFiles:
+  multipleInvoices2.pdf:
+    fileName: "multipleInvoices2.pdf"
+    relativePath: "input/multipleInvoices2.pdf"
+    size: 467580
+resources: {}

@@ -1,0 +1,7 @@
+//load document
+doc = load($input[0])
+
+//move Page 2, 3 before 1st page
+//new order of page will be [2,3,1]
+doc.movePages(1, [2,3])
+output(doc)

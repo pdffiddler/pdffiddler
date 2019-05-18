@@ -1,0 +1,7 @@
+// load input document
+doc = load($input[0])
+
+// crop page
+d2 = doc.clone()
+d2.getPage(1).crop($crop)
+output(d2, "CropPage")

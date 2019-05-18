@@ -1,0 +1,6 @@
+//load document
+doc = load($input[0])
+//split document into invoices, if Policy region changes
+invoices = doc.split(OnChange($Policy))
+//output
+output(invoices)

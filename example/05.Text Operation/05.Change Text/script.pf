@@ -1,0 +1,27 @@
+//load input document
+doc = load($input[0])
+
+d1 = doc.clone()
+//get first page
+p = d1.getPage(1)
+
+//change thanks note font size 
+p.changeText(region: $thank, fontSize: 10)
+//change due date color to red
+p.changeText($due, RED)
+//Move Invoice Heading by 0.9 mm to align it with Text
+p.changeText($invoice, null, Point(-0.9, 0))
+//Change font of heading
+p.changeText(region: $heading, font: COURIER_BOLD)
+//output document
+output(d1, "changeText")
+
+d2 = doc.clone()
+//replace addr region with new address (with old formatting)
+d2.getPage(1).replaceText($addr, ["Amy Lauterbach", "Bird Sanctuary", "4581 Winston Street", "Bayshore, FL 84336"])
+
+//replace thanks note with new formatting
+d2.getPage(1).replaceText($thank, ["Thank you for giving us the opportunity to serve you."], GRAY, null, null, 10)
+
+//ouput document
+output(d2, "replaceText") 

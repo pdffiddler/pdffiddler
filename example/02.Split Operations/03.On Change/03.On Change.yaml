@@ -1,0 +1,21 @@
+---
+script: "#./script.pf"
+id: "02.Split Operations<_&_>03.On Change"
+name: "03.On Change"
+configurationVariable:
+- type: "Region"
+  name: "Policy"
+  value:
+    left: "49.051"
+    top: "31.872"
+    width: "30.113"
+    height: "6.691"
+    id: "1555279782595"
+    resourceId: "input/policy.pdf"
+    pageNumber: "1"
+inputFiles:
+  policy.pdf:
+    fileName: "policy.pdf"
+    relativePath: "input/policy.pdf"
+    size: 505543
+resources: {}

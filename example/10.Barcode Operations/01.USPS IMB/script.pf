@@ -1,0 +1,22 @@
+//Load input document
+doc = load($input[0])
+
+//USPS IMB with tracking code 01234567094987654321
+d1 = doc.clone()
+d1.getPage(1).addBarcode(USPSIMB, "01234567094987654321", $barcode.topLeft())
+output(d1, "USPSIMBNoZip")
+
+//USPS IMB with tracking code 01234567094987654321 and zip code 01234
+d2 = doc.clone()
+d2.getPage(1).addBarcode(USPSIMB, "01234567094987654321-01234", $barcode.topLeft())
+output(d2, "USPSIMBZip5")
+
+//USPS IMB with tracking code 01234567094987654321 and zip code 012345678
+d3 = doc.clone()
+d3.getPage(1).addBarcode(USPSIMB, "01234567094987654321-012345678", $barcode.topLeft())
+output(d3, "USPSIMBZip9")
+
+//USPS IMB with tracking code 01234567094987654321 and zip code 01234567891
+d4 = doc.clone()
+d4.getPage(1).addBarcode(USPSIMB, "01234567094987654321-01234567891", $barcode.topLeft())
+output(d4, "USPSIMBZip11")

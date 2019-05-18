@@ -1,0 +1,13 @@
+//load document
+doc = load($input[0])
+
+//delete first page
+d1 = doc.clone()
+d1.deletePages(1)
+output(d1, "DeleteOnePage")
+
+//delete multiple pages
+d2 = doc.clone()
+d2.deletePages([1,3])
+output(d2, "DeleteMultiplePages")
+

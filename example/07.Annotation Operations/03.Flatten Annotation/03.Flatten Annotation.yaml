@@ -1,0 +1,21 @@
+---
+script: "#./script.pf"
+id: "07.Annotation Operations<_&_>03.Flatten Annotation"
+name: "03.Flatten Annotation"
+configurationVariable:
+- type: "Region"
+  name: "left"
+  value:
+    left: "8.978"
+    top: "7.953"
+    width: "89.777"
+    height: "163.401"
+    id: "1555605412132"
+    resourceId: "input/singleInvoiceWithAnnotation.pdf"
+    pageNumber: "1"
+inputFiles:
+  singleInvoiceWithAnnotation.pdf:
+    fileName: "singleInvoiceWithAnnotation.pdf"
+    relativePath: "input/singleInvoiceWithAnnotation.pdf"
+    size: 22618
+resources: {}

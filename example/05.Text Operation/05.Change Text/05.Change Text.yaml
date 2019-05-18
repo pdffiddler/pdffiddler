@@ -1,0 +1,61 @@
+---
+script: "#./script.pf"
+id: "05.Text Operation<_&_>05.Change Text"
+name: "05.Change Text"
+configurationVariable:
+- type: "Region"
+  name: "thank"
+  value:
+    left: "13.948"
+    top: "122.271"
+    width: "68.032"
+    height: "4.970"
+    id: "1555413578075"
+    resourceId: "input/singleInvoice.pdf"
+    pageNumber: "1"
+- type: "Region"
+  name: "due"
+  value:
+    left: "164.301"
+    top: "57.035"
+    width: "18.639"
+    height: "5.281"
+    id: "1555413600084"
+    resourceId: "input/singleInvoice.pdf"
+    pageNumber: "1"
+- type: "Region"
+  name: "invoice"
+  value:
+    left: "15.501"
+    top: "34.979"
+    width: "27.026"
+    height: "8.077"
+    id: "1555413615682"
+    resourceId: "input/singleInvoice.pdf"
+    pageNumber: "1"
+- type: "Region"
+  name: "heading"
+  value:
+    left: "13.948"
+    top: "11.991"
+    width: "68.653"
+    height: "6.524"
+    id: "1555413633863"
+    resourceId: "input/singleInvoice.pdf"
+    pageNumber: "1"
+- type: "Region"
+  name: "addr"
+  value:
+    left: "14.259"
+    top: "52.996"
+    width: "44.423"
+    height: "20.503"
+    id: "1555626135712"
+    resourceId: "input/singleInvoice.pdf"
+    pageNumber: "1"
+inputFiles:
+  singleInvoice.pdf:
+    fileName: "singleInvoice.pdf"
+    relativePath: "input/singleInvoice.pdf"
+    size: 17322
+resources: {}

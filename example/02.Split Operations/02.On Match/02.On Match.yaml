@@ -1,0 +1,21 @@
+---
+script: "#./script.pf"
+id: "02.Split Operations<_&_>02.On Match"
+name: "02.On Match"
+configurationVariable:
+- type: "Region"
+  name: "Page1"
+  value:
+    left: "169.272"
+    top: "23.485"
+    width: "14.600"
+    height: "7.766"
+    id: "1555279782595"
+    resourceId: "input/policy.pdf"
+    pageNumber: "1"
+inputFiles:
+  policy.pdf:
+    fileName: "policy.pdf"
+    relativePath: "input/policy.pdf"
+    size: 505543
+resources: {}

@@ -1,0 +1,27 @@
+// load input document
+doc = load($input[0])
+
+// change document paper size to A2 and rescale content too
+d1 = doc.clone()
+d1.getPage(1).resize(A2)
+output(d1, "ResizePageContentA2")
+
+// change only document paper size to A2 and not rescale content
+d2 = doc.clone()
+d2.getPage(1).resize(A2, true, false)
+output(d2, "ResizePageOnlyA2")
+
+//resize content by 80% and not change page size at TOP_LEFT Basepoint
+d3 = doc.clone()
+d3.getPage(1).resize(80, false, true, TOP_LEFT)
+output(d3, "ResizeContentOnlyTo80")
+
+// change only document paper size to custom size and not rescale content
+d4 = doc.clone()
+d4.getPage(1).resize(PaperSize(400, 600), true, false)
+output(d4, "ResizePageOnlyCustomSize")
+
+// change first page size and content to 80
+d5 = doc.clone()
+d5.getPage(1).resize(80, true, true, CENTER)
+output(d5, "ResizePageContentTo80")

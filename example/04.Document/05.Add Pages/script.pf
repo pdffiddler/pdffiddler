@@ -1,0 +1,20 @@
+//load document
+doc = load($input[0])
+
+d1 = doc.clone()
+//add one blank page after 1st page
+d1.addPages(2)
+output(d1, "blankPageAtEnd")
+
+d2 = doc.clone()
+//add two blank pages before 1st page 
+d2.addPages(1, [Page(), Page()])
+output(d2, "twoBlankPageAtStart")
+
+d3 = doc.clone()
+//add two pages from policy document to this document
+policydoc = load($resource[0])
+p1 = policydoc.getPage(1)
+p2 = policydoc.getPage(2)
+d3.addPages(2, [p1, p2])
+output(d3, "twoPagesFromOtherDocAtEnd")

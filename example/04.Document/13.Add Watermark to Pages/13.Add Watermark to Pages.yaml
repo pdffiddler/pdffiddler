@@ -1,0 +1,21 @@
+---
+script: "#./script.pf"
+id: "04.Document<_&_>13.Add Watermark to Pages"
+name: "13.Add Watermark to Pages"
+configurationVariable:
+- type: "Region"
+  name: "watermark"
+  value:
+    left: "35.237"
+    top: "71.363"
+    width: "133.840"
+    height: "107.405"
+    id: "1557179191206"
+    resourceId: "input/multipleInvoices.pdf"
+    pageNumber: "1"
+inputFiles:
+  multipleInvoices.pdf:
+    fileName: "multipleInvoices.pdf"
+    relativePath: "input/multipleInvoices.pdf"
+    size: 52923
+resources: {}

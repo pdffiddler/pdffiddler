@@ -1,0 +1,8 @@
+//Create new document
+doc = Document()
+//Add new blank page of letter size
+doc.addPage(1)
+//Add second page of A2 size
+doc.addPage(2, false, Page(A2))
+//output document
+output(doc)

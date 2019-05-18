@@ -1,0 +1,25 @@
+---
+script: "#./script.pf"
+id: "041.Page Operation<_&_>06. Add Watermark to page"
+name: "06. Add Watermark to page"
+configurationVariable:
+- type: "Region"
+  name: "watermark"
+  value:
+    left: "48.241"
+    top: "66.999"
+    width: "128.985"
+    height: "127.243"
+    id: "1555612740949"
+    resourceId: "input/multipleInvoices.pdf"
+    pageNumber: "1"
+inputFiles:
+  singleInvoice.pdf:
+    fileName: "singleInvoice.pdf"
+    relativePath: "input/singleInvoice.pdf"
+    size: 17322
+resources:
+  pdffiddle64.png:
+    fileName: "pdffiddle64.png"
+    relativePath: "resource/pdffiddle64.png"
+    size: 2149

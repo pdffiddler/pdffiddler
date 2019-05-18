@@ -1,0 +1,6 @@
+//load document
+doc = load($input[0])
+
+//extract 1 and 3 page into new document
+newdoc = doc.extractPages([1,3])
+output(newdoc)

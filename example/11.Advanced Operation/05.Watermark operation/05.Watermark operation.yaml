@@ -1,0 +1,25 @@
+---
+script: "#./script.pf"
+id: "11.Advanced Operation<_&_>05.Watermark operation"
+name: "05.Watermark operation"
+configurationVariable:
+- type: "Region"
+  name: "watermark"
+  value:
+    left: "48.241"
+    top: "66.999"
+    width: "128.985"
+    height: "127.243"
+    id: "1555612740949"
+    resourceId: "input/multipleInvoices.pdf"
+    pageNumber: "1"
+inputFiles:
+  multipleInvoices.pdf:
+    fileName: "multipleInvoices.pdf"
+    relativePath: "input/multipleInvoices.pdf"
+    size: 52923
+resources:
+  pdffiddle64.png:
+    fileName: "pdffiddle64.png"
+    relativePath: "resource/pdffiddle64.png"
+    size: 2149

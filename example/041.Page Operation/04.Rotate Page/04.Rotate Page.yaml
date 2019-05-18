@@ -1,0 +1,11 @@
+---
+script: "#./script.pf"
+id: "041.Page Operation<_&_>04.Rotate Page"
+name: "04.Rotate Page"
+configurationVariable: []
+inputFiles:
+  singleInvoice.pdf:
+    fileName: "singleInvoice.pdf"
+    relativePath: "input/singleInvoice.pdf"
+    size: 17322
+resources: {}

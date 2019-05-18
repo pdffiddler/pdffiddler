@@ -1,0 +1,32 @@
+//load input files either by name or by position (recommended to use by position)
+invoiceDoc = load($input[0])
+purchaseDoc = load($input["singlePurchaseOrder.pdf"])
+
+//load resource files either by name or position (recommended to use by name)
+//load image
+jpgIm = loadImage($resource[0])
+pngIm = loadImage($resource["pdffiddle64.png"])
+
+//load csv
+csv = loadCSV($resource["singleInvoice.csv"])
+
+//load json
+json = loadJSON($resource["singleInvoice.json"])
+
+//load any file
+data = loadFile($resource["singleInvoice.txt"])
+
+//output document
+output([invoiceDoc, purchaseDoc])
+
+//output images
+outputImage([jpgIm, pngIm])
+
+//output csv
+outputCSV(csv)
+
+//output json
+outputJSON(json)
+
+//output any file
+outputFile(data)

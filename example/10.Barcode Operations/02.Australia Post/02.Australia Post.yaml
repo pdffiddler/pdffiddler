@@ -1,0 +1,21 @@
+---
+script: "#./script.pf"
+id: "10.Barcode Operations<_&_>02.Australia Post"
+name: "02.Australia Post"
+configurationVariable:
+- type: "Region"
+  name: "barcode"
+  value:
+    left: "9.034"
+    top: "31.001"
+    width: "54.389"
+    height: "7.670"
+    id: "1555762108564"
+    resourceId: "input/singlePurchaseOrder.pdf"
+    pageNumber: "1"
+inputFiles:
+  singlePurchaseOrder.pdf:
+    fileName: "singlePurchaseOrder.pdf"
+    relativePath: "input/singlePurchaseOrder.pdf"
+    size: 46640
+resources: {}

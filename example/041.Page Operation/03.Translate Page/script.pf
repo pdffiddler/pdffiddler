@@ -1,0 +1,16 @@
+//Load input document
+doc = load($input[0])
+
+//clone document
+d1 = doc.clone()
+d2 = doc.clone()
+d3 = doc.clone()
+//Change translate by 20mm x direction
+d1.getPage(1).translate(20, 0)
+output(d1, "translateX")
+//Change translate by 20mm y direction
+d2.getPage(1).translate(0, 20)
+output(d2, "translateY")
+//Change translate by 20mm x direction 20mm y direction
+d3.getPage(1).translate(20, 20)
+output(d3, "translateXY")

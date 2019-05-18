@@ -1,0 +1,11 @@
+//load document
+doc = load($input[0])
+
+//Delete noreply text at exact location
+doc.getPage(1).deleteText($noreply)
+
+//Delete balance due amount relative to text "Balance Due" text
+doc.getPage(1).deleteText($balance)
+
+//output document
+output(doc)

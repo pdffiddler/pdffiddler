@@ -1,0 +1,37 @@
+---
+script: "#./script.pf"
+id: "05.Text Operation<_&_>02.Delete Text"
+name: "02.Delete Text"
+configurationVariable:
+- type: "Region"
+  name: "noreply"
+  value:
+    left: "13.948"
+    top: "28.455"
+    width: "41.005"
+    height: "5.902"
+    id: "1557087318706"
+    resourceId: "input/singleInvoice.pdf"
+    pageNumber: "1"
+- type: "Region"
+  name: "balance"
+  value:
+    left: "176.417"
+    top: "142.152"
+    width: "24.231"
+    height: "8.077"
+    id: "1557087331332"
+    resourceId: "input/singleInvoice.pdf"
+    pageNumber: "1"
+    position: "Relative"
+    anchorText: "Balance due"
+    anchorTextX: "109.94319"
+    anchorTextY: "142.71306"
+    anchorTextWidth: "25.315338"
+    anchorTextHeight: "2.450058"
+inputFiles:
+  singleInvoice.pdf:
+    fileName: "singleInvoice.pdf"
+    relativePath: "input/singleInvoice.pdf"
+    size: 17322
+resources: {}

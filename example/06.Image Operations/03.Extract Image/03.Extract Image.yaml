@@ -1,0 +1,21 @@
+---
+script: "#./script.pf"
+id: "06.Image Operations<_&_>03.Extract Image"
+name: "03.Extract Image"
+configurationVariable:
+- type: "Region"
+  name: "logo"
+  value:
+    left: "5.711"
+    top: "6.225"
+    width: "29.007"
+    height: "26.590"
+    id: "1555448248592"
+    resourceId: "input/singlePurchaseOrder.pdf"
+    pageNumber: "1"
+inputFiles:
+  singlePurchaseOrder.pdf:
+    fileName: "singlePurchaseOrder.pdf"
+    relativePath: "input/singlePurchaseOrder.pdf"
+    size: 46640
+resources: {}

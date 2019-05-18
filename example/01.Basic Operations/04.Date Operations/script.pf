@@ -1,0 +1,27 @@
+d = []
+//parse Date string into date object
+date = parseDate("02/26/2019", "MM/dd/yyyy")
+//format date object into another parseDate
+d.add(date.format("yyyy-MM-dd"))
+//add one day to date
+date.plus(1, DAYS)
+d.add(date.format("yyyy-MM-dd"))
+//add one month to date
+date.plus(1, MONTHS)
+d.add(date.format("yyyy-MM-dd"))
+//add one year to date
+date.plus(1, YEARS)
+d.add(date.format("yyyy-MM-dd"))
+
+//get current date time
+date = now()
+d.add(date.format("yyyy-MM-dd HH:mm:ss"))
+//minus 2 hours to date
+date.minus(2, HOURS)
+d.add(date.format("yyyy-MM-dd HH:mm:ss"))
+// add 10 minutes to date
+date.plus(10, MINUTES)
+d.add(date.format("yyyy-MM-dd HH:mm:ss"))
+
+outputJSON(d)
+

@@ -1,0 +1,8 @@
+//load input document
+doc = load($input[0])
+
+//Remove meta data
+doc.removeMetaData()
+
+//output document
+output(doc)

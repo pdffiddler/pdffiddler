@@ -1,0 +1,21 @@
+---
+script: "#./script.pf"
+id: "041.Page Operation<_&_>02.Crop Page"
+name: "02.Crop Page"
+configurationVariable:
+- type: "Region"
+  name: "crop"
+  value:
+    left: "8.894"
+    top: "12.758"
+    width: "197.193"
+    height: "158.245"
+    id: "1557179191206"
+    resourceId: "input/multipleInvoices.pdf"
+    pageNumber: "1"
+inputFiles:
+  multipleInvoices.pdf:
+    fileName: "multipleInvoices.pdf"
+    relativePath: "input/multipleInvoices.pdf"
+    size: 52923
+resources: {}

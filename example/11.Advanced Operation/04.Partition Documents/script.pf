@@ -1,0 +1,12 @@
+//load input document
+doc = load($input[0])
+
+//split into invoices
+invoices = doc.split(1)
+
+//grouped invoices based on refNum region in first page
+partitionInvoices = partition(invoices, ["NotBlank": {d -> !d.getPage(1).extractText($refNum).isEmpty()}, "Blank": {d -> d.getPage(1).extractText($refNum).isEmpty()}])
+
+//output groupedInvoices
+output(partitionInvoices["NotBlank"], "NotBlank")
+output(partitionInvoices["Blank"], "Blank")

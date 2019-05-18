@@ -1,0 +1,13 @@
+//load document
+doc = load($input[0])
+
+//add texts in multiple line at first page
+doc.getPage(1).addText(["www.pdffiddler.com", "pdffiddler@gmail.com"], $site.bottomLeft())
+
+//add text with justification and within note region
+doc.getPage(1).addText("Those charges may accrue late interest @ 2% of the outstanding balance per week, or the maximum rate permitted by the law, whichever is lower. We may condition future contract renewals/service renewals or suspend our services to you until such amount is paid in full.", $note, HELVETICA, 8, 0, gray, 1, true)
+
+doc.getPage(1).addText("www.pdffiddler.com", $side.bottomRight(), HELVETICA, 9, 90)
+
+//output document
+output(doc)

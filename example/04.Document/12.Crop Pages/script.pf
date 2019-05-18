@@ -1,0 +1,12 @@
+// load input document
+doc = load($input[0])
+
+// crop all pages of document 
+d1 = doc.clone()
+d1.cropPages($crop)
+output(d1, "CropAllPages")
+
+// crop only 1 and 3 pages of document 
+d2 = doc.clone()
+d2.cropPages($crop, [1,3])
+output(d2, "Crop1st3rdPage")

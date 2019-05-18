@@ -1,0 +1,21 @@
+---
+script: "#./script.pf"
+id: "06.Image Operations<_&_>02.Delete Image"
+name: "02.Delete Image"
+configurationVariable:
+- type: "Region"
+  name: "logo"
+  value:
+    left: "7.222"
+    top: "3.928"
+    width: "40.490"
+    height: "29.914"
+    id: "1555448022363"
+    resourceId: "input/singlePurchaseOrder.pdf"
+    pageNumber: "1"
+inputFiles:
+  singlePurchaseOrder.pdf:
+    fileName: "singlePurchaseOrder.pdf"
+    relativePath: "input/singlePurchaseOrder.pdf"
+    size: 46640
+resources: {}

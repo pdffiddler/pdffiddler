@@ -1,0 +1,13 @@
+//load input document
+doc = load($input[0])
+
+//extract all images within logo region
+im = doc.getPage(1).extractImages($logo)
+
+//or
+//extract all images within page
+//im = doc.getPage(1).extractImages()
+
+//output document
+outputImage(im)
+

@@ -1,0 +1,9 @@
+//Load input document
+doc = load($input[0])
+
+//Royal Mail POST
+d1 = doc.clone()
+d1.getPage(1).addBarcode(ROYALMAIL, "1234567ABCM", $barcode.topLeft())
+output(d1, "RoyalMailPost")
+
+

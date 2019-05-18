@@ -1,0 +1,21 @@
+---
+script: "#./script.pf"
+id: "08.Redaction<_&_>02.Redact Region"
+name: "02.Redact Region"
+configurationVariable:
+- type: "Region"
+  name: "invoice"
+  value:
+    left: "138.207"
+    top: "7.021"
+    width: "52.189"
+    height: "64.615"
+    id: "1555606263871"
+    resourceId: "input/singleInvoiceWithLogo.pdf"
+    pageNumber: "1"
+inputFiles:
+  singleInvoiceWithLogo.pdf:
+    fileName: "singleInvoiceWithLogo.pdf"
+    relativePath: "input/singleInvoiceWithLogo.pdf"
+    size: 20063
+resources: {}

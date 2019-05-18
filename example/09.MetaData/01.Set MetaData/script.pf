@@ -1,0 +1,11 @@
+//load input document
+doc = load($input[0])
+
+//Current datetime
+d = now()
+
+//set metadata value
+doc.setProducer("PDFFiddler").setAuthor("PDFFiddler").setSubject("PDFFiddler Subject").setCreationDate(d).setModificationDate(d).setTitle("Test document").setCreator("PDFFiddler").setKeywords("PDFFiddler, test").setCustomValue("test", "123")
+
+//output document
+output(doc)

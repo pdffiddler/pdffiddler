@@ -1,0 +1,11 @@
+//load input document
+doc = load($input[0])
+
+//split into invoices
+invoices = doc.split(1)
+
+//grouped invoices based on refNum region in first page
+groupedInvoices = group(invoices, [$refNum])
+
+//output groupedInvoices
+output(groupedInvoices)
