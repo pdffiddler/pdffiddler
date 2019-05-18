@@ -69,8 +69,6 @@ Get number of pages in document
 #### getPages()
 Get list of pages
 - **Returns**: [List](List.html)&lt;[Page](Page.html)&gt;
-#### getPriority()
-- **Returns**: Integer
 #### movePages(Number insertBefore, Number | List&lt;Number&gt; pageNumbers)
 Move pages
 - **Props**:
