@@ -1,4 +1,4 @@
-# BaseScript
+# Global
 ## Methods
 #### formatDate(Date d, String pattern)
 Format date to string

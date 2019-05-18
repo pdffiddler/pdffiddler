@@ -10,11 +10,17 @@ setTimeout(() => {
     fs.mkdirSync(__dirname + '/api/docs');
     var s = [];
     types.forEach(t => {
-        var d = `# ${t}\n`;
+        var d = `# ${t == 'BaseScript'?'Global':t}\n`;
         var pc = parseComment(typeInfo[t].comment)
         if(pc.description){
             d += pc.description + "\n";
         }
+        /* var constructors = typeInfo[t].constructors;
+        if(constructors && constructors.length > 0){
+            d += "## Constructor\n"
+            constructors.forEach(b => { b.type=t; b.name=t; d += generateMethod(b) });
+        } */
+
         var constants = typeInfo[t].body.filter(b => b.kind === 'field');
         if(constants.length > 0){
             d += "## Constants\n"
@@ -31,8 +37,8 @@ setTimeout(() => {
             d += "## Methods\n"
             methods.forEach(b => d += generateMethod(b));
         }
-        fs.writeFileSync(`${__dirname}/api/docs/${t}.md`, d);
-        s.push(`'/api/docs/${t}'`)
+        fs.writeFileSync(`${__dirname}/api/docs/${t == 'BaseScript'?'Global':t}.md`, d);
+        s.push(`'/api/docs/${t == 'BaseScript'?'Global':t}'`)
     });
     console.log(s.join(','))
 

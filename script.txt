@@ -1,0 +1,4 @@
+git config --local user.name "PDFFiddler" --replace-all && git config --local user.email "pdffiddler@gmail.com" --replace-all && git add -A && git commit -m "initial commit" && git push -u origin master
+
+
+git config --local user.name "PDFFiddler" --replace-all && git config --local user.email "pdffiddler@gmail.com" --replace-all && git subtree push --prefix docs/.vuepress/dist origin gh-pages
