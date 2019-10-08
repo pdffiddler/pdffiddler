@@ -1,12 +1,6 @@
 # Page
 Represent PDF Page
 ## Methods
-#### addWatermark(Page overlayPage, Position position=BACKGROUND)
-Add overlay page as watermark to this page
-- **Props**:
-  - `overlayPage`- [Page](Page.html)<br/>any page can be used as overlay
-  - `position`- [Position](Position.html), defaults to `"BACKGROUND"`<br/>FOREGROUND or BACKGROUND
-- **Returns**: [Page](Page.html)
 #### crop(Region region)
 Crop the page
 - **Props**:
@@ -17,10 +11,10 @@ Get/Set Height of page in user defined unit
 - **Props**:
   - `h`- [Number](Number.html), defaults to `"null"`
 - **Returns**: [Number](Number.html)
-#### resize(PaperSize | Number size, Boolean resizePage=true, Boolean resizeContent=true, BasePoint basePoint=CENTER)
+#### resize(PaperSize | Point | Number size, Boolean resizePage=true, Boolean resizeContent=true, BasePoint basePoint=CENTER)
 Scale to paper size
 - **Props**:
-  - `size`- [PaperSize](PaperSize.html) | [Number](Number.html)
+  - `size`- [PaperSize](PaperSize.html) | [Point](Point.html) | [Number](Number.html)
   - `resizePage`- [Boolean](Boolean.html), defaults to `"true"`
   - `resizeContent`- [Boolean](Boolean.html), defaults to `"true"`
   - `basePoint`- [BasePoint](BasePoint.html), defaults to `"CENTER"`
@@ -30,10 +24,10 @@ Get/Set Rotation a page in clockwise direction
 - **Props**:
   - `rotation`- [Number](Number.html), defaults to `"null"`
 - **Returns**: [Number](Number.html)
-#### toImage(Number scale=100)
+#### toImage(Number scale=1)
 Convert page to image
 - **Props**:
-  - `scale`- [Number](Number.html), defaults to `"100"`
+  - `scale`- [Number](Number.html), defaults to `"1"`
 - **Returns**: [Image](Image.html)
 #### translate(Number tx, Number ty)
 Scale page in x and/or y direction with basepoint
@@ -46,18 +40,17 @@ Get/Set Width of page in mm
 - **Props**:
   - `w`- [Number](Number.html), defaults to `"null"`
 - **Returns**: [Number](Number.html)
-#### addImage(String | Image image, Point | Region at, Number width=null, Number height=null, Number rotate=0, Number opacity=1, Boolean inline=false)
+#### addImage(String | Image image, Point | Region at=null, Number width=null, Number height=null, Boolean inline=false, GState gs=null)
 Add image at particular location
 - **Props**:
   - `image`- [String](String.html) | [Image](Image.html)<br/>Can be String/Image type
-  - `at`- [Point](Point.html) | [Region](Region.html)<br/>Can be Point/Region type
+  - `at`- [Point](Point.html) | [Region](Region.html), defaults to `"null"`<br/>Can be Point/Region type
   - `width`- [Number](Number.html), defaults to `"null"`<br/>default null, either derive from Region or Actual Width
   - `height`- [Number](Number.html), defaults to `"null"`<br/>default null, either derive from Region or Actual Height
-  - `rotate`- [Number](Number.html), defaults to `"0"`<br/>Rotation such as 0, 90, 270 etc
-  - `opacity`- [Number](Number.html), defaults to `"1"`<br/>Opacity (transparency from 0
   - `inline`- [Boolean](Boolean.html), defaults to `"false"`<br/>if true, then image will drawn as inline
+  - `gs`- [GState](GState.html), defaults to `"null"`
 - **Returns**: [Page](Page.html)
-#### changeImage(Region region=null, String | Image image=null, Point moveBy=null, Number rotateBy=0, BasePoint rotateBasePoint=CENTER, Number scale=100, BasePoint scaleBasePoint=CENTER)
+#### changeImage(Region region=null, String | Image image=null, Point moveBy=null, Number rotateBy=0, BasePoint rotateBasePoint=CENTER, Number scale=1, BasePoint scaleBasePoint=CENTER)
 Change existing image within region
 - **Props**:
   - `region`- [Region](Region.html), defaults to `"null"`
@@ -65,7 +58,7 @@ Change existing image within region
   - `moveBy`- [Point](Point.html), defaults to `"null"`
   - `rotateBy`- [Number](Number.html), defaults to `"0"`
   - `rotateBasePoint`- [BasePoint](BasePoint.html), defaults to `"CENTER"`
-  - `scale`- [Number](Number.html), defaults to `"100"`
+  - `scale`- [Number](Number.html), defaults to `"1"`
   - `scaleBasePoint`- [BasePoint](BasePoint.html), defaults to `"CENTER"`
 - **Returns**: [List](List.html)&lt;[Image](Image.html)&gt;
 #### deleteImages(Region region=null)
@@ -78,18 +71,12 @@ Extract all images within region
 - **Props**:
   - `region`- [Region](Region.html), defaults to `"null"`
 - **Returns**: [List](List.html)&lt;[Image](Image.html)&gt;
-#### addText(String | List&lt;String&gt; text, Point | Region at, String | Font font=HELVETICA, Number fontSize=12, Number rotate=0, Color color=null, Number opacity=1, Boolean justify=false, Number leading=null )
+#### addText(String | List&lt;String&gt; text, Region | Point at=null, GState gs=null)
 Add text at particular location
 - **Props**:
-  - `text`- [String](String.html) | [List](List.html)&lt;[String](String.html)&gt;<br/>it can be "abc" or ["abc", "def"]
-  - `at`- [Point](Point.html) | [Region](Region.html)<br/>Point or Region type, if region then text get wrapped around
-  - `font`- [String](String.html) | [Font](Font.html), defaults to `"HELVETICA"`
-  - `fontSize`- [Number](Number.html), defaults to `"12"`
-  - `rotate`- [Number](Number.html), defaults to `"0"`
-  - `color`- [Color](Color.html), defaults to `"null"`
-  - `opacity`- [Number](Number.html), defaults to `"1"`
-  - `justify`- [Boolean](Boolean.html), defaults to `"false"`<br/>justify text, if wrapped around
-  - `leading`- [Number](Number.html), defaults to `"null"`<br/>if null, leading space calculated automatically
+  - `text`- [String](String.html) | [List](List.html)&lt;[String](String.html)&gt;<br/>String/List&lt;String&gt;
+  - `at`- [Region](Region.html) | [Point](Point.html), defaults to `"null"`<br/>Region/Point (Optional)
+  - `gs`- [GState](GState.html), defaults to `"null"`<br/>GState (Optional)
 - **Returns**: [Page](Page.html)
 #### changeText(Region region, Color color=null, Point moveBy=null, String | Font font=null, Number fontSize=null)
 Change text within region
@@ -220,4 +207,47 @@ Redact Text within region
 - **Props**:
   - `region`- [Region](Region.html), defaults to `"null"`
   - `color`- [Color](Color.html), defaults to `"BLACK"`
+- **Returns**: [Page](Page.html)
+#### addLayer(Layer layer, Point | Region at=null, Number width=null, Number height=null, GState gs=null)
+Add layer to page at particular position
+- **Props**:
+  - `layer`- [Layer](Layer.html)
+  - `at`- [Point](Point.html) | [Region](Region.html), defaults to `"null"`<br/>if null, then take default layer position.
+  - `width`- [Number](Number.html), defaults to `"null"`
+  - `height`- [Number](Number.html), defaults to `"null"`
+  - `gs`- [GState](GState.html), defaults to `"null"`
+- **Returns**: [Page](Page.html)
+#### addWatermark(Page overlayPage, Overlay/Position position=BACKGROUND)
+Add overlay page as watermark to this page
+- **Props**:
+  - `overlayPage`- [Page](Page.html)<br/>any page can be used as overlay
+  - `position`- Overlay/Position, defaults to `"BACKGROUND"`<br/>FOREGROUND or BACKGROUND
+- **Returns**: [Page](Page.html)
+#### createAsLayer(Region region=null)
+Create a layer
+- **Props**:
+  - `region`- [Region](Region.html), defaults to `"null"`
+- **Returns**: [Layer](Layer.html)
+#### addCircle(Region | Point at, Number radius=null, GState gs=null)
+Add circle
+- **Props**:
+  - `at`- [Region](Region.html) | [Point](Point.html)<br/>Region/Point
+  - `radius`- [Number](Number.html), defaults to `"null"`<br/>in mm, if null, then circle is drawn inside region.
+  - `gs`- [GState](GState.html), defaults to `"null"`
+- **Returns**: [Page](Page.html)
+#### addRect(Point | Region at, Number width=null, Number height=null, Number | Point cornerRadius=null, GState gs=null)
+Add Rect
+- **Props**:
+  - `at`- [Point](Point.html) | [Region](Region.html)
+  - `width`- [Number](Number.html), defaults to `"null"`
+  - `height`- [Number](Number.html), defaults to `"null"`
+  - `cornerRadius`- [Number](Number.html) | [Point](Point.html), defaults to `"null"`
+  - `gs`- [GState](GState.html), defaults to `"null"`
+- **Returns**: [Page](Page.html)
+#### addSignature(Region region, Signature signature)
+- **Props**:
+  - `region`- [Region](Region.html)
+  - `signature`- [Signature](Signature.html)
+- **Returns**: [Page](Page.html)
+#### removeAllSignature()
 - **Returns**: [Page](Page.html)

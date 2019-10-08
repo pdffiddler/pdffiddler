@@ -15,11 +15,13 @@ Merge/Group documents into one based upon text within region on particular page 
   - `pageNumber`- [Number](Number.html), defaults to `"1"`
   - `fromLast`- [Boolean](Boolean.html), defaults to `"false"`
 - **Returns**: [List](List.html)&lt;[Document](Document.html)&gt;
-#### load(String path, String password="")
+#### load(String path, String password="", String privateKey=null, String alias=null)
 Load document from path
 - **Props**:
   - `path`- [String](String.html)
   - `password`- [String](String.html), defaults to `""""`
+  - `privateKey`- [String](String.html), defaults to `"null"`
+  - `alias`- [String](String.html), defaults to `"null"`
 - **Returns**: [Document](Document.html)
 #### loadCSV(String path, Boolean withHeader=true, String seperator=")
 Load CSV document
@@ -35,11 +37,11 @@ Load file
   - `isBinary`- [Boolean](Boolean.html), defaults to `"false"`<br/>in binary/text format
   - `asLines`- [Boolean](Boolean.html), defaults to `"true"`<br/>in
 - **Returns**: any
-#### loadFont(String fontPath, Boolean embedded=true)
+#### loadFont(String fontPath, Boolean embedSubset=false)
 Load font from path
 - **Props**:
   - `fontPath`- [String](String.html)
-  - `embedded`- [Boolean](Boolean.html), defaults to `"true"`<br/>default true
+  - `embedSubset`- [Boolean](Boolean.html), defaults to `"false"`<br/>default false, if true, strip down to required character and remove cmap table.
 - **Returns**: [Font](Font.html)
 #### loadImage(String imagePath)
 Load image from path

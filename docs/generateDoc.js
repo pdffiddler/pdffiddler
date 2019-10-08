@@ -1,17 +1,18 @@
 var typeInfo = require('./typeInfo.js')
 var config = require('./.vuepress/config')
 var fs = require('fs');
+var Helper = require('./Helper.js')
 
-var types = ["BaseScript", "Document", "Page", "OnChange", "OnMatch", "Region", "Point", "Image", "Font", "Text", "Date", "PaperSize", "Color", "BarcodeType", "TextMarkupType", "BasePoint", "ChronoUnit", "Position", "HumanReadableLocation", "List", "Map", "String", "Number", "Boolean"]
+//var types = ["BaseScript", "Document", "Page", "OnChange", "OnMatch", "Region", "Point", "Image", "Font", "Text", "Date", "PaperSize", "Color", "BarcodeType", "TextMarkupType", "BasePoint", "ChronoUnit", "Position", "HumanReadableLocation", "List", "Map", "String", "Number", "Boolean"]
 
-if(Object.keys(typeInfo).length == types.length){
+//if(Object.keys(typeInfo).length == types.length){
     deleteFolderRecursive(__dirname + '/api/docs');
 setTimeout(() => {
     fs.mkdirSync(__dirname + '/api/docs');
     var s = [];
-    types.forEach(t => {
+    /* types. */Object.keys(typeInfo).forEach(t => {
         var d = `# ${t == 'BaseScript'?'Global':t}\n`;
-        var pc = parseComment(typeInfo[t].comment)
+        var pc = parseComment(Helper.getComment(typeInfo[t]))
         if(pc.description){
             d += pc.description + "\n";
         }
@@ -21,18 +22,18 @@ setTimeout(() => {
             constructors.forEach(b => { b.type=t; b.name=t; d += generateMethod(b) });
         } */
 
-        var constants = typeInfo[t].body.filter(b => b.kind === 'field');
+        var constants = Helper.getBody(typeInfo[t]).filter(b => Helper.isField(b) || Helper.isEnum(typeInfo[t]));
         if(constants.length > 0){
             d += "## Constants\n"
-            constants.forEach(b => d += generateProperty(b));
+            constants.forEach(b => d += generateProperty(b, Helper.getName(typeInfo[t])));
         }
-        var properties = typeInfo[t].body.filter(b => b.kind === 'property');
+        var properties = Helper.getBody(typeInfo[t]).filter(b => Helper.isProperty(b));
         if(properties.length > 0){
             d += "## Properties\n"
             properties.forEach(b => d += generateProperty(b));
         }
         
-        var methods = typeInfo[t].body.filter(b => b.kind === 'method');
+        var methods = Helper.getBody(typeInfo[t]).filter(b => Helper.isMethod(b));
         if(methods.length > 0){
             d += "## Methods\n"
             methods.forEach(b => d += generateMethod(b));
@@ -44,28 +45,28 @@ setTimeout(() => {
 
     }, 3000)
 
-}else{
+/* }else{
     console.log("Seem like typeinfo json have more types, than defined in generateDoc.js, correct it")
 }
+ */
 
-
-function generateProperty(a){
-    var pc = parseComment(a.comment);
+function generateProperty(a, type){
+    var pc = parseComment(Helper.getComment(a));
     var s = "";
-    s += `#### ${normalizeVal(a.name)} - ${normalizeVal(typeLink(a.type))}\n`;
+    s += `#### ${normalizeVal(Helper.getName(a))} - ${normalizeVal(typeLink(type || Helper.getType(a)))}\n`;
     if(pc.description){
         s += pc.description + "\n";
     }
     return s;
 }
 function getMethodLabel(f) {
-    var str = f.name + '(';
-    if (f.params && f.params.length) {
-    for (var i = 0; i < f.params.length; i++) {
+    var str = Helper.getName(f) + '(';
+    if (Helper.getParams(f) && Helper.getParams(f).length) {
+    for (var i = 0; i < Helper.getParams(f).length; i++) {
             if (i > 0) str += ', ';
-            str += f.params[i].type + ' ' + f.params[i].name;
-            if (f.params[i].defaultVal !== null && f.params[i].defaultVal !== undefined) {
-            str += '=' + f.params[i].defaultVal;
+            str += Helper.getType(Helper.getParams(f)[i]) + ' ' + Helper.getName(Helper.getParams(f)[i]);
+            if (Helper.getDefaultVal(Helper.getParams(f)[i]) !== null && Helper.getDefaultVal(Helper.getParams(f)[i]) !== undefined) {
+            str += '=' + Helper.getDefaultVal(Helper.getParams(f)[i]);
             }
         }
     }
@@ -74,26 +75,26 @@ function getMethodLabel(f) {
 }
 
 function generateMethod(a){
-    var pc = parseComment(a.comment);
+    var pc = parseComment(Helper.getComment(a));
     var s = "";
     s += `#### ${normalizeVal(getMethodLabel(a))}\n`;
     if(pc.description){
         s += pc.description + "\n";
     }
-    if(a.params && a.params.length > 0){
+    if(Helper.getParams(a) && Helper.getParams(a).length > 0){
         s += "- **Props**:\n";
-        a.params.forEach(p => {
-            s += `  - \`${normalizeVal(p.name)}\`- ${normalizeVal(typeLink(p.type))}`
-            if(p.defaultVal){
-                s += `, defaults to \`"${normalizeVal(p.defaultVal)}"\``
+        Helper.getParams(a).forEach(p => {
+            s += `  - \`${normalizeVal(Helper.getName(p))}\`- ${normalizeVal(typeLink(Helper.getType(p)))}`
+            if(Helper.getDefaultVal(p)){
+                s += `, defaults to \`"${normalizeVal(Helper.getDefaultVal(p))}"\``
             }
-            if(pc.params[p.name]){
-                s += "<br/>" + pc.params[p.name];
+            if(Helper.getParams(pc)[Helper.getName(p)]){
+                s += "<br/>" + Helper.getParams(pc)[Helper.getName(p)];
             }
             s += "\n"
         });
     }
-    s += `- **Returns**: ${normalizeVal(typeLink(a.type))}\n`;
+    s += `- **Returns**: ${normalizeVal(typeLink(Helper.getType(a)))}\n`;
     return s;
 }
 

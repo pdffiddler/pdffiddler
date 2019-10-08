@@ -4,7 +4,7 @@ When you set the (x, y) location in any PDFFiddler API, then this location is re
 
 All coordinates (x, y) in PDFFiddler API are defined in `mm`.
 
-![Coordinate Space](/pdffiddler/coordinate.jpg "Coordinate Space")
+![Coordinate Space](/coordinate.jpg "Coordinate Space")
 
 ## Getting coordinates
 
@@ -17,7 +17,7 @@ We can easily get coordinates in pdf, by visually drawing region in PDFFiddler.
 In that popup, you can see x, y, width and height coordinates in `mm`. 
 You can save that region as configuration variable, so that it can be used in script.
 
-![Draw Region](/pdffiddler/drawregion.gif "Draw Region")
+![Draw Region](/drawregion.gif "Draw Region")
 
 ## Using coordinates in script
 In PDFFiddler API, all coordinates are defined as Point or Region. Point define a particular point in PDF, whereas region define a rectangular window of interest in PDF.

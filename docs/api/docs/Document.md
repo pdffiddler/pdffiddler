@@ -2,6 +2,7 @@
 Entity which hold group of PDF pages
 ## Properties
 #### originalFilename - [String](String.html)
+#### version - [Number](Number.html)
 ## Methods
 #### addPages(Number pageNumber, Page | List&lt;Page&gt; page=null)
 Add page at specified location
@@ -69,11 +70,19 @@ Get number of pages in document
 #### getPages()
 Get list of pages
 - **Returns**: [List](List.html)&lt;[Page](Page.html)&gt;
+#### getVersion()
+Get version
+- **Returns**: [Number](Number.html)
 #### movePages(Number insertBefore, Number | List&lt;Number&gt; pageNumbers)
 Move pages
 - **Props**:
   - `insertBefore`- [Number](Number.html)
   - `pageNumbers`- [Number](Number.html) | [List](List.html)&lt;[Number](Number.html)&gt;
+- **Returns**: [Document](Document.html)
+#### removeAllSecurity()
+- **Returns**: SecurityData
+#### removeAllSignature()
+Remove all signatures from document
 - **Returns**: [Document](Document.html)
 #### removeMetaData()
 Remove all meta data from document
@@ -95,6 +104,16 @@ Rotate document or list of pages in clockwise direction
 - **Props**:
   - `rotation`- [Number](Number.html), defaults to `"0"`
   - `pageNumbers`- [Number](Number.html) | [List](List.html)&lt;[Number](Number.html)&gt;, defaults to `"null"`<br/>null means whole document
+- **Returns**: [Document](Document.html)
+#### setCompressionLevel(Number level)
+Set compression level
+- **Props**:
+  - `level`- [Number](Number.html)<br/>0 mean decompress, 1 mean content stream compression
+- **Returns**: [Document](Document.html)
+#### setVersion(Number version)
+Set version
+- **Props**:
+  - `version`- [Number](Number.html)
 - **Returns**: [Document](Document.html)
 #### split(Predicate&lt;Page&gt; p)
 Split a document into multiple document
@@ -196,27 +215,21 @@ Set trapped
 - **Props**:
   - `trapped`- [String](String.html)
 - **Returns**: [Document](Document.html)
-#### getAccessPermission()
-- **Returns**: AccessPermission
-#### getAlias()
-- **Returns**: [String](String.html)
-#### getOwnerPassword()
-- **Returns**: [String](String.html)
-#### getPassword()
-- **Returns**: [String](String.html)
-#### setAccessPermission(AccessPermission accessPermission)
+#### addRecipientPrivilege(String certificate, Permission permission)
 - **Props**:
-  - `accessPermission`- AccessPermission
+  - `certificate`- [String](String.html)
+  - `permission`- [Permission](Permission.html)
 - **Returns**: [Document](Document.html)
-#### setAlias(String alias)
+#### setEncryptionAlgorithm(EncryptionAlgorithm algo=RC4_40)
 - **Props**:
-  - `alias`- [String](String.html)
-- **Returns**: [Document](Document.html)
-#### setOwnerPassword(String ownerPassword)
-- **Props**:
-  - `ownerPassword`- [String](String.html)
+  - `algo`- [EncryptionAlgorithm](EncryptionAlgorithm.html), defaults to `"RC4_40"`
 - **Returns**: [Document](Document.html)
 #### setPassword(String password)
 - **Props**:
   - `password`- [String](String.html)
+- **Returns**: [Document](Document.html)
+#### setPrivilege(String permissionPassword, Permission permission)
+- **Props**:
+  - `permissionPassword`- [String](String.html)
+  - `permission`- [Permission](Permission.html)
 - **Returns**: [Document](Document.html)

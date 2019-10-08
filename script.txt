@@ -1,3 +1,9 @@
+cd docs && node generateDoc.js
+
+//copy generated /api/doc/... list to config.js
+
+yarn dev //for local 
+
 git config --local user.name "PDFFiddler" --replace-all && git config --local user.email "pdffiddler@gmail.com" --replace-all && git add -A && git commit -m "initial commit" && git push -u origin master
 
 

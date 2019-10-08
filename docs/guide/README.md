@@ -16,12 +16,7 @@ PDFFiddler provide an easy to use interface for manipulation of existing documen
 <tr>
 <td>
 
-![Coordinate Space](/pdffiddler/modifyPDF.jpg "Coordinate Space")
-
-</td>
-<td>
-
-![Coordinate Space](/pdffiddler/extractPDF.jpg "Coordinate Space")
+![PDFFiddler Engine](/process.jpg "PDFFiddler Engine")
 
 </td>
 </tr>

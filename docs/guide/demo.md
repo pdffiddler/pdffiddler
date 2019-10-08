@@ -4,13 +4,13 @@
 
 By clicking on **Browse input files** or **drag-drop** file under this section, we can upload some pdf file, which needs to be modified or data to be extracted from.
 
-![Browse Input File](/pdffiddler/browseInputFile.jpg "Browse Input File")
+![Browse Input File](/browseInputFile.jpg "Browse Input File")
 
 ## Upload Resource File, if any
 
 If PDF has to be modified with additional resource file, then it can be uploaded by clicking on **Browse resource file** or **drag-drop** file under this section. Resource file such as image, json, csv, font file or any other pdf for attachment. 
 
-![Browse Resource File](/pdffiddler/browseResourceFile.jpg "Browse Resource File")
+![Browse Resource File](/browseResourceFile.jpg "Browse Resource File")
 
 ## Define Configuration Variable
 Configuration variable are global variables, which can be used/reused in script at any place. 
@@ -33,19 +33,19 @@ Apart from this, user can create his own configuration variable by
 
 - Clicking on **New Variable** <br/>
 
-![Configuration Variable](/pdffiddler/configurationVariable.jpg "Configuration Variable")
+![Configuration Variable](/configurationVariable.jpg "Configuration Variable")
 
 <br/><br/>
 
 - **Drawing region on PDF** (preview mode)<br/>
   
-![Draw Region](/pdffiddler/drawregion.jpg "Draw Region")
+![Draw Region](/drawregion.jpg "Draw Region")
 
 ## Write Script
 
 The script written in this section, get applied to all uploaded pdf and resource files. 
 
-![Script](/pdffiddler/script.jpg "Script")
+![Script](/script.jpg "Script")
 
 Below is basic sample script
 
@@ -60,4 +60,4 @@ For advanced example, go to [here](/guide/cookbook)
 
 Click on Run button, to check the output of script
 
-![Script](/pdffiddler/run.jpg "Script")
+![Script](/run.jpg "Script")
