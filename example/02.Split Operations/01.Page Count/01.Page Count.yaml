@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "02.Split Operations<_&_>01.Page Count"
-name: "01.Page Count"
+name: "Page Count"
 configurationVariable: []
 inputFiles:
   multipleInvoices.pdf:
@@ -9,3 +9,4 @@ inputFiles:
     relativePath: "input/multipleInvoices.pdf"
     size: 52923
 resources: {}
+imgUrl: "#./image"

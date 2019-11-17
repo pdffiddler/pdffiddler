@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "10.Barcode Operations<_&_>01.USPS IMB"
-name: "01.USPS IMB"
+name: "USPS IMB"
 configurationVariable:
 - type: "Region"
   name: "barcode"

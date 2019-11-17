@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "02.Split Operations<_&_>03.On Change"
-name: "03.On Change"
+name: "On Change"
 configurationVariable:
 - type: "Region"
   name: "Policy"
@@ -19,3 +19,4 @@ inputFiles:
     relativePath: "input/policy.pdf"
     size: 505543
 resources: {}
+imgUrl: "#./image"

@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "11.Advanced Operation<_&_>01.Filter Documents"
-name: "01.Filter Documents"
+name: "Filter Documents"
 configurationVariable:
 - type: "Region"
   name: "due"
@@ -25,3 +25,4 @@ inputFiles:
     relativePath: "input/multipleInvoices4.pdf"
     size: 346056
 resources: {}
+imgUrl: "#./image"

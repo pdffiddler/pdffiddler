@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "08.Redaction<_&_>01.Redact Text and Image"
-name: "01.Redact Text and Image"
+name: "Redact Text and Image"
 configurationVariable:
 - type: "Region"
   name: "invoice"

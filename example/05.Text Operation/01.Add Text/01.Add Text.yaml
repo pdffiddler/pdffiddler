@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "05.Text Operation<_&_>01.Add Text"
-name: "01.Add Text"
+name: "Add Text"
 configurationVariable:
 - type: "Region"
   name: "site"

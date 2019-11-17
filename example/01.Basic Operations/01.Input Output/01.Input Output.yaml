@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "01.Basic Operations<_&_>01.Input Output"
-name: "01.Input Output"
+name: "Input Output"
 configurationVariable: []
 inputFiles:
   singleInvoice.pdf:
@@ -33,3 +33,4 @@ resources:
     fileName: "singleInvoice.txt"
     relativePath: "resource/singleInvoice.txt"
     size: 68
+imgUrl: "#./image"

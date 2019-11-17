@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "01.Basic Operations<_&_>03.Merge"
-name: "03.Merge"
+name: "Merge"
 configurationVariable: []
 inputFiles:
   multipleInvoices.pdf:
@@ -13,3 +13,4 @@ inputFiles:
     relativePath: "input/multipleInvoices4.pdf"
     size: 346056
 resources: {}
+imgUrl: "#./image"

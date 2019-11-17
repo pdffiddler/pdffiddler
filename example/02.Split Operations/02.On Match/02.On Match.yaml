@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "02.Split Operations<_&_>02.On Match"
-name: "02.On Match"
+name: "On Match"
 configurationVariable:
 - type: "Region"
   name: "Page1"
@@ -19,3 +19,4 @@ inputFiles:
     relativePath: "input/policy.pdf"
     size: 505543
 resources: {}
+imgUrl: "#./image"

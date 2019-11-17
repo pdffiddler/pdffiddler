@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "09.MetaData<_&_>01.Set MetaData"
-name: "01.Set MetaData"
+name: "Set MetaData"
 configurationVariable: []
 inputFiles:
   singleInvoice.pdf:
