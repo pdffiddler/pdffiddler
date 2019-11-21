@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "04.Document<_&_>02.Clone"
-name: "02.Clone"
+name: "Clone"
 configurationVariable: []
 inputFiles:
   singleInvoice.pdf:
@@ -9,3 +9,4 @@ inputFiles:
     relativePath: "input/singleInvoice.pdf"
     size: 17322
 resources: {}
+imgUrl: "#./image"

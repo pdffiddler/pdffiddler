@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "04.Document<_&_>05.Add Pages"
-name: "05.Add Pages"
+name: "Add Pages"
 configurationVariable: []
 inputFiles:
   singleInvoice.pdf:
@@ -13,3 +13,4 @@ resources:
     fileName: "policy.pdf"
     relativePath: "resource/policy.pdf"
     size: 505543
+imgUrl: "#./image"

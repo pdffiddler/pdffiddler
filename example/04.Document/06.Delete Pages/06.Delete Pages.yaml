@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "04.Document<_&_>06.Delete Pages"
-name: "06.Delete Pages"
+name: "Delete Pages"
 configurationVariable: []
 inputFiles:
   multipleInvoices.pdf:
@@ -9,3 +9,4 @@ inputFiles:
     relativePath: "input/multipleInvoices.pdf"
     size: 52923
 resources: {}
+imgUrl: "#./image"

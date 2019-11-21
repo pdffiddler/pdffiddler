@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "07.Annotation Operations<_&_>03.Flatten Annotation"
-name: "03.Flatten Annotation"
+name: "Flatten Annotation"
 configurationVariable:
 - type: "Region"
   name: "left"
@@ -19,3 +19,4 @@ inputFiles:
     relativePath: "input/singleInvoiceWithAnnotation.pdf"
     size: 22618
 resources: {}
+imgUrl: "#./image"

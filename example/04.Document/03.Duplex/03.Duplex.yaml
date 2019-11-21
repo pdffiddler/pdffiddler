@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "04.Document<_&_>03.Duplex"
-name: "03.Duplex"
+name: "Duplex"
 configurationVariable: []
 inputFiles:
   multipleInvoices.pdf:
@@ -9,3 +9,4 @@ inputFiles:
     relativePath: "input/multipleInvoices.pdf"
     size: 52923
 resources: {}
+imgUrl: "#./image"

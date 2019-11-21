@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "04.Document<_&_>01.Attachment"
-name: "01.Attachment"
+name: "Attachment"
 configurationVariable: []
 inputFiles:
   singleInvoice.pdf:
@@ -13,3 +13,4 @@ resources:
     fileName: "attachment.pdf"
     relativePath: "resource/attachment.pdf"
     size: 2081
+imgUrl: "#./image"

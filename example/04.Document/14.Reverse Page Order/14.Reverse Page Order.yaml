@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "04.Document<_&_>14.Reverse Page Order"
-name: "14.Reverse Page Order"
+name: "Reverse Page Order"
 configurationVariable: []
 inputFiles:
   multipleInvoices.pdf:
@@ -9,3 +9,4 @@ inputFiles:
     relativePath: "input/multipleInvoices.pdf"
     size: 52923
 resources: {}
+imgUrl: "#./image"
