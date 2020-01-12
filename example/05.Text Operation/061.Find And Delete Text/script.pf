@@ -1,0 +1,14 @@
+//load input document
+doc = load($input[0])
+
+// noreply@pdffiddler.com in whole page and delete it
+doc.getPage(1).findAndDeleteText("noreply@pdffiddler.com")
+
+//Find Amy within ShipTo region and delete it
+doc.getPage(1).findAndDeleteText("Amy", $ShipTo)
+
+//find all date in invoice and delete it
+doc.getPage(1).findAndDeleteText(find:"\\d{2}\\/\\d{2}\\/\\d{4}", regex: true)
+
+//output document
+output(doc)

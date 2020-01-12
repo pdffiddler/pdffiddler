@@ -1,0 +1,7 @@
+doc = load($input[0])
+//Extract table data 
+data = doc.getPage(1).extractTable($items)
+//output as JSON
+outputJSON(data)
+//output as CSV
+outputCSV(data)

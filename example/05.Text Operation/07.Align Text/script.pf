@@ -1,0 +1,26 @@
+//New Document with blank page
+doc = Document()
+page = Page()
+text = ["Align PDFFiddler", "at different position"]
+
+//Add text to Left Middle of page and rotate by 90
+page.addText(text, null, GState().align(LEFT).rotate(90).translate(Point(1,0)))
+//Add text to Right Middle of page and rotate by -90
+page.addText(text, null, GState().align(RIGHT).rotate(-90).translate(Point(-1,0)))
+//Add text to Bottom Middle of page
+page.addText(text, null, GState().align(BOTTOM))
+//Add text to Top Middle of page
+page.addText(text, null, GState().align(TOP).translate(Point(0, 1)))
+//Add scaled text to Center of page, with text align Center
+page.addText(text, null, GState().scale(2).align(CENTER).textAlign(CENTER))
+//Add text to Top Left of page and rotate by 45
+page.addText(text, null, GState().align(TOP_LEFT).rotate(45))
+//Add text to Bottom Right of page, rotate by 45, text align to Right
+page.addText(text, null, GState().align(BOTTOM_RIGHT).rotate(45).textAlign(RIGHT))
+
+//Output document
+doc.addPages(1, page)
+output(doc)
+
+
+

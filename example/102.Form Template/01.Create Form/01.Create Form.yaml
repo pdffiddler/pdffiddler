@@ -1,0 +1,23 @@
+---
+script: "#./script.pf"
+id: "102.Form Template<_&_>01.Create Form"
+name: "01.Create Form"
+configurationVariable:
+- type: "Region"
+  name: "bound"
+  value:
+    left: "22.122"
+    top: "41.522"
+    width: "121.995"
+    height: "120.893"
+    id: "1576435179669"
+    resourceId: "input/Blank_Letter.pdf"
+    pageNumber: "1"
+    fieldType: ""
+inputFiles:
+  Blank_Letter.pdf:
+    fileName: "Blank_Letter.pdf"
+    relativePath: "input/Blank_Letter.pdf"
+    size: 1241
+resources: {}
+imgUrl: "#./image"

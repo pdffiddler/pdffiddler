@@ -1,0 +1,48 @@
+---
+script: "#./script.pf"
+id: "102.Form Template<_&_>02.Edit Form"
+name: "02.Edit Form"
+configurationVariable:
+- type: "FormField"
+  name: "name"
+  value:
+    left: "58.455"
+    top: "131.974"
+    width: "52.917"
+    height: "5.009"
+    id: "1577276884432"
+    resourceId: "input/formExample.pdf"
+    pageNumber: "1"
+    subType: "formField"
+    fieldType: "TextField"
+- type: "FormField"
+  name: "address1"
+  value:
+    left: "58.455"
+    top: "155.046"
+    width: "52.917"
+    height: "5.009"
+    id: "1577277120174"
+    resourceId: "input/formExample.pdf"
+    pageNumber: "1"
+    subType: "formField"
+    fieldType: "TextField"
+- type: "FormField"
+  name: "$country"
+  value:
+    left: "58.455"
+    top: "180.587"
+    width: "52.917"
+    height: "5.009"
+    id: "1577277169018"
+    resourceId: "input/formExample.pdf"
+    pageNumber: "1"
+    subType: "formField"
+    fieldType: "ComboBox"
+inputFiles:
+  formExample.pdf:
+    fileName: "formExample.pdf"
+    relativePath: "input/formExample.pdf"
+    size: 65715
+resources: {}
+imgUrl: "#./image"

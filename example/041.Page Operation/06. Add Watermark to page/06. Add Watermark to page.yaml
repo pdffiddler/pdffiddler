@@ -23,3 +23,4 @@ resources:
     fileName: "pdffiddle64.png"
     relativePath: "resource/pdffiddle64.png"
     size: 2149
+imgUrl: "#./image"

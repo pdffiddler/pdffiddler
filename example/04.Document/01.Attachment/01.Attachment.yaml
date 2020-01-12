@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "04.Document<_&_>01.Attachment"
-name: "Attachment"
+name: "01.Attachment"
 configurationVariable: []
 inputFiles:
   singleInvoice.pdf:

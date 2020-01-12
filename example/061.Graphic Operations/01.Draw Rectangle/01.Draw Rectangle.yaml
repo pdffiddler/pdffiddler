@@ -1,0 +1,8 @@
+---
+script: "#./script.pf"
+id: "061.Graphic Operations<_&_>01.Draw Rectangle"
+name: "01.Draw Rectangle"
+configurationVariable: []
+inputFiles: {}
+resources: {}
+imgUrl: "#./image"

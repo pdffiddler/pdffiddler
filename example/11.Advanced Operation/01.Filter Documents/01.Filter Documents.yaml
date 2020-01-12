@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "11.Advanced Operation<_&_>01.Filter Documents"
-name: "Filter Documents"
+name: "01.Filter Documents"
 configurationVariable:
 - type: "Region"
   name: "due"

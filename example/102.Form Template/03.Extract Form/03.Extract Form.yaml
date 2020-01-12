@@ -1,0 +1,12 @@
+---
+script: "#./script.pf"
+id: "102.Form Template<_&_>03.Extract Form"
+name: "03.Extract Form"
+configurationVariable: []
+inputFiles:
+  filledFormExample.pdf:
+    fileName: "filledFormExample.pdf"
+    relativePath: "input/filledFormExample.pdf"
+    size: 65661
+resources: {}
+imgUrl: "#./image"

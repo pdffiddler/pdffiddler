@@ -1,0 +1,49 @@
+---
+script: "#./script.pf"
+id: "07.Annotation Operations<_&_>Add Link Annotation"
+name: "Add Link Annotation"
+configurationVariable:
+- type: "Region"
+  name: "link"
+  value:
+    left: "30.384"
+    top: "28.579"
+    width: "22.306"
+    height: "4.682"
+    id: "1577309441739"
+    resourceId: "input/singleInvoice.pdf"
+    pageNumber: "1"
+    fieldType: ""
+- type: "Region"
+  name: "site"
+  value:
+    left: "17.166"
+    top: "139.007"
+    width: "44.061"
+    height: "6.07"
+    id: "1577309886957"
+    resourceId: "input/singleInvoice.pdf"
+    pageNumber: "1"
+    fieldType: ""
+- type: "Region"
+  name: "logo"
+  value:
+    left: "144.392"
+    top: "18.114"
+    width: "25.886"
+    height: "17.074"
+    id: "1577607402605"
+    resourceId: "input/singleInvoice.pdf"
+    pageNumber: "1"
+    fieldType: ""
+inputFiles:
+  singleInvoice.pdf:
+    fileName: "singleInvoice.pdf"
+    relativePath: "input/singleInvoice.pdf"
+    size: 17322
+resources:
+  pdffiddle64.jpg:
+    fileName: "pdffiddle64.jpg"
+    relativePath: "resource/pdffiddle64.jpg"
+    size: 3970
+imgUrl: "#./image"

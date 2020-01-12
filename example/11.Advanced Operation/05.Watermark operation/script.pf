@@ -4,8 +4,8 @@ doc = load($input[0])
 //create blank watermark page
 watermarkPage = Page()
 //Add text or image or both to watermark page
-watermarkPage.addText("PDFFiddler", $watermark.bottomLeft(), HELVETICA, 108, 45, RED, 0.2)
-watermarkPage.addImage($resource[0], $watermark, null, null, 0, 0.2)
+watermarkPage.addText("PDFFiddler", $watermark, GState().font(HELVETICA, 48).rotate(45).color(RED).opacity(0.1).align(CENTER))
+watermarkPage.addImage($resource[0], $watermark, 48, 48, false, GState(fillOpacity: 0.1).align(CENTER))
 
 //apply watermark to each page of document
 doc.getPages().each{

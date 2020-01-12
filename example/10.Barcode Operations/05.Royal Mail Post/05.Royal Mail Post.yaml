@@ -19,3 +19,4 @@ inputFiles:
     relativePath: "input/singlePurchaseOrder.pdf"
     size: 46640
 resources: {}
+imgUrl: "#./image"

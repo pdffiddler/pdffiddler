@@ -1,0 +1,11 @@
+//Load document
+doc = load($input[0])
+
+//Horizontal split
+cells = $table.split(RSplit(cols: [1,1], rows: [1,1,1]))
+
+//Add cell with RED color boundary
+doc.getPage(1).addCell(cells, GState(strokeColor: RED))
+
+//Output document
+output(doc)

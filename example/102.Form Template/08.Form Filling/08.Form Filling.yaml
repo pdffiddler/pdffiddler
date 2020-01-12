@@ -1,0 +1,16 @@
+---
+script: "#./script.pf"
+id: "102.Form Template<_&_>08.Form Filling"
+name: "08.Form Filling"
+configurationVariable: []
+inputFiles:
+  customerDetail.json:
+    fileName: "customerDetail.json"
+    relativePath: "input/customerDetail.json"
+    size: 522
+resources:
+  formExample.pdf:
+    fileName: "formExample.pdf"
+    relativePath: "resource/formExample.pdf"
+    size: 65715
+imgUrl: "#./image"

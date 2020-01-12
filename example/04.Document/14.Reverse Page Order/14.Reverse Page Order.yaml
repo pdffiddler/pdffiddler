@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "04.Document<_&_>14.Reverse Page Order"
-name: "Reverse Page Order"
+name: "14.Reverse Page Order"
 configurationVariable: []
 inputFiles:
   multipleInvoices.pdf:

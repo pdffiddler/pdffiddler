@@ -1,0 +1,12 @@
+//Customer detail to filled
+json = loadJSON($input[0])
+
+//Load empty form
+doc = load($resource[0])
+
+//Form filling 
+doc.getPage(1).formFilling(null, json)
+
+//Output document
+output(doc)
+

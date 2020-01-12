@@ -1,0 +1,16 @@
+---
+script: "#./script.pf"
+id: "03.Security<_&_>05.Encrypt Using Certificate"
+name: "05.Encrypt Using Certificate"
+configurationVariable: []
+inputFiles:
+  singleInvoice.pdf:
+    fileName: "singleInvoice.pdf"
+    relativePath: "input/singleInvoice.pdf"
+    size: 17322
+resources:
+  pdffiddler.cer:
+    fileName: "pdffiddler.cer"
+    relativePath: "resource/pdffiddler.cer"
+    size: 1045
+imgUrl: "#./image"

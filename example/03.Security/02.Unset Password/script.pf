@@ -1,4 +1,8 @@
 //load document with password "abc"
 doc = load($input[0], "abc")
-//output without setting password
+//Set password to blank
+doc.setPassword("")
+//output
 output(doc)
+
+

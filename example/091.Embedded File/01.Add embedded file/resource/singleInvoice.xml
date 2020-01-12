@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<Customer>
+  <Name>Amy Lauterbach</Name>
+  <Invoice>1021</Invoice>
+  <DueDate>02/26/2019</DueDate>
+  <Amount>$239.00</Amount>
+</Customer>

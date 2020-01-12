@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "05.Text Operation<_&_>01.Add Text"
-name: "Add Text"
+name: "01.Add Text"
 configurationVariable:
 - type: "Region"
   name: "site"
@@ -39,3 +39,4 @@ inputFiles:
     relativePath: "input/singleInvoice.pdf"
     size: 17322
 resources: {}
+imgUrl: "#./image"

@@ -16,5 +16,5 @@ features:
 - title: Advanced Features
   details: Provide ability to add watermark via batch processing. Ensure document integrity through addition of barcode. Add, edit or remove metadata such as Author, Subject, Title etc... 
 
-footer: Copyright © 2019-PDFFiddler
+footer: Copyright © 2020-PDFFiddler
 ---

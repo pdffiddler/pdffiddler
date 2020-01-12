@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "10.Barcode Operations<_&_>02.Australia Post"
-name: "Australia Post"
+name: "02.Australia Post"
 configurationVariable:
 - type: "Region"
   name: "barcode"

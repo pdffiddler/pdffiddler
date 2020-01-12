@@ -1,0 +1,14 @@
+//load input document
+doc = load($input[0])
+
+//find "BALANCE TO" in whole page and replace with "AMOUNT DUE" 
+doc.getPage(1).findAndChangeText("BALANCE DUE", "AMOUNT DUE")
+
+//find "BILL TO" in ShipTo Region and replace with "SHIP TO" color green and font HELVETICA and size 12
+doc.getPage(1).findAndChangeText("BILL TO", "SHIP TO", $ShipTo, GREEN, null, HELVETICA_BOLD, 12)
+
+//find all date in invoice and color it to red
+doc.getPage(1).findAndChangeText(find:"\\d{2}\\/\\d{2}\\/\\d{4}", regex: true, color: red)
+
+//output document
+output(doc)

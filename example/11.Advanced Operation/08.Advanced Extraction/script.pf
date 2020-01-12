@@ -1,0 +1,14 @@
+doc = load($input[0])
+docs = doc.split(1)
+customers = []
+docs.each{
+    d -> 
+    customer = [:]
+    customer["NAME"] = d.getPage(1).extractText($name)
+    customer["ITEMS"] = d.getPage(1).extractTable($table)
+    customer = customer + d.getPage(1).extractTableAsMap($invoice, false, true)
+    customer["BALANCE DUE"] = d.getPage(1).extractText($balance)
+    customers.add(customer)
+}
+
+outputJSON(customers)

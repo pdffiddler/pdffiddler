@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "11.Advanced Operation<_&_>03.Group Documents"
-name: "Group Documents"
+name: "03.Group Documents"
 configurationVariable:
 - type: "Region"
   name: "refNum"

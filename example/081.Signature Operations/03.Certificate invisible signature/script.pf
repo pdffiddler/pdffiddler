@@ -1,0 +1,9 @@
+//Create new document
+doc = load($input[0])
+
+//Add Signature
+doc.getPage(1).addSignature($signature, Signature().name("PDFFiddler").location("US").reason("Testing").signatureHandler(SignatureHandler($resource[0], "pdffiddler")))
+
+
+//output document
+output(doc)

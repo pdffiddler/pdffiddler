@@ -9,3 +9,4 @@ inputFiles:
     relativePath: "input/singleInvoiceWithMetaData.pdf"
     size: 18827
 resources: {}
+imgUrl: "#./image"

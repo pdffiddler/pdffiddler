@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "04.Document<_&_>07.Move Pages"
-name: "Move Pages"
+name: "07.Move Pages"
 configurationVariable: []
 inputFiles:
   multipleInvoices.pdf:

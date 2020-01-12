@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "04.Document<_&_>06.Delete Pages"
-name: "Delete Pages"
+name: "06.Delete Pages"
 configurationVariable: []
 inputFiles:
   multipleInvoices.pdf:

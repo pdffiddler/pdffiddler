@@ -1,0 +1,8 @@
+//load document with private key and password
+doc = load($input[0], "pdffiddler", $resource[0])
+//Remove all security
+doc.removeAllSecurity()
+//output
+output(doc)
+
+

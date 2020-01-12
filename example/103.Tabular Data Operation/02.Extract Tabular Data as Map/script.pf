@@ -1,0 +1,13 @@
+doc = load($input[0])
+//Extract tabular data as Map
+data = doc.getPage(1).extractTableAsMap($invoice, false, true)
+
+//We can extract data either using index or name
+//data["DATE"] == data[1] == "01/27/2019"
+
+//output as JSON
+outputJSON(data)
+
+
+
+

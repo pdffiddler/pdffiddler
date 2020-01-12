@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "02.Split Operations<_&_>03.On Change"
-name: "On Change"
+name: "03.On Change"
 configurationVariable:
 - type: "Region"
   name: "Policy"

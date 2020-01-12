@@ -1,0 +1,10 @@
+doc = load($input[0])
+doc2 = doc.clone()
+
+//Delete whole page
+doc.getPage(1).deleteField()
+output(doc, "DeleteAllFields")
+
+//Delete only name field
+doc2.getPage(1).deleteField($name)
+output(doc2, "DeleteNameField")

@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "08.Redaction<_&_>02.Redact Region"
-name: "02.Redact Region"
+name: "Redact Region"
 configurationVariable:
 - type: "Region"
   name: "invoice"
@@ -19,3 +19,4 @@ inputFiles:
     relativePath: "input/singleInvoiceWithLogo.pdf"
     size: 20063
 resources: {}
+imgUrl: "#./image"

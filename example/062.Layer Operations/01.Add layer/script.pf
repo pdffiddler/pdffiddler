@@ -1,0 +1,21 @@
+//Create new document
+doc = Document()
+//Create a layer
+layerPage = Page()
+r = Region(20,20,70,50)
+layerPage.addText("PDFFiddler", r, GState().align(CENTER))
+layerPage.addRect(at: r, gs: GState().fillColor(YELLOW))
+l = layerPage.createAsLayer(r)
+
+page = Page()
+//Add layer to page
+page.addLayer(layer: l, gs: GState().align(CENTER).opacity(0.5).scale(2))
+page.addLayer(layer: l, gs: GState().align(TOP).rotate(45))
+page.addLayer(layer: l, gs: GState().align(BOTTOM).rotate(90))
+
+page.addLayer(layer: l, width: 30, gs: GState().align(LEFT))
+page.addLayer(layer: l, height: 40, gs: GState().align(RIGHT).rotate(90))
+
+//output document
+doc.addPages(1, page)
+output(doc)

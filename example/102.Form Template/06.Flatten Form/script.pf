@@ -1,0 +1,10 @@
+doc = load($input[0])
+doc2 = doc.clone()
+
+//Flatten whole page
+doc.getPage(1).flattenField()
+output(doc, "FlattenWholePage")
+
+//Flatten only name field
+doc2.getPage(1).flattenField($name)
+output(doc2, "FlattenName")

@@ -1,0 +1,5 @@
+doc = load($input[0])
+//Remove all embedded file
+doc.removeAllEmbeddedFiles()
+//Output document
+output(doc)

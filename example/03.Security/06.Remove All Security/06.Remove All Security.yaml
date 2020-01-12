@@ -1,0 +1,16 @@
+---
+script: "#./script.pf"
+id: "03.Security<_&_>06.Remove All Security"
+name: "06.Remove All Security"
+configurationVariable: []
+inputFiles:
+  singleInvoiceEncrypted.pdf:
+    fileName: "singleInvoiceEncrypted.pdf"
+    relativePath: "input/singleInvoiceEncrypted.pdf"
+    size: 17893
+resources:
+  pdffiddlerWithPassword.pfx:
+    fileName: "pdffiddlerWithPassword.pfx"
+    relativePath: "resource/pdffiddlerWithPassword.pfx"
+    size: 2645
+imgUrl: "#./image"

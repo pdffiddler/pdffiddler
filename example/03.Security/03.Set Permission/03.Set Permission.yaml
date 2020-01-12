@@ -1,0 +1,12 @@
+---
+script: "#./script.pf"
+id: "03.Security<_&_>03.Set Permission"
+name: "03.Set Permission"
+configurationVariable: []
+inputFiles:
+  singleInvoice.pdf:
+    fileName: "singleInvoice.pdf"
+    relativePath: "input/singleInvoice.pdf"
+    size: 17322
+resources: {}
+imgUrl: "#./image"

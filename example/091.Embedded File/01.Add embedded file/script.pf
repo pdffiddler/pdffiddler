@@ -1,0 +1,5 @@
+doc = load($input[0])
+//Embed static file 
+doc.addEmbeddedFile($resource[0])
+//output document
+output(doc)

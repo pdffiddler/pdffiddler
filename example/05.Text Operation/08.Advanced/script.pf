@@ -1,0 +1,20 @@
+//New Document with blank page
+doc = Document()
+page = Page()
+page.addRect($bound)
+text = "Easily enhance your physical and digital documents using reusable scripting language, for more impactful customer communications, without changing your current system."
+
+//Text Align Left, characterSpacing - 2 unit
+page.addText(text, $bound, GState().align(TOP_LEFT).textAlign(LEFT).characterSpacing(2))
+//Text Align JUSTIFY, scale - 80%, color - RED
+page.addText(text, $bound, GState().align(CENTER).textAlign(JUSTIFY).fillColor(RED).opacity(0.4).scale(0.8))
+//Text Align RIGHT, wordSpacing - 4 unit, Stroke Color - Black
+page.addText(text, $bound, GState().align(BOTTOM_LEFT).textAlign(RIGHT).wordSpacing(4).strokeColor(BLACK))
+
+
+//Output document
+doc.addPages(1, page)
+output(doc)
+
+
+

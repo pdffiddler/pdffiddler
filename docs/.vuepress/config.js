@@ -2,8 +2,15 @@ module.exports = {
     base: '/',
     title: 'PDFFiddler',
     description: 'Manipulate PDF document using powerful scripting language',
+    head: [
+      ['link', { rel: "apple-touch-icon", sizes: "180x180", href: "/icons/apple-touch-icon.png"}],
+      ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/icons/favicon-32x32.png"}],
+      ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/icons/favicon-16x16.png"}],
+      ['link', { rel: "manifest", href: "/icons/site.webmanifest"}],
+      ['link', { rel: "shortcut icon", href: "/icons/favicon.ico"}]
+    ],
     themeConfig: {
-      logo: '/pdffiddle128.png',
+      logo: '/pdffiddlerBlue.png',
       nav: [
         { text: 'API Documentation', link: '/api/'},
         { text: 'Back to playground', link: 'http://www.pdffiddler.com'},
@@ -13,7 +20,7 @@ module.exports = {
       sidebar: {
           '/api/': [
             '',
-            '/api/docs/BasePoint','/api/docs/Page','/api/docs/String','/api/docs/Document','/api/docs/Image','/api/docs/Font','/api/docs/Number','/api/docs/TextAlign','/api/docs/Permission','/api/docs/EncryptionAlgorithm','/api/docs/List','/api/docs/Boolean','/api/docs/LineCap','/api/docs/DashPattern','/api/docs/TSA','/api/docs/Align','/api/docs/GState','/api/docs/Position','/api/docs/Color','/api/docs/OnChange','/api/docs/OnMatch','/api/docs/Text','/api/docs/Point','/api/docs/Layer','/api/docs/Date','/api/docs/LineJoin','/api/docs/TextMarkupType','/api/docs/SignatureHandler','/api/docs/Signature','/api/docs/Global','/api/docs/PaperSize','/api/docs/Region','/api/docs/Map','/api/docs/BarcodeType','/api/docs/HumanReadableLocation','/api/docs/ChronoUnit'
+            '/api/docs/Global','/api/docs/Document','/api/docs/Page','/api/docs/OnChange','/api/docs/OnMatch','/api/docs/Region','/api/docs/Point','/api/docs/Image','/api/docs/Font','/api/docs/Text','/api/docs/GState','/api/docs/PaperSize','/api/docs/EmbeddedFile','/api/docs/Permission','/api/docs/RSplit','/api/docs/Layer','/api/docs/Signature','/api/docs/SignatureHandler','/api/docs/TSA','/api/docs/TextField','/api/docs/CheckBox','/api/docs/RadioButton','/api/docs/ListBox','/api/docs/ComboBox','/api/docs/RadioOption','/api/docs/SelectOption','/api/docs/FieldStyle','/api/docs/Button','/api/docs/SignatureField','/api/docs/Action','/api/docs/Border','/api/docs/DashPattern','/api/docs/List','/api/docs/Map','/api/docs/Number','/api/docs/String','/api/docs/Boolean','/api/docs/Color','/api/docs/Date','/api/docs/MarkupBuilderHelper','/api/docs/BarcodeType','/api/docs/TextMarkupType','/api/docs/BasePoint','/api/docs/Align','/api/docs/TextAlign','/api/docs/ChronoUnit','/api/docs/Position','/api/docs/HumanReadableLocation','/api/docs/LineCap','/api/docs/LineJoin','/api/docs/EncryptionAlgorithm','/api/docs/CheckboxRadioStyle','/api/docs/HighlightMode','/api/docs/BorderStyle','/api/docs/SubmitFormat'
           ],
           '/guide/': [
             '',

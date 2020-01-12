@@ -11,7 +11,17 @@ duedate = p.extractText($due)
 //extract amount relative to keyword BALANCE DUE
 amount = p.extractText($balance)
 //output in CSV
-outputCSV([["Name":name, "Invoice": invoice, "Due Date": duedate, "Amount": amount]], "basicExtraction")
+outputCSV([["Name":name, "Invoice": invoice, "Due Date": duedate, "Amount": amount]])
 //output in JSON
 outputJSON([["Name":name, "Invoice": invoice, "Due Date": duedate, "Amount": amount]], "basicExtraction")
+//output in XML
+outputXML({
+    mkp.xmlDeclaration(version: "1.0", encoding: "utf-8", standalone: 'no')
+    "Customer"{
+        "Name" name
+        "Invoice" invoice
+        "DueDate" duedate
+        "Amount" amount
+    }
+})
 

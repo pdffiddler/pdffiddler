@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "04.Document<_&_>02.Clone"
-name: "Clone"
+name: "02.Clone"
 configurationVariable: []
 inputFiles:
   singleInvoice.pdf:

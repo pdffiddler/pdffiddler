@@ -1,0 +1,22 @@
+//load input document
+doc = Document()
+page = Page()
+
+//load image resource
+im = loadImage($resource["pdffiddle64.jpg"])
+
+//Align image corner of page
+page.addImage(image: im, gs: GState().align(TOP_LEFT).opacity(0.5))
+page.addImage(image: im, gs: GState().align(TOP_RIGHT).rotate(45))
+page.addImage(image: im, gs: GState().align(BOTTOM_LEFT).scale(2))
+page.addImage(image: im, gs: GState().align(BOTTOM_RIGHT).translate(Point(-5, -5)))
+
+//Align image to region background
+page.addImage(image: im, at: $background, gs: GState().align(LEFT).opacity(0.5))
+page.addImage(image: im, at: $background, gs: GState().align(TOP).rotate(45))
+page.addImage(image: im, at: $background, gs: GState().align(BOTTOM).scale(2))
+page.addImage(image: im, at: $background, gs: GState().align(RIGHT))
+
+//output document
+doc.addPages(1, page)
+output(doc)

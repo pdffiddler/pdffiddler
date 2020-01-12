@@ -8,5 +8,5 @@ invoices = doc.split(1)
 partitionInvoices = partition(invoices, ["NotBlank": {d -> !d.getPage(1).extractText($refNum).isEmpty()}, "Blank": {d -> d.getPage(1).extractText($refNum).isEmpty()}])
 
 //output groupedInvoices
-output(partitionInvoices["NotBlank"], "NotBlank")
-output(partitionInvoices["Blank"], "Blank")
+output(merge(partitionInvoices["NotBlank"]), "NotBlank")
+output(merge(partitionInvoices["Blank"]), "Blank")

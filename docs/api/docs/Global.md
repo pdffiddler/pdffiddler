@@ -1,5 +1,10 @@
 # Global
 ## Methods
+#### fixed(Number v)
+Return Fixed Number
+- **Props**:
+  - `v`- [Number](Number.html)
+- **Returns**: Fixed
 #### formatDate(Date d, String pattern)
 Format date to string
 - **Props**:
@@ -49,9 +54,19 @@ Load image from path
   - `imagePath`- [String](String.html)
 - **Returns**: [Image](Image.html)
 #### loadJSON(String path)
-Load JSON document
+Load valid JSON document
 - **Props**:
   - `path`- [String](String.html)
+- **Returns**: any
+#### loadXML(String path)
+Load valid XML document
+- **Props**:
+  - `path`- [String](String.html)
+- **Returns**: any
+#### log(def data)
+Write log for debugging purpose
+- **Props**:
+  - `data`- any
 - **Returns**: any
 #### merge(List | Map | Document | String documents)
 Merge documents into one
@@ -66,36 +81,44 @@ Output document to file path
 - **Props**:
   - `document`- [Document](Document.html) | [List](List.html)&lt;[Document](Document.html)&gt; | [Map](Map.html)&lt;[String](String.html), [Document](Document.html)&gt; | [Map](Map.html)&lt;[String](String.html), [List](List.html)&lt;[Document](Document.html)&gt;&gt;<br/>Can be of type Document or List&lt;Document&gt; or Map&lt;String, Document&gt;
   - `fileName`- [String](String.html), defaults to `"null"`
-- **Returns**: void
-#### outputCSV(List&lt;Map&lt;String, String&gt;&gt; data, String fileName=null)
+- **Returns**: [List](List.html)&lt;[String](String.html)&gt;
+#### outputCSV(List&lt;Map&lt;String, String&gt;&gt; data, Boolean withHeader=true, String seperator=', String fileName=null)
 Output data in CSV format
 - **Props**:
   - `data`- [List](List.html)&lt;[Map](Map.html)&lt;[String](String.html), [String](String.html)&gt;&gt;
+  - `withHeader`- [Boolean](Boolean.html), defaults to `"true"`
+  - `seperator`- [String](String.html), defaults to `"'"`
   - `fileName`- [String](String.html), defaults to `"null"`
-- **Returns**: void
+- **Returns**: [String](String.html)
 #### outputFile(String | List&lt;String&gt; | byte[] data, String fileName=null)
 Output file
 - **Props**:
   - `data`- [String](String.html) | [List](List.html)&lt;[String](String.html)&gt; | byte[]
   - `fileName`- [String](String.html), defaults to `"null"`
-- **Returns**: void
+- **Returns**: [String](String.html)
 #### outputFont(Font font)
 Output font
 - **Props**:
   - `font`- [Font](Font.html)
-- **Returns**: void
+- **Returns**: [String](String.html)
 #### outputImage(Image | List&lt;Image&gt; image, String imageName=null)
 Output image to file path
 - **Props**:
   - `image`- [Image](Image.html) | [List](List.html)&lt;[Image](Image.html)&gt;
   - `imageName`- [String](String.html), defaults to `"null"`
-- **Returns**: void
+- **Returns**: [List](List.html)&lt;[String](String.html)&gt;
 #### outputJSON(def data, String fileName=null)
 Output data in JSON format
 - **Props**:
   - `data`- any
   - `fileName`- [String](String.html), defaults to `"null"`
-- **Returns**: void
+- **Returns**: [String](String.html)
+#### outputXML(def data, String fileName=null)
+Output data in XML format
+- **Props**:
+  - `data`- any
+  - `fileName`- [String](String.html), defaults to `"null"`
+- **Returns**: [String](String.html)
 #### parseDate(String dateStr, String pattern)
 Parse date
 - **Props**:

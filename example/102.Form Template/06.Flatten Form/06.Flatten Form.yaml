@@ -1,0 +1,23 @@
+---
+script: "#./script.pf"
+id: "102.Form Template<_&_>06.Flatten Form"
+name: "06.Flatten Form"
+configurationVariable:
+- type: "Region"
+  name: "name"
+  value:
+    left: "50.289"
+    top: "126.846"
+    width: "70.146"
+    height: "24.364"
+    id: "1576956102911"
+    resourceId: "input/filledFormExample.pdf"
+    pageNumber: "1"
+    fieldType: ""
+inputFiles:
+  filledFormExample.pdf:
+    fileName: "filledFormExample.pdf"
+    relativePath: "input/filledFormExample.pdf"
+    size: 65661
+resources: {}
+imgUrl: "#./image"

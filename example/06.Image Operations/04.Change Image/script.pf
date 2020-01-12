@@ -3,7 +3,7 @@ doc = load($input[0])
 
 //Scale image 150% at Bottom_left base point and move logo by 5mm in y direction
 d1 = doc.clone()
-d1.getPage(1).changeImage($logo, null, new Point(0, 5), null, null, 150, BOTTOM_LEFT)
+d1.getPage(1).changeImage($logo, null, new Point(0, 5), null, null, 1.5, BOTTOM_LEFT)
 output(d1, "MoveNScaleImage.pdf")
 
 //Rotate image by 180 degree at center base point

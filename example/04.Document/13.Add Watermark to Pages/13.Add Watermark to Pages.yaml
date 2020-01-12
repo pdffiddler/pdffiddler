@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "04.Document<_&_>13.Add Watermark to Pages"
-name: "Add Watermark to Pages"
+name: "13.Add Watermark to Pages"
 configurationVariable:
 - type: "Region"
   name: "watermark"

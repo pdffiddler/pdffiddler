@@ -1,0 +1,18 @@
+---
+script: "#./script.pf"
+id: "05.Text Operation<_&_>08.Advanced"
+name: "Advanced"
+configurationVariable:
+- type: "Region"
+  name: "bound"
+  value:
+    left: "41.675"
+    top: "43.174"
+    width: "125.024"
+    height: "148.707"
+    id: "1570274919719"
+    resourceId: "input/singleInvoice.pdf"
+    pageNumber: "1"
+inputFiles: {}
+resources: {}
+imgUrl: "#./image"

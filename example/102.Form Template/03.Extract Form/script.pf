@@ -1,0 +1,8 @@
+doc = load($input[0])
+//Extract Form Fields within whole page
+fields = doc.getPage(1).extractFields()
+outputJSON(fields, "fields")
+
+//Extract Form Fields value within whole page
+fieldsValue = doc.getPage(1).extractFieldsValue()
+outputJSON(fieldsValue, "fields value")

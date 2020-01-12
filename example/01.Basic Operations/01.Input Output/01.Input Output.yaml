@@ -33,4 +33,8 @@ resources:
     fileName: "singleInvoice.txt"
     relativePath: "resource/singleInvoice.txt"
     size: 68
+  singleInvoice.xml:
+    fileName: "singleInvoice.xml"
+    relativePath: "resource/singleInvoice.xml"
+    size: 192
 imgUrl: "#./image"

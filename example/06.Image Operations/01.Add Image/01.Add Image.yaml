@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "06.Image Operations<_&_>01.Add Image"
-name: "Add Image"
+name: "01.Add Image"
 configurationVariable:
 - type: "Region"
   name: "logo"
@@ -37,3 +37,4 @@ resources:
     fileName: "pdffiddle64.png"
     relativePath: "resource/pdffiddle64.png"
     size: 2149
+imgUrl: "#./image"

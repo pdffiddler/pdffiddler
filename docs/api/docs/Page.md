@@ -6,6 +6,9 @@ Crop the page
 - **Props**:
   - `region`- [Region](Region.html)
 - **Returns**: [Page](Page.html)
+#### getPaperSize()
+Get Paper Size
+- **Returns**: [PaperSize](PaperSize.html)
 #### height(Number h=null)
 Get/Set Height of page in user defined unit
 - **Props**:
@@ -78,10 +81,11 @@ Add text at particular location
   - `at`- [Region](Region.html) | [Point](Point.html), defaults to `"null"`<br/>Region/Point (Optional)
   - `gs`- [GState](GState.html), defaults to `"null"`<br/>GState (Optional)
 - **Returns**: [Page](Page.html)
-#### changeText(Region region, Color color=null, Point moveBy=null, String | Font font=null, Number fontSize=null)
+#### changeText(Region region, List&lt;String&gt; replace=null, Color color=null, Point moveBy=null, String | Font font=null, Number fontSize=null)
 Change text within region
 - **Props**:
   - `region`- [Region](Region.html)
+  - `replace`- [List](List.html)&lt;[String](String.html)&gt;, defaults to `"null"`
   - `color`- [Color](Color.html), defaults to `"null"`
   - `moveBy`- [Point](Point.html), defaults to `"null"`
   - `font`- [String](String.html) | [Font](Font.html), defaults to `"null"`
@@ -103,8 +107,8 @@ Extract text definition within region
 - **Props**:
   - `region`- [Region](Region.html), defaults to `"null"`
 - **Returns**: [List](List.html)&lt;[List](List.html)&lt;[Text](Text.html)&gt;&gt;
-#### findAndReplaceText(String find, String replace=null, Region region=null, Color color=null, Point moveBy=null, String | Font font=null, Number fontSize=null, Boolean caseSensitive=false)
-Find text and then replace/delete it, within region/page
+#### findAndChangeText(String find, String replace=null, Region region=null, Color color=null, Point moveBy=null, String | Font font=null, Number fontSize=null, Boolean caseSensitive=false, Boolean regex=false)
+Find text and then change it, within region/page
 - **Props**:
   - `find`- [String](String.html)
   - `replace`- [String](String.html), defaults to `"null"`
@@ -114,23 +118,23 @@ Find text and then replace/delete it, within region/page
   - `font`- [String](String.html) | [Font](Font.html), defaults to `"null"`
   - `fontSize`- [Number](Number.html), defaults to `"null"`
   - `caseSensitive`- [Boolean](Boolean.html), defaults to `"false"`
+  - `regex`- [Boolean](Boolean.html), defaults to `"false"`
 - **Returns**: [List](List.html)&lt;[List](List.html)&lt;[Text](Text.html)&gt;&gt;
-#### findText(String find, Region region=null, Boolean caseSensitive=false)
+#### findAndDeleteText(String find, Region region=null, Boolean caseSensitive=false, Boolean regex=false)
+Find and delete text
+- **Props**:
+  - `find`- [String](String.html)
+  - `region`- [Region](Region.html), defaults to `"null"`
+  - `caseSensitive`- [Boolean](Boolean.html), defaults to `"false"`
+  - `regex`- [Boolean](Boolean.html), defaults to `"false"`
+- **Returns**: [List](List.html)&lt;[List](List.html)&lt;[Text](Text.html)&gt;&gt;
+#### findText(String find, Region region=null, Boolean caseSensitive=false, Boolean regex=false)
 Find text within region/page
 - **Props**:
   - `find`- [String](String.html)<br/>text to be find
   - `region`- [Region](Region.html), defaults to `"null"`<br/>if null, find in whole page
   - `caseSensitive`- [Boolean](Boolean.html), defaults to `"false"`<br/>by default false
-- **Returns**: [List](List.html)&lt;[List](List.html)&lt;[Text](Text.html)&gt;&gt;
-#### replaceText(Region region, List&lt;String&gt; text, Color color=null, Point moveBy=null, String | Font font=null, Number fontSize=null)
-Replace text within region
-- **Props**:
-  - `region`- [Region](Region.html)
-  - `text`- [List](List.html)&lt;[String](String.html)&gt;
-  - `color`- [Color](Color.html), defaults to `"null"`
-  - `moveBy`- [Point](Point.html), defaults to `"null"`
-  - `font`- [String](String.html) | [Font](Font.html), defaults to `"null"`
-  - `fontSize`- [Number](Number.html), defaults to `"null"`
+  - `regex`- [Boolean](Boolean.html), defaults to `"false"`<br/>default false
 - **Returns**: [List](List.html)&lt;[List](List.html)&lt;[Text](Text.html)&gt;&gt;
 #### addBarcode(BarcodeType type, String content, Point | Region at, Number rotate=0, Number modWidth=null, Number barHeight=null, String fontName=null, Number fontSize=null, HumanReadableLocation location=null)
 Add Barcode in a PDF page at location
@@ -145,16 +149,33 @@ Add Barcode in a PDF page at location
   - `fontSize`- [Number](Number.html), defaults to `"null"`
   - `location`- [HumanReadableLocation](HumanReadableLocation.html), defaults to `"null"`
 - **Returns**: [Page](Page.html)
-#### addRectangleAnnotation(Region region, Color color=RED, Number opacity=0.5f, Number borderWidth=null, Color borderColor=null, Boolean flatten=false, String content=null)
+#### addImageLinkAnnotation(Region region, Action action, Border border=null, HighlightMode highlightMode=NONE, Boolean flatten=false)
+Add Image Link Annotation
+- **Props**:
+  - `region`- [Region](Region.html)
+  - `action`- [Action](Action.html)
+  - `border`- [Border](Border.html), defaults to `"null"`<br/>default no border
+  - `highlightMode`- [HighlightMode](HighlightMode.html), defaults to `"NONE"`
+  - `flatten`- [Boolean](Boolean.html), defaults to `"false"`
+- **Returns**: [Page](Page.html)
+#### addRectangleAnnotation(Region region, Color color=RED, Number opacity=0.5f, Border border=null, Boolean flatten=false, String content=null)
 Add Rectangle annotation
 - **Props**:
   - `region`- [Region](Region.html)
   - `color`- [Color](Color.html), defaults to `"RED"`
   - `opacity`- [Number](Number.html), defaults to `"0.5f"`
-  - `borderWidth`- [Number](Number.html), defaults to `"null"`
-  - `borderColor`- [Color](Color.html), defaults to `"null"`
+  - `border`- [Border](Border.html), defaults to `"null"`
   - `flatten`- [Boolean](Boolean.html), defaults to `"false"`
   - `content`- [String](String.html), defaults to `"null"`
+- **Returns**: [Page](Page.html)
+#### addRegionLinkAnnotation(Region region, Action action, Border border=null, HighlightMode highlightMode=NONE, Boolean flatten=false)
+Add Region Link Annotation
+- **Props**:
+  - `region`- [Region](Region.html)
+  - `action`- [Action](Action.html)
+  - `border`- [Border](Border.html), defaults to `"null"`<br/>default having border
+  - `highlightMode`- [HighlightMode](HighlightMode.html), defaults to `"NONE"`
+  - `flatten`- [Boolean](Boolean.html), defaults to `"false"`
 - **Returns**: [Page](Page.html)
 #### addTextAnnotation(TextMarkupType textMarkUp, Region region, Color color=null, Number opacity=null, Number borderWidth=null, Boolean flatten=false)
 Add Text annotation.
@@ -166,23 +187,33 @@ Add Text annotation.
   - `borderWidth`- [Number](Number.html), defaults to `"null"`
   - `flatten`- [Boolean](Boolean.html), defaults to `"false"`
 - **Returns**: [Page](Page.html)
+#### addTextLinkAnnotation(Region region, Action action, Border border=null, HighlightMode highlightMode=NONE, Boolean flatten=false)
+Add Text Link Annotation
+- **Props**:
+  - `region`- [Region](Region.html)
+  - `action`- [Action](Action.html)
+  - `border`- [Border](Border.html), defaults to `"null"`<br/>default underline style
+  - `highlightMode`- [HighlightMode](HighlightMode.html), defaults to `"NONE"`
+  - `flatten`- [Boolean](Boolean.html), defaults to `"false"`
+- **Returns**: [Page](Page.html)
 #### flattenAnnotation(Region region=null)
 Flatten all annotation within region
 - **Props**:
   - `region`- [Region](Region.html), defaults to `"null"`
 - **Returns**: [Page](Page.html)
-#### removeAnnotation(Region region)
+#### removeAnnotation(Region region=null)
 Remove all annotation within region
 - **Props**:
-  - `region`- [Region](Region.html)
+  - `region`- [Region](Region.html), defaults to `"null"`
 - **Returns**: [Page](Page.html)
-#### findAndRedactText(String find, Region region=null, Color color=BLACK, Boolean caseSensitive=false)
+#### findAndRedactText(String find, Region region=null, Color color=BLACK, Boolean caseSensitive=false, Boolean regex=false)
 Find and Redact text within region
 - **Props**:
   - `find`- [String](String.html)<br/>text to be found
   - `region`- [Region](Region.html), defaults to `"null"`
   - `color`- [Color](Color.html), defaults to `"BLACK"`<br/>default color black
   - `caseSensitive`- [Boolean](Boolean.html), defaults to `"false"`
+  - `regex`- [Boolean](Boolean.html), defaults to `"false"`
 - **Returns**: [Page](Page.html)
 #### redact(Region region=null, Color color=BLACK)
 Redact both text and image a region
@@ -228,17 +259,22 @@ Create a layer
 - **Props**:
   - `region`- [Region](Region.html), defaults to `"null"`
 - **Returns**: [Layer](Layer.html)
-#### addCircle(Region | Point at, Number radius=null, GState gs=null)
+#### addCell(Region | List&lt;Region&gt; | List&lt;List&lt;Region&gt;&gt; region, GState gs=null)
+- **Props**:
+  - `region`- [Region](Region.html) | [List](List.html)&lt;[Region](Region.html)&gt; | [List](List.html)&lt;[List](List.html)&lt;[Region](Region.html)&gt;&gt;
+  - `gs`- [GState](GState.html), defaults to `"null"`
+- **Returns**: [Page](Page.html)
+#### addCircle(Region | Point at=null, Number radius=null, GState gs=null)
 Add circle
 - **Props**:
-  - `at`- [Region](Region.html) | [Point](Point.html)<br/>Region/Point
+  - `at`- [Region](Region.html) | [Point](Point.html), defaults to `"null"`<br/>Region/Point
   - `radius`- [Number](Number.html), defaults to `"null"`<br/>in mm, if null, then circle is drawn inside region.
   - `gs`- [GState](GState.html), defaults to `"null"`
 - **Returns**: [Page](Page.html)
-#### addRect(Point | Region at, Number width=null, Number height=null, Number | Point cornerRadius=null, GState gs=null)
+#### addRect(Point | Region at=null, Number width=null, Number height=null, Number | Point cornerRadius=null, GState gs=null)
 Add Rect
 - **Props**:
-  - `at`- [Point](Point.html) | [Region](Region.html)
+  - `at`- [Point](Point.html) | [Region](Region.html), defaults to `"null"`
   - `width`- [Number](Number.html), defaults to `"null"`
   - `height`- [Number](Number.html), defaults to `"null"`
   - `cornerRadius`- [Number](Number.html) | [Point](Point.html), defaults to `"null"`
@@ -251,3 +287,54 @@ Add Rect
 - **Returns**: [Page](Page.html)
 #### removeAllSignature()
 - **Returns**: [Page](Page.html)
+#### addField(TextField | CheckBox | RadioButton | ListBox | ComboBox | SignatureField | Button field)
+Add Form field to page
+- **Props**:
+  - `field`- [TextField](TextField.html) | [CheckBox](CheckBox.html) | [RadioButton](RadioButton.html) | [ListBox](ListBox.html) | [ComboBox](ComboBox.html) | [SignatureField](SignatureField.html) | [Button](Button.html)<br/>Can be TextField/CheckBox/RadioButton/ListBox/ComboBox
+- **Returns**: [Page](Page.html)
+#### deleteField(Region region=null)
+Remove all form field within region
+- **Props**:
+  - `region`- [Region](Region.html), defaults to `"null"`
+- **Returns**: [Page](Page.html)
+#### extractField(FormField formField)
+Get Form Field
+- **Props**:
+  - `formField`- FormField
+- **Returns**: Field
+#### extractFields(Region region=null)
+Extract all field within Region/MultiRegion
+- **Props**:
+  - `region`- [Region](Region.html), defaults to `"null"`
+- **Returns**: [List](List.html)&lt;Field&gt;
+#### extractFieldsValue(Region region=null)
+Extract all field as name value pair within Region
+- **Props**:
+  - `region`- [Region](Region.html), defaults to `"null"`
+- **Returns**: [Map](Map.html)&lt;[String](String.html), any&gt;
+#### flattenField(Region region=null)
+Flatten all form field within region
+- **Props**:
+  - `region`- [Region](Region.html), defaults to `"null"`
+- **Returns**: [Page](Page.html)
+#### formFilling(Region region=null, Map&lt;String, Object&gt; mapping)
+Form filling using name value pair
+- **Props**:
+  - `region`- [Region](Region.html), defaults to `"null"`
+  - `mapping`- [Map](Map.html)&lt;[String](String.html), any&gt;
+- **Returns**: void
+#### extractTable(Region region=null, Boolean withHeader=true, Boolean isLattice=false, Boolean vertically=false)
+Extract Table
+- **Props**:
+  - `region`- [Region](Region.html), defaults to `"null"`
+  - `withHeader`- [Boolean](Boolean.html), defaults to `"true"`<br/>if header is present in table
+  - `isLattice`- [Boolean](Boolean.html), defaults to `"false"`<br/>if ruling are present in table
+  - `vertically`- [Boolean](Boolean.html), defaults to `"false"`<br/>extract data vertically
+- **Returns**: [List](List.html)&lt;[Map](Map.html)&lt;[String](String.html), [String](String.html)&gt;&gt;
+#### extractTableAsMap(Region region=null, Boolean isLattice=false, Boolean vertically=false)
+Extract table as Map, Mainly used when only two column or two row are present in tabular structure
+- **Props**:
+  - `region`- [Region](Region.html), defaults to `"null"`
+  - `isLattice`- [Boolean](Boolean.html), defaults to `"false"`<br/>if ruling are present in table
+  - `vertically`- [Boolean](Boolean.html), defaults to `"false"`<br/>extract data vertically
+- **Returns**: [Map](Map.html)&lt;[String](String.html), [String](String.html)&gt;

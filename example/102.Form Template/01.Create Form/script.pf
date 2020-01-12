@@ -1,0 +1,29 @@
+doc = load($input[0])
+h = fixed(2)
+cells = $bound.split(RSplit(cols: [1,1], rows: [h, h, h, h, fixed(6), fixed(5), fixed(4), fixed(3), 1], colPad: 2, rowPad: 2))
+p = doc.getPage(1)
+p.addText("First Name:", cells[0][0], GState().align(RIGHT))
+p.addField(TextField("firstName").region(cells[0][1]))
+p.addText("Last Name:", cells[1][0], GState().align(RIGHT))
+p.addField(TextField("lastName").region(cells[1][1]))
+p.addText("Password:", cells[2][0], GState().align(RIGHT))
+p.addField(TextField("password").region(cells[2][1]).password(true))
+p.addText("Country:", cells[3][0], GState().align(RIGHT))
+p.addField(ComboBox("country").region(cells[3][1]).options(["India","Australia","UK", "USA"]))
+p.addText("Language:", cells[4][0], GState().align(RIGHT))
+p.addField(ListBox("language").region(cells[4][1]).options(["English","French","German", "Hindi"]).multiSelect(true))
+
+p.addText("Sex:", cells[5][0], GState().align(RIGHT))
+s = cells[5][1].split(RSplit(cols: [fixed(3),1], rows: [1,1], colPad: 2, rowPad: 0.5))
+p.addText("Male", s[0][1], GState().align(LEFT))
+p.addText("Female", s[1][1], GState().align(LEFT))
+p.addField(RadioButton("Sex").addOption(RadioOption("Male", s[1][0], 14)).addOption(RadioOption("Female", s[0][0], 14)).style(FieldStyle().align(RIGHT)))
+
+p.addText("Signature:", cells[6][0], GState().align(RIGHT))
+p.addField(SignatureField("signature").region(cells[6][1]))
+
+p.addField(Button("Print").region(cells[7][0]).action(Action.createPrint()))
+p.addField(Button("Submit").region(cells[7][1]).action(Action.createSubmitForm("mailto:mickey@pdffiddler.com", PDF)))
+
+
+output(doc)

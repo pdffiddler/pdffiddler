@@ -1,0 +1,12 @@
+---
+script: "#./script.pf"
+id: "00.Blank Template<_&_>03.Legal Size"
+name: "03.Legal Size"
+configurationVariable: []
+inputFiles:
+  Blank_Legal.pdf:
+    fileName: "Blank_Legal.pdf"
+    relativePath: "input/Blank_Legal.pdf"
+    size: 1251
+resources: {}
+imgUrl: "#./image"

@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "01.Basic Operations<_&_>04.Date Operations"
-name: "Date Operations"
+name: "04.Date Operations"
 configurationVariable:
 - type: "Region"
   name: "due"

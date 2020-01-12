@@ -1,0 +1,12 @@
+---
+script: "#./script.pf"
+id: "00.Blank Template<_&_>02.A4 Size"
+name: "02.A4 Size"
+configurationVariable: []
+inputFiles:
+  Blank_A4.pdf:
+    fileName: "Blank_A4.pdf"
+    relativePath: "input/Blank_A4.pdf"
+    size: 1255
+resources: {}
+imgUrl: "#./image"

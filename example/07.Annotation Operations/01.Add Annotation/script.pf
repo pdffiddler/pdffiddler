@@ -10,7 +10,7 @@ doc.getPage(1).addTextAnnotation(UNDERLINE, $bill)
 //add SQUIGGLY annotation at thank region with 0.5 border width
 doc.getPage(1).addTextAnnotation(textMarkUp: SQUIGGLY, region:$thank, borderWidth: 0.5)
 //add rectancgle flattened annotation, at invoice region with Green color and 0.3 opacity
-doc.getPage(1).addRectangleAnnotation($invoice, GREEN, 0.3f, null, null, true)
+doc.getPage(1).addRectangleAnnotation($invoice, GREEN, 0.3f, null, true)
 
 //output document
 output(doc)

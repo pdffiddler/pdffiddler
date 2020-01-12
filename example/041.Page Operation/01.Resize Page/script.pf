@@ -13,7 +13,7 @@ output(d2, "ResizePageOnlyA2")
 
 //resize content by 80% and not change page size at TOP_LEFT Basepoint
 d3 = doc.clone()
-d3.getPage(1).resize(80, false, true, TOP_LEFT)
+d3.getPage(1).resize(0.8, false, true, TOP_LEFT)
 output(d3, "ResizeContentOnlyTo80")
 
 // change only document paper size to custom size and not rescale content
@@ -23,5 +23,5 @@ output(d4, "ResizePageOnlyCustomSize")
 
 // change first page size and content to 80
 d5 = doc.clone()
-d5.getPage(1).resize(80, true, true, CENTER)
+d5.getPage(1).resize(0.8, true, true, CENTER)
 output(d5, "ResizePageContentTo80")

@@ -1,0 +1,20 @@
+---
+script: "#./script.pf"
+id: "01.Basic Operations<_&_>Load Protected PDF"
+name: "Load Protected PDF"
+configurationVariable: []
+inputFiles:
+  pdfWithPassword.pdf:
+    fileName: "pdfWithPassword.pdf"
+    relativePath: "input/pdfWithPassword.pdf"
+    size: 52657
+  singleInvoiceEncrypted.pdf:
+    fileName: "singleInvoiceEncrypted.pdf"
+    relativePath: "input/singleInvoiceEncrypted.pdf"
+    size: 17893
+resources:
+  pdffiddlerWithPassword.pfx:
+    fileName: "pdffiddlerWithPassword.pfx"
+    relativePath: "resource/pdffiddlerWithPassword.pfx"
+    size: 2645
+imgUrl: "#./image"

@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "11.Advanced Operation<_&_>05.Watermark operation"
-name: "Watermark operation"
+name: "05.Watermark operation"
 configurationVariable:
 - type: "Region"
   name: "watermark"
@@ -14,10 +14,10 @@ configurationVariable:
     resourceId: "input/multipleInvoices.pdf"
     pageNumber: "1"
 inputFiles:
-  multipleInvoices.pdf:
-    fileName: "multipleInvoices.pdf"
-    relativePath: "input/multipleInvoices.pdf"
-    size: 52923
+  multipleInvoices3.pdf:
+    fileName: "multipleInvoices3.pdf"
+    relativePath: "input/multipleInvoices3.pdf"
+    size: 508924
 resources:
   pdffiddle64.png:
     fileName: "pdffiddle64.png"

@@ -4,6 +4,11 @@ Entity which hold group of PDF pages
 #### originalFilename - [String](String.html)
 #### version - [Number](Number.html)
 ## Methods
+#### addEmbeddedFile(String | EmbeddedFile | List&lt;String&gt; | List&lt;EmbeddedFile&gt; embeddedFile, String name=null)
+- **Props**:
+  - `embeddedFile`- [String](String.html) | [EmbeddedFile](EmbeddedFile.html) | [List](List.html)&lt;[String](String.html)&gt; | [List](List.html)&lt;[EmbeddedFile](EmbeddedFile.html)&gt;
+  - `name`- [String](String.html), defaults to `"null"`
+- **Returns**: [Document](Document.html)
 #### addPages(Number pageNumber, Page | List&lt;Page&gt; page=null)
 Add page at specified location
 - **Props**:
@@ -55,6 +60,8 @@ Extract pages into new returned document
 - **Props**:
   - `pageNumbers`- [Number](Number.html) | [List](List.html)&lt;[Number](Number.html)&gt;
 - **Returns**: [Document](Document.html)
+#### getEmbeddedFiles()
+- **Returns**: [List](List.html)&lt;[EmbeddedFile](EmbeddedFile.html)&gt;
 #### getMetaData()
 Get all meta data of document
 - **Returns**: MetaData
@@ -79,11 +86,17 @@ Move pages
   - `insertBefore`- [Number](Number.html)
   - `pageNumbers`- [Number](Number.html) | [List](List.html)&lt;[Number](Number.html)&gt;
 - **Returns**: [Document](Document.html)
+#### removeAllEmbeddedFiles()
+- **Returns**: [Document](Document.html)
 #### removeAllSecurity()
 - **Returns**: SecurityData
 #### removeAllSignature()
 Remove all signatures from document
 - **Returns**: [Document](Document.html)
+#### removeEmbeddedFile(Number | EmbeddedFile embeddedFile)
+- **Props**:
+  - `embeddedFile`- [Number](Number.html) | [EmbeddedFile](EmbeddedFile.html)
+- **Returns**: [EmbeddedFile](EmbeddedFile.html)
 #### removeMetaData()
 Remove all meta data from document
 - **Returns**: MetaData

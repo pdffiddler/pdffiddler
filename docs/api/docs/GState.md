@@ -5,7 +5,7 @@
 #### dashPattern - [DashPattern](DashPattern.html)
 #### fillColor - [Color](Color.html)
 #### fillOpacity - [Number](Number.html)
-#### font - [Font](Font.html)
+#### font - any
 #### fontSize - [Number](Number.html)
 #### justifyUsingWordSpace - [Boolean](Boolean.html)
 #### leading - [Number](Number.html)
@@ -16,7 +16,7 @@
 #### miterLimit - [Number](Number.html)
 #### rotate - [Number](Number.html)
 #### rotateBasePoint - [BasePoint](BasePoint.html)
-#### scale - [Point](Point.html)
+#### scale - any
 #### scaleBasePoint - [BasePoint](BasePoint.html)
 #### strokeColor - [Color](Color.html)
 #### strokeOpacity - [Number](Number.html)
@@ -24,6 +24,16 @@
 #### translate - [Point](Point.html)
 #### wordSpacing - [Number](Number.html)
 ## Methods
+#### color(Color color)
+- **Props**:
+  - `color`- [Color](Color.html)
+- **Returns**: [GState](GState.html)
+#### dashPattern(Number dash, Number space=null, Number phase=null)
+- **Props**:
+  - `dash`- [Number](Number.html)
+  - `space`- [Number](Number.html), defaults to `"null"`
+  - `phase`- [Number](Number.html), defaults to `"null"`
+- **Returns**: [GState](GState.html)
 #### font(String | Font font=HELVETICA, Number size=14)
 - **Props**:
   - `font`- [String](String.html) | [Font](Font.html), defaults to `"HELVETICA"`
@@ -33,9 +43,10 @@
 - **Props**:
   - `opacity`- [Number](Number.html)
 - **Returns**: [GState](GState.html)
-#### scale(Number | Point scale)
+#### translate(Number x, Number y)
 - **Props**:
-  - `scale`- [Number](Number.html) | [Point](Point.html)
+  - `x`- [Number](Number.html)
+  - `y`- [Number](Number.html)
 - **Returns**: [GState](GState.html)
 #### align(Align align)
 - **Props**:
@@ -92,6 +103,10 @@
 #### rotateBasePoint(BasePoint rotateBasePoint)
 - **Props**:
   - `rotateBasePoint`- [BasePoint](BasePoint.html)
+- **Returns**: [GState](GState.html)
+#### scale(def scale)
+- **Props**:
+  - `scale`- any
 - **Returns**: [GState](GState.html)
 #### scaleBasePoint(BasePoint scaleBasePoint)
 - **Props**:

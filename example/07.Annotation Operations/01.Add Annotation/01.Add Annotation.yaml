@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "07.Annotation Operations<_&_>01.Add Annotation"
-name: "Add Annotation"
+name: "01.Add Annotation"
 configurationVariable:
 - type: "Region"
   name: "balance"

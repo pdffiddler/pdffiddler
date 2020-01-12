@@ -1,0 +1,13 @@
+doc = load($input[0])
+//Convert existing text into link (with UNDERLINED and blue)
+doc.getPage(1).addTextLinkAnnotation($link, Action.createGoToURI("https://pdffiddler.com"), Border().style(UNDERLINED).color(BLUE), INVERT)
+
+//Add new text and convert to link
+doc.getPage(1).addText("PDFFiddler", $site)
+doc.getPage(1).addTextLinkAnnotation($site, Action.createGoToURI("https://pdffiddler.com"), Border().style(UNDERLINED).color(BLUE))
+
+//Add image and convert to link
+doc.getPage(1).addImage($resource[0], $logo)
+doc.getPage(1).addImageLinkAnnotation($logo, Action.createGoToURI("https://pdffiddler.com"))
+
+output(doc)

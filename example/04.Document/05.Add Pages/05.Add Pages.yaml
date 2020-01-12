@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "04.Document<_&_>05.Add Pages"
-name: "Add Pages"
+name: "05.Add Pages"
 configurationVariable: []
 inputFiles:
   singleInvoice.pdf:

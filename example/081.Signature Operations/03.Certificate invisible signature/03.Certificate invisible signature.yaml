@@ -1,0 +1,26 @@
+---
+script: "#./script.pf"
+id: "081.Signature Operations<_&_>03.Certificate invisible signature"
+name: "03.Certificate invisible signature"
+configurationVariable:
+- type: "Region"
+  name: "signature"
+  value:
+    left: "143.842"
+    top: "221.316"
+    width: "51.962"
+    height: "15.972"
+    id: "1570475794754"
+    resourceId: "input/singleInvoice.pdf"
+    pageNumber: "1"
+inputFiles:
+  singleInvoice.pdf:
+    fileName: "singleInvoice.pdf"
+    relativePath: "input/singleInvoice.pdf"
+    size: 17322
+resources:
+  pdffiddlerWithPassword.pfx:
+    fileName: "pdffiddlerWithPassword.pfx"
+    relativePath: "resource/pdffiddlerWithPassword.pfx"
+    size: 2645
+imgUrl: "#./image"

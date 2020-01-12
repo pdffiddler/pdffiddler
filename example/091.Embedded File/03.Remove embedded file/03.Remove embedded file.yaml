@@ -1,0 +1,12 @@
+---
+script: "#./script.pf"
+id: "091.Embedded File<_&_>03.Remove embedded file"
+name: "03.Remove embedded file"
+configurationVariable: []
+inputFiles:
+  singleInvoiceWithEmbeddedXML.pdf:
+    fileName: "singleInvoiceWithEmbeddedXML.pdf"
+    relativePath: "input/singleInvoiceWithEmbeddedXML.pdf"
+    size: 17475
+resources: {}
+imgUrl: "#./image"

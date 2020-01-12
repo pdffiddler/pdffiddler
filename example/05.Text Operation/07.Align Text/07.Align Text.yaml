@@ -1,0 +1,8 @@
+---
+script: "#./script.pf"
+id: "05.Text Operation<_&_>07.Align Text"
+name: "Align Text"
+configurationVariable: []
+inputFiles: {}
+resources: {}
+imgUrl: "#./image"

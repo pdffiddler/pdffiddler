@@ -1,0 +1,6 @@
+//load document
+doc = load($input[0])
+//set permission
+doc.setPrivilege("master", Permission().canExtractContent(false).canPrint(false))
+//output
+output(doc)

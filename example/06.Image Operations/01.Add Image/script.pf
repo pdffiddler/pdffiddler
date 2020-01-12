@@ -8,7 +8,7 @@ doc.getPage(1).addImage($resource[1], $logo)
 im = loadImage($resource["pdffiddle64.jpg"])
 
 //add loaded image in background region with opacity 0.2 as inline image
-doc.getPage(1).addImage(image:im, at: $background, opacity: 0.2, inline: true)
+doc.getPage(1).addImage(image:im, at: $background, inline: true, gs: GState().opacity(0.05).align(FIT_CENTER))
 
 //output document
 output(doc)

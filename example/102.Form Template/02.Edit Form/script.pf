@@ -1,0 +1,6 @@
+doc = load($input[0])
+p = doc.getPage(1)
+p.extractField($name).value("pdffiddler")
+p.extractField($address1).value("Street 1").readOnly(true)
+p.extractField($$country).value(["Australia"])
+output(doc)

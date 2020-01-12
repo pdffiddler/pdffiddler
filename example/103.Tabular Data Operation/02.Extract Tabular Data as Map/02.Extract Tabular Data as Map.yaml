@@ -1,0 +1,34 @@
+---
+script: "#./script.pf"
+id: "103.Tabular Data Operation<_&_>02.Extract Tabular Data as Map"
+name: "02.Extract Tabular Data as Map"
+configurationVariable:
+- type: "Region"
+  name: "items"
+  value:
+    left: "13.586"
+    top: "94.395"
+    width: "188.362"
+    height: "21.755"
+    id: "1577478435534"
+    resourceId: "input/singleInvoice.pdf"
+    pageNumber: "1"
+    fieldType: ""
+- type: "Region"
+  name: "invoice"
+  value:
+    left: "142.465"
+    top: "43.449"
+    width: "43.235"
+    height: "26.987"
+    id: "1577478657808"
+    resourceId: "input/singleInvoice.pdf"
+    pageNumber: "1"
+    fieldType: ""
+inputFiles:
+  singleInvoice.pdf:
+    fileName: "singleInvoice.pdf"
+    relativePath: "input/singleInvoice.pdf"
+    size: 17322
+resources: {}
+imgUrl: "#./image"

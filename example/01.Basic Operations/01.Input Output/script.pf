@@ -13,6 +13,9 @@ csv = loadCSV($resource["singleInvoice.csv"])
 //load json
 json = loadJSON($resource["singleInvoice.json"])
 
+//load xml
+xml = loadXML($resource["singleInvoice.xml"])
+
 //load any file
 data = loadFile($resource["singleInvoice.txt"])
 
@@ -27,6 +30,9 @@ outputCSV(csv)
 
 //output json
 outputJSON(json)
+
+//output xml
+outputXML(xml)
 
 //output any file
 outputFile(data)

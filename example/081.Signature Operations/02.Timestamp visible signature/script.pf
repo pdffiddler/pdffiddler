@@ -1,0 +1,20 @@
+//Create new document
+doc = load($input[0])
+
+//Create a Signature
+f = loadFont($resource[0])
+layerPage = Page()
+r = Region(20,20,100,46)
+s = r.split(RSplit(cols: [1,1]))
+
+d = Date().format("dd MMM yyyy hh:mm:ss")
+layerPage.addText("PDFFiddler", s[0][0], GState().align(RIGHT).font(f, 36).translate(Point(-2,0)))
+layerPage.addImage(image:$resource[1], at: r, gs: GState().opacity(0.1).align(CENTER))
+layerPage.addText(["Signed by: PDFFiddler", "Location: US", "Date: " + d], s[0][1], GState().align(LEFT).font(HELVETICA, 10).translate(Point(2,0)))
+l = layerPage.createAsLayer(r)
+
+//Add Signature
+doc.getPage(1).addSignature($signature, Signature().name("PDFFiddler").location("US").reason("Testing").visibleSignature(l).timestampServer(WOTRUS_TSA))
+
+//output document
+output(doc)

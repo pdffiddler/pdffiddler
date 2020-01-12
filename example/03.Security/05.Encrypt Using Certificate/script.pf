@@ -1,0 +1,6 @@
+//load document
+doc = load($input[0])
+//encrypt document with public key, so that it can be opened at private key only
+doc.addRecipientPrivilege($resource[0], Permission().canPrint(false)).setEncryptionAlgorithm(RC4_128)
+//output
+output(doc)

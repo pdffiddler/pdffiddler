@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
 id: "04.Document<_&_>03.Duplex"
-name: "Duplex"
+name: "03.Duplex"
 configurationVariable: []
 inputFiles:
   multipleInvoices.pdf:

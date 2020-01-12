@@ -1,0 +1,9 @@
+//load pdf with password
+doc1 = load($input[0], "abc")
+doc1.removeAllSecurity()
+output(doc1, "pdfWithoutPassword")
+
+//load encrypted pdf with private key
+doc2 = load($input[1], "pdffiddler", $resource[0])
+doc2.removeAllSecurity()
+output(doc2, "unencryptedPDF")

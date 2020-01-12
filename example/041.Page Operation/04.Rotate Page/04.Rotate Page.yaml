@@ -9,3 +9,4 @@ inputFiles:
     relativePath: "input/singleInvoice.pdf"
     size: 17322
 resources: {}
+imgUrl: "#./image"

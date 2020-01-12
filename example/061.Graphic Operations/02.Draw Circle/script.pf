@@ -1,0 +1,27 @@
+//Create new document
+doc = Document()
+page = Page()
+//Circle with stroke color black
+page.addCircle(Region(20,30,60,70))
+//Circle with fill color yellow
+page.addCircle(at:Region(70,30,110,70), gs: GState().fillColor(YELLOW))
+//Circle with fill color yellow and stroke color red
+page.addCircle(at:Region(120,30,160,70), gs: GState().fillColor(YELLOW).strokeColor(RED))
+
+//Circle with dash pattern
+page.addCircle(at:Region(20,80,60,120), gs: GState().dashPattern(DashPattern(10)))
+//Circle with fill color yellow and stroke color red, with smaller radius
+page.addCircle(at:Region(70,80,110,120), radius:10, gs: GState().fillColor(YELLOW).strokeColor(RED).align(CENTER))
+//Circle with fill color yellow and stroke color red, with scale 1.5
+page.addCircle(at:Region(120,80,160,120), gs: GState().fillColor(YELLOW).strokeColor(RED).scale(1.5))
+
+//Circle with fill color yellow and stroke color red, with opacity 0.5
+page.addCircle(at:Region(20,130,60,170), gs: GState().fillColor(YELLOW).strokeColor(RED).opacity(0.5))
+//Circle with fill color yellow and stroke color red
+page.addCircle(at:Region(70,130,110,170), gs: GState().fillColor(YELLOW).strokeColor(RED))
+//Circle draw circle at point with radius 15
+page.addCircle(at:Point(180, 180), radius:15, gs: GState().fillColor(YELLOW).strokeColor(RED))
+
+//output document
+doc.addPages(1, page)
+output(doc)

@@ -1,0 +1,25 @@
+//Create new document
+doc = Document()
+page = Page()
+//Circle with stroke color black, align left of page
+page.addCircle(radius:20, gs:GState().align(LEFT))
+//Circle with fill color yellow, align right of page with scale factor
+page.addCircle(radius:20, gs: GState().fillColor(YELLOW).align(RIGHT).scale(1.5))
+//Circle with fill color yellow and stroke color red, align bottom, with opacity
+page.addCircle(radius:20, gs: GState().fillColor(YELLOW).strokeColor(RED).align(BOTTOM).opacity(0.5))
+//Circle with stroke color red, align top, with translate 
+page.addCircle(radius:20, gs: GState().align(TOP).strokeColor(RED).translate(Point(0, 10)))
+
+//Rectangle with stroke color black, align top left of page
+page.addRect(width:20, height:20, gs:GState().align(TOP_LEFT).rotate(45))
+//Rectangle with fill color yellow, align rotp right of page with scale factor
+page.addRect(width:20, height:20, gs: GState().fillColor(YELLOW).align(TOP_RIGHT).scale(1.5))
+//Rectangle with fill color yellow and stroke color red, align bottom, with opacity
+page.addRect(width:20, height:20, gs: GState().fillColor(YELLOW).strokeColor(RED).align(BOTTOM_LEFT).opacity(0.5).translate(Point(1,-1)))
+//Rectangle with stroke color red, align top, with translate 
+page.addRect(width:20, height:20, gs: GState().align(BOTTOM_RIGHT).strokeColor(RED).translate(Point(-10, -10)))
+
+
+//output document
+doc.addPages(1, page)
+output(doc)

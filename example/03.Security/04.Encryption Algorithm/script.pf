@@ -1,0 +1,21 @@
+//load document
+doc1 = load($input[0])
+doc2 = doc1.clone()
+doc3 = doc1.clone()
+doc4 = doc1.clone()
+
+//set encryption to RC4_40
+doc1.setPassword("abc").setEncryptionAlgorithm(RC4_40)
+//set encryption to RC4_128
+doc2.setPassword("abc").setPrivilege("master", Permission().canPrint(false)).setEncryptionAlgorithm(RC4_128)
+//set encryption to AES
+doc3.setPassword("abc").setEncryptionAlgorithm(AES)
+//set encryption to AES_256
+doc4.setPassword("abc").setPrivilege("master", Permission().canExtractContent(false)).setEncryptionAlgorithm(AES_256)
+
+//output
+output(doc1, "Encrypted_RC4_40")
+output(doc2, "Encrypted_RC4_128")
+output(doc3, "Encrypted_AES")
+output(doc4, "Encrypted_AES_256")
+

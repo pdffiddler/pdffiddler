@@ -13,12 +13,17 @@ Get center point
 #### height()
 Get height
 - **Returns**: [Number](Number.html)
-#### split(List&lt;Number&gt; ratio, Boolean rowSplit=false)
-Split Region into multiple region
+#### setConditionalTextTransform(Function&lt;String, String&gt; transformation={ String s -&gt; s }, ICondition cond=new AlwaysMatch()
+if condition satisfy, then extract text by applying transformation
 - **Props**:
-  - `ratio`- [List](List.html)&lt;[Number](Number.html)&gt;
-  - `rowSplit`- [Boolean](Boolean.html), defaults to `"false"`<br/>if true, then split row wise
-- **Returns**: [List](List.html)&lt;[Region](Region.html)&gt;
+  - `transformation`- Function&lt;[String](String.html), [String](String.html)&gt;, defaults to `"{ String s -&gt; s }"`
+  - `cond`- ICondition, defaults to `"new AlwaysMatch("`
+- **Returns**: [Region](Region.html)
+#### split(RSplit split)
+Split region into multiple region
+- **Props**:
+  - `split`- [RSplit](RSplit.html)
+- **Returns**: [List](List.html)&lt;[List](List.html)&lt;[Region](Region.html)&gt;&gt;
 #### topLeft()
 Get top left point
 - **Returns**: [Point](Point.html)

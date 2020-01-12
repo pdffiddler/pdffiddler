@@ -1,0 +1,12 @@
+---
+script: "#./script.pf"
+id: "00.Blank Template<_&_>01.Letter Size"
+name: "01.Letter Size"
+configurationVariable: []
+inputFiles:
+  Blank_Letter.pdf:
+    fileName: "Blank_Letter.pdf"
+    relativePath: "input/Blank_Letter.pdf"
+    size: 1241
+resources: {}
+imgUrl: "#./image"
