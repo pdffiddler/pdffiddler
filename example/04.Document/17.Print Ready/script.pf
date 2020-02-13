@@ -1,0 +1,6 @@
+doc = load($input[0])
+//Print ready document 
+//Image with 300 dpi, embed all fonts, and color space device independent
+doc.outputWithHighQuality().embedAllFonts(true).setColorSpace(DeviceIndependent).flattenTransparency()
+//output
+output(doc)

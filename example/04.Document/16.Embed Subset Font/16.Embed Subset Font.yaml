@@ -1,0 +1,12 @@
+---
+script: "#./script.pf"
+id: "04.Document<_&_>16.Embed Subset Font"
+name: "16.Embed Subset Font"
+configurationVariable: []
+inputFiles:
+  sample.pdf:
+    fileName: "sample.pdf"
+    relativePath: "input/sample.pdf"
+    size: 3028
+resources: {}
+imgUrl: "#./image"

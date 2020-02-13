@@ -1,0 +1,7 @@
+doc = load($input[0])
+//Embed file
+doc.addEmbeddedFile($resource[0])
+//Convert to PDF/A-3b with Device Independent profile
+doc.setCompilanceLevel(PDFA_3b).setColorSpace(DeviceIndependent)
+//output 
+output(doc)

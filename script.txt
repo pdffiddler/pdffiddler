@@ -11,7 +11,7 @@ git config --local user.name "PDFFiddler" --replace-all && git config --local us
 
 git config --local user.name "PDFFiddler" --replace-all && git config --local user.email "pdffiddler@gmail.com" --replace-all && git subtree split --prefix docs/.vuepress/dist -b gh-pages && git push -f origin gh-pages:gh-pages && git branch -D gh-pages
 
-git subtree push --prefix docs/.vuepress/dist origin gh-pages
+git config --local user.name "PDFFiddler" --replace-all && git config --local user.email "pdffiddler@gmail.com" --replace-all && git subtree push --prefix docs/.vuepress/dist origin gh-pages
 
 
 

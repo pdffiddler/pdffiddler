@@ -136,18 +136,13 @@ Find text within region/page
   - `caseSensitive`- [Boolean](Boolean.html), defaults to `"false"`<br/>by default false
   - `regex`- [Boolean](Boolean.html), defaults to `"false"`<br/>default false
 - **Returns**: [List](List.html)&lt;[List](List.html)&lt;[Text](Text.html)&gt;&gt;
-#### addBarcode(BarcodeType type, String content, Point | Region at, Number rotate=0, Number modWidth=null, Number barHeight=null, String fontName=null, Number fontSize=null, HumanReadableLocation location=null)
+#### addBarcode(BarcodeType type, String content, Point | Region at, BarcodeStyle style=null)
 Add Barcode in a PDF page at location
 - **Props**:
   - `type`- [BarcodeType](BarcodeType.html)
   - `content`- [String](String.html)
   - `at`- [Point](Point.html) | [Region](Region.html)
-  - `rotate`- [Number](Number.html), defaults to `"0"`
-  - `modWidth`- [Number](Number.html), defaults to `"null"`
-  - `barHeight`- [Number](Number.html), defaults to `"null"`
-  - `fontName`- [String](String.html), defaults to `"null"`
-  - `fontSize`- [Number](Number.html), defaults to `"null"`
-  - `location`- [HumanReadableLocation](HumanReadableLocation.html), defaults to `"null"`
+  - `style`- [BarcodeStyle](BarcodeStyle.html), defaults to `"null"`
 - **Returns**: [Page](Page.html)
 #### addImageLinkAnnotation(Region region, Action action, Border border=null, HighlightMode highlightMode=NONE, Boolean flatten=false)
 Add Image Link Annotation

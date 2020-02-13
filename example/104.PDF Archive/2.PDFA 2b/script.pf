@@ -1,0 +1,5 @@
+doc = load($input[0])
+//Convert to PDF/A-2b with custom CMYK color profile
+doc.setCompilanceLevel(PDFA_2b).setColorSpace(DeviceCMYK, $resource[0])
+//output 
+output(doc)

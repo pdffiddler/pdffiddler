@@ -1,0 +1,16 @@
+---
+script: "#./script.pf"
+id: "104.PDF Archive<_&_>2.PDFA 2b"
+name: "2.PDFA 2b"
+configurationVariable: []
+inputFiles:
+  policy.pdf:
+    fileName: "policy.pdf"
+    relativePath: "input/policy.pdf"
+    size: 505543
+resources:
+  default_cmyk.icc:
+    fileName: "default_cmyk.icc"
+    relativePath: "resource/default_cmyk.icc"
+    size: 187484
+imgUrl: "#./image"

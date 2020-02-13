@@ -1,6 +1,7 @@
 # Document
 Entity which hold group of PDF pages
 ## Properties
+#### compilanceLevel - [String](String.html)
 #### originalFilename - [String](String.html)
 #### version - [Number](Number.html)
 ## Methods
@@ -55,11 +56,22 @@ Iterate over each page
 - **Props**:
   - `consumer`- Consumer&lt;[Page](Page.html)&gt;
 - **Returns**: void
+#### embedAllFonts(Boolean subset=true)
+Embed all font
+- **Props**:
+  - `subset`- [Boolean](Boolean.html), defaults to `"true"`<br/>subset the font too
+- **Returns**: [Document](Document.html)
 #### extractPages(Number | List&lt;Number&gt; pageNumbers)
 Extract pages into new returned document
 - **Props**:
   - `pageNumbers`- [Number](Number.html) | [List](List.html)&lt;[Number](Number.html)&gt;
 - **Returns**: [Document](Document.html)
+#### flattenTransparency()
+Flatten Transparency
+- **Returns**: [Document](Document.html)
+#### getCompilanceLevel()
+Get compilance level such as PDF/A-1a etc
+- **Returns**: [String](String.html)
 #### getEmbeddedFiles()
 - **Returns**: [List](List.html)&lt;[EmbeddedFile](EmbeddedFile.html)&gt;
 #### getMetaData()
@@ -85,6 +97,9 @@ Move pages
 - **Props**:
   - `insertBefore`- [Number](Number.html)
   - `pageNumbers`- [Number](Number.html) | [List](List.html)&lt;[Number](Number.html)&gt;
+- **Returns**: [Document](Document.html)
+#### outputWithHighQuality()
+Output document with high quality for printing purpose
 - **Returns**: [Document](Document.html)
 #### removeAllEmbeddedFiles()
 - **Returns**: [Document](Document.html)
@@ -117,6 +132,17 @@ Rotate document or list of pages in clockwise direction
 - **Props**:
   - `rotation`- [Number](Number.html), defaults to `"0"`
   - `pageNumbers`- [Number](Number.html) | [List](List.html)&lt;[Number](Number.html)&gt;, defaults to `"null"`<br/>null means whole document
+- **Returns**: [Document](Document.html)
+#### setColorSpace(ColorSpace colorSpace=DeviceIndependent, String iccProfile=null)
+Set default Color Space
+- **Props**:
+  - `colorSpace`- [ColorSpace](ColorSpace.html), defaults to `"DeviceIndependent"`<br/>DeviceRGB, DeviceCMYK, DeviceIndependent
+  - `iccProfile`- [String](String.html), defaults to `"null"`<br/>Custom icc profile
+- **Returns**: [Document](Document.html)
+#### setCompilanceLevel(CompilanceLevel compilanceLevel=PDFA_1b)
+Set Compilance Level
+- **Props**:
+  - `compilanceLevel`- [CompilanceLevel](CompilanceLevel.html), defaults to `"PDFA_1b"`<br/>PDFA_1b, PDFA_2b etc..
 - **Returns**: [Document](Document.html)
 #### setCompressionLevel(Number level)
 Set compression level

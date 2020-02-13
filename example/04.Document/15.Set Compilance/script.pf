@@ -1,0 +1,7 @@
+doc = load($input[0])
+//Set Compilance Level
+doc.setCompilanceLevel(PDFA_1b)
+//Print compilance level
+log(doc.getCompilanceLevel())
+//output
+output(doc)

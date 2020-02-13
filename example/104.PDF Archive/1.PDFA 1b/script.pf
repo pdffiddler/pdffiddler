@@ -1,0 +1,5 @@
+doc = load($input[0])
+//Convert to PDF/A-1b with RGB color profile
+doc.setCompilanceLevel(PDFA_1b).setColorSpace(DeviceRGB)
+//output 
+output(doc)

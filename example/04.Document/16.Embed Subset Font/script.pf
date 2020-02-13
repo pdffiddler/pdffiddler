@@ -1,0 +1,5 @@
+doc = load($input[0])
+//embed all font with subset
+doc.embedAllFonts(true)
+//output
+output(doc)

@@ -1,0 +1,12 @@
+---
+script: "#./script.pf"
+id: "04.Document<_&_>17.Print Ready"
+name: "17.Print Ready"
+configurationVariable: []
+inputFiles:
+  filledFormExample.pdf:
+    fileName: "filledFormExample.pdf"
+    relativePath: "input/filledFormExample.pdf"
+    size: 65661
+resources: {}
+imgUrl: "#./image"

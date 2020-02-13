@@ -3,20 +3,20 @@ doc = load($input[0])
 
 //AUSTRALIA POST
 d1 = doc.clone()
-d1.getPage(1).addBarcode(AUSTRALIAPOST, "12345678ABCDE", $barcode.topLeft())
+d1.getPage(1).addBarcode(AUSTRALIAPOST, "12345678ABCDE", $barcode)
 output(d1, "AustrialPost")
 
 //AUSTRALIA REPLY
 d2 = doc.clone()
-d2.getPage(1).addBarcode(AUSTRALIAREPLY, "12345678", $barcode.topLeft())
+d2.getPage(1).addBarcode(AUSTRALIAREPLY, "12345678", $barcode)
 output(d2, "AustrialReply")
 
 //AUSTRALIA REDIRECT
 d3 = doc.clone()
-d3.getPage(1).addBarcode(AUSTRALIAREDIRECT, "12345678", $barcode.topLeft())
+d3.getPage(1).addBarcode(AUSTRALIAREDIRECT, "12345678", $barcode)
 output(d3, "AustrialRedirect")
 
 //AUSTRALIA ROUTE
 d4 = doc.clone()
-d4.getPage(1).addBarcode(AUSTRALIAROUTE, "12345678", $barcode.topLeft())
+d4.getPage(1).addBarcode(AUSTRALIAROUTE, "12345678", $barcode)
 output(d4, "AustrialRoute")

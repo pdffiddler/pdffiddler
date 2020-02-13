@@ -3,7 +3,7 @@ doc = load($input[0])
 
 //DataMatrix CODE
 d1 = doc.clone()
-d1.getPage(1).addBarcode(DATAMATRIX, "www.pdffiddler.com", $barcode.topLeft(), 0, 2)
+d1.getPage(1).addBarcode(DATAMATRIX, "www.pdffiddler.com", $barcode)
 output(d1, "DataMatrix")
 
 

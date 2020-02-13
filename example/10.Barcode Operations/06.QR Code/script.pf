@@ -3,7 +3,7 @@ doc = load($input[0])
 
 //QR CODE
 d1 = doc.clone()
-d1.getPage(1).addBarcode(QR, "PDFFiddler", $barcode.topLeft())
+d1.getPage(1).addBarcode(QR, "PDFFiddler", $barcode)
 output(d1, "QR")
 
 

@@ -1,0 +1,16 @@
+---
+script: "#./script.pf"
+id: "104.PDF Archive<_&_>3.PDFA 3b"
+name: "3.PDFA 3b"
+configurationVariable: []
+inputFiles:
+  singleInvoice.pdf:
+    fileName: "singleInvoice.pdf"
+    relativePath: "input/singleInvoice.pdf"
+    size: 17322
+resources:
+  singleInvoice.xml:
+    fileName: "singleInvoice.xml"
+    relativePath: "resource/singleInvoice.xml"
+    size: 192
+imgUrl: "#./image"
