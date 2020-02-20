@@ -4,7 +4,7 @@ doc = load($input[0])
 //create blank watermark page
 watermarkPage = Page()
 //Add text to watermark page
-watermarkPage.addText("PDFFiddler", $watermark.bottomLeft(), HELVETICA, 108, 36, RED, 0.2)
+watermarkPage.addText("PDFFiddler", $watermark, GState().font(HELVETICA, 108).rotate(36).color(RED).opacity(0.2))
 
 // add watermark to all pages of document 
 d1 = doc.clone()
