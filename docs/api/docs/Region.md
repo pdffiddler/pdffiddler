@@ -13,11 +13,11 @@ Get center point
 #### height()
 Get height
 - **Returns**: [Number](Number.html)
-#### setConditionalTextTransform(Function&lt;String, String&gt; transformation={ String s -&gt; s }, ICondition cond=new AlwaysMatch()
+#### setConditionalTextTransform(Function&lt;String, String&gt; transformation={ String s -&gt; s }, OnMatch | OnChange | Predicate&lt;Page&gt; cond={Page p -&gt; true})
 if condition satisfy, then extract text by applying transformation
 - **Props**:
   - `transformation`- Function&lt;[String](String.html), [String](String.html)&gt;, defaults to `"{ String s -&gt; s }"`
-  - `cond`- ICondition, defaults to `"new AlwaysMatch("`
+  - `cond`- [OnMatch](OnMatch.html) | [OnChange](OnChange.html) | Predicate&lt;[Page](Page.html)&gt;, defaults to `"{Page p -&gt; true}"`
 - **Returns**: [Region](Region.html)
 #### split(RSplit split)
 Split region into multiple region

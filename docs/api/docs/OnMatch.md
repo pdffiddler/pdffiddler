@@ -1,5 +1,5 @@
 # OnMatch
-Define match condition to determine document boundary
+Represents a predicate, if text matches in a region of a page
 ## Methods
 #### getCondition()
 - **Returns**: Predicate&lt;[String](String.html)&gt;

@@ -7,7 +7,7 @@
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
     "view-info": "vuepress view-info docs",
-    "show-help": "vuepress --help"
+    "show-help": "vuepress build --help"
   },
   "keywords": [
     "documentation",
@@ -25,6 +25,9 @@
     "url": "git+https://github.com/pdffiddler/pdffiddler.git"
   },
   "devDependencies": {
-    "vuepress": "^0.14.11"
+    "@vuepress/plugin-back-to-top": "^1.4.0",
+    "esm": "3.2.25",
+    "vuepress": "^1.4.0",
+    "vuepress-plugin-sitemap": "2.3.1"
   }
 }

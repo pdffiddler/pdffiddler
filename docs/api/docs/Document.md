@@ -154,10 +154,10 @@ Set version
 - **Props**:
   - `version`- [Number](Number.html)
 - **Returns**: [Document](Document.html)
-#### split(Predicate&lt;Page&gt; p)
+#### split(OnMatch | OnChange | Predicate&lt;Page&gt; p)
 Split a document into multiple document
 - **Props**:
-  - `p`- Predicate&lt;[Page](Page.html)&gt;<br/>OnMatch/OnChange
+  - `p`- [OnMatch](OnMatch.html) | [OnChange](OnChange.html) | Predicate&lt;[Page](Page.html)&gt;<br/>OnMatch/OnChange
 - **Returns**: [List](List.html)&lt;[Document](Document.html)&gt;
 #### split(Number n)
 Split a document into multiple document based on number of pages

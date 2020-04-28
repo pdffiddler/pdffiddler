@@ -28,6 +28,11 @@ Load document from path
   - `privateKey`- [String](String.html), defaults to `"null"`
   - `alias`- [String](String.html), defaults to `"null"`
 - **Returns**: [Document](Document.html)
+#### loadAll(List&lt;String&gt; | Map&lt;String, String&gt; | String path)
+Load all unencrypted document from path
+- **Props**:
+  - `path`- [List](List.html)&lt;[String](String.html)&gt; | [Map](Map.html)&lt;[String](String.html), [String](String.html)&gt; | [String](String.html)
+- **Returns**: [List](List.html)&lt;[Document](Document.html)&gt;
 #### loadCSV(String path, Boolean withHeader=true, String seperator=")
 Load CSV document
 - **Props**:
