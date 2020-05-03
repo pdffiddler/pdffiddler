@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "11.Advanced Operation<_&_>05.Watermark operation"
+id: "2X37Gn"
 name: "05.Watermark operation"
 configurationVariable:
 - type: "Region"
@@ -24,3 +24,5 @@ resources:
     relativePath: "resource/pdffiddle64.png"
     size: 2149
 imgUrl: "#./image"
+keywords: "Watermark operation"
+headline: "Watermark operation"

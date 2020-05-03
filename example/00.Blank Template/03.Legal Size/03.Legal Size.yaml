@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "00.Blank Template<_&_>03.Legal Size"
+id: "2X37ma"
 name: "03.Legal Size"
 configurationVariable: []
 inputFiles:
@@ -10,3 +10,5 @@ inputFiles:
     size: 1251
 resources: {}
 imgUrl: "#./image"
+keywords: "Legal Size"
+headline: "Legal Size"

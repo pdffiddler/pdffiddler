@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "11.Advanced Operation<_&_>04.Partition Documents"
+id: "2X37Gd"
 name: "04.Partition Documents"
 configurationVariable:
 - type: "Region"
@@ -20,3 +20,5 @@ inputFiles:
     size: 467580
 resources: {}
 imgUrl: "#./image"
+keywords: "Partition Documents"
+headline: "Partition Documents"

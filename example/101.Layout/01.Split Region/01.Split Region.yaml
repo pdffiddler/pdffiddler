@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "101.Layout<_&_>01.Split Region"
+id: "2X37Az"
 name: "01.Split Region"
 configurationVariable:
 - type: "Region"
@@ -20,3 +20,5 @@ inputFiles:
     size: 17322
 resources: {}
 imgUrl: "#./image"
+keywords: "Split Region"
+headline: "Split Region"

@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "04.Document<_&_>08.Extract Pages"
+id: "2X37r0"
 name: "08.Extract Pages"
 configurationVariable: []
 inputFiles:
@@ -10,3 +10,5 @@ inputFiles:
     size: 52923
 resources: {}
 imgUrl: "#./image"
+keywords: "Extract Pages"
+headline: "Extract Pages"

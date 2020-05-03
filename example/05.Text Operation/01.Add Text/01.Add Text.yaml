@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "05.Text Operation<_&_>01.Add Text"
+id: "2X37tc"
 name: "01.Add Text"
 configurationVariable:
 - type: "Region"
@@ -40,3 +40,5 @@ inputFiles:
     size: 17322
 resources: {}
 imgUrl: "#./image"
+keywords: "Add Text"
+headline: "Add Text"

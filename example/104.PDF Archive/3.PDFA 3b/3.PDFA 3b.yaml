@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "104.PDF Archive<_&_>3.PDFA 3b"
+id: "2X37EY"
 name: "3.PDFA 3b"
 configurationVariable: []
 inputFiles:
@@ -14,3 +14,5 @@ resources:
     relativePath: "resource/singleInvoice.xml"
     size: 192
 imgUrl: "#./image"
+keywords: "PDFA 3b"
+headline: "PDFA 3b"

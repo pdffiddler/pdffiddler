@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "10.Barcode Operations<_&_>02.Australia Post"
+id: "2X37zG"
 name: "02.Australia Post"
 configurationVariable:
 - type: "Region"
@@ -20,3 +20,5 @@ inputFiles:
     size: 46640
 resources: {}
 imgUrl: "#./image"
+keywords: "Australia Post"
+headline: "Australia Post"

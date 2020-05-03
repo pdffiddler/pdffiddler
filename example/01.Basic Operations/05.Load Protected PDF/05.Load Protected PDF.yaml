@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
-id: "01.Basic Operations<_&_>Load Protected PDF"
-name: "Load Protected PDF"
+id: "2X37mN"
+name: "05.Load Protected PDF"
 configurationVariable: []
 inputFiles:
   pdfWithPassword.pdf:
@@ -18,3 +18,5 @@ resources:
     relativePath: "resource/pdffiddlerWithPassword.pfx"
     size: 2645
 imgUrl: "#./image"
+keywords: "Load Protected PDF"
+headline: "Load Protected PDF"

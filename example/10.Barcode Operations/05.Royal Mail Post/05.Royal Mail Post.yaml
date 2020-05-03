@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "10.Barcode Operations<_&_>05.Royal Mail Post"
+id: "2X37zZ"
 name: "05.Royal Mail Post"
 configurationVariable:
 - type: "Region"
@@ -20,3 +20,5 @@ inputFiles:
     size: 46640
 resources: {}
 imgUrl: "#./image"
+keywords: "Royal Mail Post"
+headline: "Royal Mail Post"

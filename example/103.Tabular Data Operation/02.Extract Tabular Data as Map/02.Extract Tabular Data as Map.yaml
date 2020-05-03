@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "103.Tabular Data Operation<_&_>02.Extract Tabular Data as Map"
+id: "2X37El"
 name: "02.Extract Tabular Data as Map"
 configurationVariable:
 - type: "Region"
@@ -32,3 +32,5 @@ inputFiles:
     size: 17322
 resources: {}
 imgUrl: "#./image"
+keywords: "Extract Tabular Data as Map"
+headline: "Extract Tabular Data as Map"

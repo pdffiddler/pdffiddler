@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
-id: "01.Basic Operations<_&_>01.Input Output"
-name: "Input Output"
+id: "2X8P1K"
+name: "01.Input Output"
 configurationVariable: []
 inputFiles:
   singleInvoice.pdf:
@@ -38,3 +38,5 @@ resources:
     relativePath: "resource/singleInvoice.xml"
     size: 192
 imgUrl: "#./image"
+keywords: "Input Output"
+headline: "Input Output"

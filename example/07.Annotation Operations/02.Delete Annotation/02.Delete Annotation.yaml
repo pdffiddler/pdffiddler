@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "07.Annotation Operations<_&_>02.Delete Annotation"
+id: "2X37wm"
 name: "02.Delete Annotation"
 configurationVariable:
 - type: "Region"
@@ -20,3 +20,5 @@ inputFiles:
     size: 22618
 resources: {}
 imgUrl: "#./image"
+keywords: "Delete Annotation"
+headline: "Delete Annotation"

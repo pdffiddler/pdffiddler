@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "103.Tabular Data Operation<_&_>01.Extract Tabular Data"
+id: "2X37Ea"
 name: "01.Extract Tabular Data"
 configurationVariable:
 - type: "Region"
@@ -21,3 +21,5 @@ inputFiles:
     size: 17322
 resources: {}
 imgUrl: "#./image"
+keywords: "Extract Tabular Data"
+headline: "Extract Tabular Data"

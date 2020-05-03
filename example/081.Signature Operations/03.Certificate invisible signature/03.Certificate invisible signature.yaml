@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "081.Signature Operations<_&_>03.Certificate invisible signature"
+id: "2X37ym"
 name: "03.Certificate invisible signature"
 configurationVariable:
 - type: "Region"
@@ -24,3 +24,5 @@ resources:
     relativePath: "resource/pdffiddlerWithPassword.pfx"
     size: 2645
 imgUrl: "#./image"
+keywords: "Certificate invisible signature"
+headline: "Certificate invisible signature"

@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "091.Embedded File<_&_>01.Add embedded file"
+id: "2X37z2"
 name: "01.Add embedded file"
 configurationVariable: []
 inputFiles:
@@ -14,3 +14,5 @@ resources:
     relativePath: "resource/singleInvoice.xml"
     size: 192
 imgUrl: "#./image"
+keywords: "Add embedded file"
+headline: "Add embedded file"

@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "11.Advanced Operation<_&_>01.Filter Documents"
+id: "2X37Fi"
 name: "01.Filter Documents"
 configurationVariable:
 - type: "Region"
@@ -26,3 +26,5 @@ inputFiles:
     size: 346056
 resources: {}
 imgUrl: "#./image"
+keywords: "Filter Documents"
+headline: "Filter Documents"

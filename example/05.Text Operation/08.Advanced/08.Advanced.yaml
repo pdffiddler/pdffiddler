@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
-id: "05.Text Operation<_&_>08.Advanced"
-name: "Advanced"
+id: "2X8P38"
+name: "08.Advanced"
 configurationVariable:
 - type: "Region"
   name: "bound"
@@ -16,3 +16,5 @@ configurationVariable:
 inputFiles: {}
 resources: {}
 imgUrl: "#./image"
+keywords: "Advanced"
+headline: "Advanced"

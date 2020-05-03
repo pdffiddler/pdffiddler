@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "041.Page Operation<_&_>02.Crop Page"
+id: "2X37ss"
 name: "02.Crop Page"
 configurationVariable:
 - type: "Region"
@@ -20,3 +20,5 @@ inputFiles:
     size: 52923
 resources: {}
 imgUrl: "#./image"
+keywords: "Crop Page"
+headline: "Crop Page"

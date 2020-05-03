@@ -1,8 +1,10 @@
 ---
 script: "#./script.pf"
-id: "01.Basic Operations<_&_>02.Create Blank Document"
-name: "Create Blank Document"
+id: "2X8P2x"
+name: "02.Create Blank Document"
 configurationVariable: []
 inputFiles: {}
 resources: {}
 imgUrl: "#./image"
+keywords: "Create Blank Document"
+headline: "Create Blank Document"

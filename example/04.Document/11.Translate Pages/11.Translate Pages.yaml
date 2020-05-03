@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "04.Document<_&_>11.Translate Pages"
+id: "2X37rp"
 name: "11.Translate Pages"
 configurationVariable: []
 inputFiles:
@@ -10,3 +10,5 @@ inputFiles:
     size: 52923
 resources: {}
 imgUrl: "#./image"
+keywords: "Translate Pages"
+headline: "Translate Pages"

@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "03.Security<_&_>05.Encrypt Using Certificate"
+id: "2X37o8"
 name: "05.Encrypt Using Certificate"
 configurationVariable: []
 inputFiles:
@@ -14,3 +14,5 @@ resources:
     relativePath: "resource/pdffiddler.cer"
     size: 1045
 imgUrl: "#./image"
+keywords: "Encrypt Using Certificate"
+headline: "Encrypt Using Certificate"

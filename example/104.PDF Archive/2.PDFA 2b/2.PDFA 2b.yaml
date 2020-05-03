@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "104.PDF Archive<_&_>2.PDFA 2b"
+id: "2X37EL"
 name: "2.PDFA 2b"
 configurationVariable: []
 inputFiles:
@@ -14,3 +14,5 @@ resources:
     relativePath: "resource/default_cmyk.icc"
     size: 187484
 imgUrl: "#./image"
+keywords: "PDFA 2b"
+headline: "PDFA 2b"

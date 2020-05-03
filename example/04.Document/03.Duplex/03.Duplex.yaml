@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "04.Document<_&_>03.Duplex"
+id: "2X37q7"
 name: "03.Duplex"
 configurationVariable: []
 inputFiles:
@@ -10,3 +10,5 @@ inputFiles:
     size: 52923
 resources: {}
 imgUrl: "#./image"
+keywords: "Duplex"
+headline: "Duplex"

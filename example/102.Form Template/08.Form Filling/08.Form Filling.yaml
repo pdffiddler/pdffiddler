@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "102.Form Template<_&_>08.Form Filling"
+id: "2X37DX"
 name: "08.Form Filling"
 configurationVariable: []
 inputFiles:
@@ -14,3 +14,5 @@ resources:
     relativePath: "resource/formExample.pdf"
     size: 65715
 imgUrl: "#./image"
+keywords: "Form Filling"
+headline: "Form Filling"

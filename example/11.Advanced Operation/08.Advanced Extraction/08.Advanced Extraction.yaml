@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "11.Advanced Operation<_&_>08.Advanced Extraction"
+id: "2X37Gy"
 name: "08.Advanced Extraction"
 configurationVariable:
 - type: "Region"
@@ -85,3 +85,5 @@ inputFiles:
     size: 508924
 resources: {}
 imgUrl: "#./image"
+keywords: "Advanced Extraction"
+headline: "Advanced Extraction"

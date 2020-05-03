@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "091.Embedded File<_&_>02.Extract data and embed as file"
+id: "2X37zc"
 name: "02.Extract data and embed as file"
 configurationVariable:
 - type: "Region"
@@ -62,3 +62,5 @@ inputFiles:
     size: 17322
 resources: {}
 imgUrl: "#./image"
+keywords: "Extract data and embed as file"
+headline: "Extract data and embed as file"

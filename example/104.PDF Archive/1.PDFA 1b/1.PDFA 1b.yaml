@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "104.PDF Archive<_&_>1.PDFA 1b"
+id: "2X37Ez"
 name: "1.PDFA 1b"
 configurationVariable: []
 inputFiles:
@@ -10,3 +10,5 @@ inputFiles:
     size: 17322
 resources: {}
 imgUrl: "#./image"
+keywords: "PDFA 1b"
+headline: "PDFA 1b"

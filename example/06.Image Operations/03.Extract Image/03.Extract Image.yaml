@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "06.Image Operations<_&_>03.Extract Image"
+id: "2X37vf"
 name: "03.Extract Image"
 configurationVariable:
 - type: "Region"
@@ -20,3 +20,5 @@ inputFiles:
     size: 46640
 resources: {}
 imgUrl: "#./image"
+keywords: "Extract Image"
+headline: "Extract Image"

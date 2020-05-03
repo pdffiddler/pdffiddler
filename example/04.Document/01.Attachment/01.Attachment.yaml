@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "04.Document<_&_>01.Attachment"
+id: "2X37oG"
 name: "01.Attachment"
 configurationVariable: []
 inputFiles:
@@ -14,3 +14,5 @@ resources:
     relativePath: "resource/attachment.pdf"
     size: 2081
 imgUrl: "#./image"
+keywords: "Attachment"
+headline: "Attachment"

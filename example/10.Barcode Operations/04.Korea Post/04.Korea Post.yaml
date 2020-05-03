@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "10.Barcode Operations<_&_>04.Korea Post"
+id: "2X37zP"
 name: "04.Korea Post"
 configurationVariable:
 - type: "Region"
@@ -20,3 +20,5 @@ inputFiles:
     size: 46640
 resources: {}
 imgUrl: "#./image"
+keywords: "Korea Post"
+headline: "Korea Post"

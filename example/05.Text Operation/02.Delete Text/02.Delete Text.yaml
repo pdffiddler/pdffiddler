@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "05.Text Operation<_&_>02.Delete Text"
+id: "2X37tr"
 name: "02.Delete Text"
 configurationVariable:
 - type: "Region"
@@ -36,3 +36,5 @@ inputFiles:
     size: 17322
 resources: {}
 imgUrl: "#./image"
+keywords: "Delete Text"
+headline: "Delete Text"

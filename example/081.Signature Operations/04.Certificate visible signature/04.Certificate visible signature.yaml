@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "081.Signature Operations<_&_>04.Certificate visible signature"
+id: "2X37yw"
 name: "04.Certificate visible signature"
 configurationVariable:
 - type: "Region"
@@ -32,3 +32,5 @@ resources:
     relativePath: "resource/pdffiddlerWithPassword.pfx"
     size: 2645
 imgUrl: "#./image"
+keywords: "Certificate visible signature"
+headline: "Certificate visible signature"

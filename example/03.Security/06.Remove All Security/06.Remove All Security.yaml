@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "03.Security<_&_>06.Remove All Security"
+id: "2X37om"
 name: "06.Remove All Security"
 configurationVariable: []
 inputFiles:
@@ -14,3 +14,5 @@ resources:
     relativePath: "resource/pdffiddlerWithPassword.pfx"
     size: 2645
 imgUrl: "#./image"
+keywords: "Remove All Security"
+headline: "Remove All Security"

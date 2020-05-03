@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "11.Advanced Operation<_&_>03.Group Documents"
+id: "2X37G1"
 name: "03.Group Documents"
 configurationVariable:
 - type: "Region"
@@ -20,3 +20,5 @@ inputFiles:
     size: 467580
 resources: {}
 imgUrl: "#./image"
+keywords: "Group Documents"
+headline: "Group Documents"

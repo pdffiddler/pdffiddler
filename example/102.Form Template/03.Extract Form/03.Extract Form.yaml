@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "102.Form Template<_&_>03.Extract Form"
+id: "2X37BX"
 name: "03.Extract Form"
 configurationVariable: []
 inputFiles:
@@ -10,3 +10,5 @@ inputFiles:
     size: 65661
 resources: {}
 imgUrl: "#./image"
+keywords: "Extract Form"
+headline: "Extract Form"

@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "041.Page Operation<_&_>06. Add Watermark to page"
+id: "2X37t1"
 name: "06. Add Watermark to page"
 configurationVariable:
 - type: "Region"
@@ -24,3 +24,5 @@ resources:
     relativePath: "resource/pdffiddle64.png"
     size: 2149
 imgUrl: "#./image"
+keywords: "Add Watermark to page"
+headline: "Add Watermark to page"

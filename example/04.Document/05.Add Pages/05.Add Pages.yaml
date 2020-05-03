@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "04.Document<_&_>05.Add Pages"
+id: "2X37qw"
 name: "05.Add Pages"
 configurationVariable: []
 inputFiles:
@@ -14,3 +14,5 @@ resources:
     relativePath: "resource/policy.pdf"
     size: 505543
 imgUrl: "#./image"
+keywords: "Add Pages"
+headline: "Add Pages"

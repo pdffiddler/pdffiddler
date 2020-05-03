@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "06.Image Operations<_&_>04.Change Image"
+id: "2X37vp"
 name: "04.Change Image"
 configurationVariable:
 - type: "Region"
@@ -24,3 +24,5 @@ resources:
     relativePath: "resource/pdffiddle64.png"
     size: 2149
 imgUrl: "#./image"
+keywords: "Change Image"
+headline: "Change Image"

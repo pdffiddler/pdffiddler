@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "00.Blank Template<_&_>02.A4 Size"
+id: "2X2Rkh"
 name: "02.A4 Size"
 configurationVariable: []
 inputFiles:
@@ -10,3 +10,5 @@ inputFiles:
     size: 1255
 resources: {}
 imgUrl: "#./image"
+keywords: "A4 Size"
+headline: "A4 Size"

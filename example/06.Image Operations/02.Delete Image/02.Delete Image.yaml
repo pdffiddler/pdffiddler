@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "06.Image Operations<_&_>02.Delete Image"
+id: "2X37v5"
 name: "02.Delete Image"
 configurationVariable:
 - type: "Region"
@@ -20,3 +20,5 @@ inputFiles:
     size: 46640
 resources: {}
 imgUrl: "#./image"
+keywords: "Delete Image"
+headline: "Delete Image"

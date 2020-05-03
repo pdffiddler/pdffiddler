@@ -1,7 +1,7 @@
 ---
 script: "#./script.pf"
-id: "07.Annotation Operations<_&_>Add Link Annotation"
-name: "Add Link Annotation"
+id: "2X37wN"
+name: "04.Add Link Annotation"
 configurationVariable:
 - type: "Region"
   name: "link"
@@ -47,3 +47,5 @@ resources:
     relativePath: "resource/pdffiddle64.jpg"
     size: 3970
 imgUrl: "#./image"
+keywords: "Add Link Annotation"
+headline: "Add Link Annotation"

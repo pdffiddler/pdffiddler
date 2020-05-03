@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "041.Page Operation<_&_>03.Translate Page"
+id: "2X37sz"
 name: "03.Translate Page"
 configurationVariable: []
 inputFiles:
@@ -10,3 +10,5 @@ inputFiles:
     size: 17322
 resources: {}
 imgUrl: "#./image"
+keywords: "Translate Page"
+headline: "Translate Page"

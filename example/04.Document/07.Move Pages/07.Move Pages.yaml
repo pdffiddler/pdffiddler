@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "04.Document<_&_>07.Move Pages"
+id: "2X37qQ"
 name: "07.Move Pages"
 configurationVariable: []
 inputFiles:
@@ -10,3 +10,5 @@ inputFiles:
     size: 52923
 resources: {}
 imgUrl: "#./image"
+keywords: "Move Pages"
+headline: "Move Pages"

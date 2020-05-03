@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "081.Signature Operations<_&_>02.Timestamp visible signature"
+id: "2X37ya"
 name: "02.Timestamp visible signature"
 configurationVariable:
 - type: "Region"
@@ -28,3 +28,5 @@ resources:
     relativePath: "resource/pdffiddle64.jpg"
     size: 3970
 imgUrl: "#./image"
+keywords: "Timestamp visible signature"
+headline: "Timestamp visible signature"

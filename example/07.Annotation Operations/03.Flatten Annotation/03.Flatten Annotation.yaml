@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "07.Annotation Operations<_&_>03.Flatten Annotation"
+id: "2X37wz"
 name: "03.Flatten Annotation"
 configurationVariable:
 - type: "Region"
@@ -20,3 +20,5 @@ inputFiles:
     size: 22618
 resources: {}
 imgUrl: "#./image"
+keywords: "Flatten Annotation"
+headline: "Flatten Annotation"

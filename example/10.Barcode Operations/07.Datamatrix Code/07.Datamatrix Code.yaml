@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "10.Barcode Operations<_&_>07.Datamatrix Code"
+id: "2X37Al"
 name: "07.Datamatrix Code"
 configurationVariable:
 - type: "Region"
@@ -20,3 +20,5 @@ inputFiles:
     size: 46640
 resources: {}
 imgUrl: "#./image"
+keywords: "Datamatrix Code"
+headline: "Datamatrix Code"

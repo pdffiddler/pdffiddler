@@ -1,6 +1,6 @@
 ---
 script: "#./script.pf"
-id: "01.Basic Operations<_&_>04.Date Operations"
+id: "2X37mv"
 name: "04.Date Operations"
 configurationVariable:
 - type: "Region"
@@ -16,3 +16,5 @@ configurationVariable:
 inputFiles: {}
 resources: {}
 imgUrl: "#./image"
+keywords: "Date Operations"
+headline: "Date Operations"
