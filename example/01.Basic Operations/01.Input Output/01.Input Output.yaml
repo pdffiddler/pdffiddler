@@ -38,5 +38,6 @@ resources:
     relativePath: "resource/singleInvoice.xml"
     size: 192
 imgUrl: "#./image"
-keywords: "Input Output"
+keywords: "Input Output, PDF Scripting, PDFFiddler Basic"
 headline: "Input Output"
+description: "Learn Basic PDF scripting language of PDFFiddler Playground"

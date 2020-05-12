@@ -21,5 +21,6 @@ inputFiles:
     size: 65661
 resources: {}
 imgUrl: "#./image"
-keywords: "Flatten Form"
-headline: "Flatten Form"
+keywords: "Flatten PDF Form"
+headline: "Flatten PDF Form"
+description: "Easily make form field within PDF non-interactive and non-editable by flattening it, using PDFFiddler Playground"

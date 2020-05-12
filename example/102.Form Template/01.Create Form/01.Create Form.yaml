@@ -21,5 +21,6 @@ inputFiles:
     size: 1241
 resources: {}
 imgUrl: "#./image"
-keywords: "Create Form"
-headline: "Create Form"
+keywords: "Add Form field to PDF"
+headline: "Add Form field to PDf"
+description: "Add any form field such as textbox, checkbox, signature etc.. in PDF using PDFFiddler Playground"

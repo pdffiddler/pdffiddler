@@ -10,5 +10,6 @@ inputFiles:
     size: 17322
 resources: {}
 imgUrl: "#./image"
-keywords: "PDFA 1b"
-headline: "PDFA 1b"
+keywords: "Convert PDF to PDF/A-1b, PDF Archive"
+headline: "Convert PDF to PDF/A-1b"
+description: "Convert any PDF to PDF/A-1b with PDFFiddler Playground"

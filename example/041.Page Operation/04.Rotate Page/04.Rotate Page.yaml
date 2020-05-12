@@ -10,5 +10,6 @@ inputFiles:
     size: 17322
 resources: {}
 imgUrl: "#./image"
-keywords: "Rotate Page"
-headline: "Rotate Page"
+keywords: "Rotate PDF Page"
+headline: "Rotate PDF Page"
+description: "Rotate the pages you want, of your PDF document with PDFFiddler Playground"

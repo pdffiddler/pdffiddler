@@ -32,5 +32,6 @@ inputFiles:
     size: 17322
 resources: {}
 imgUrl: "#./image"
-keywords: "Extract Tabular Data as Map"
-headline: "Extract Tabular Data as Map"
+keywords: "Extract Tabular Data as Map, Extract Data"
+headline: "Extract Tabular Data as Map From PDF"
+description: "Extract Tabular Data as Map from your PDF with PDFFiddler Playground"

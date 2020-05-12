@@ -10,5 +10,6 @@ inputFiles:
     size: 52923
 resources: {}
 imgUrl: "#./image"
-keywords: "Duplex"
-headline: "Duplex"
+keywords: "Duplex PDF, Double sided Printing"
+headline: "Duplex PDF"
+description: "For double sided printing, append blank page at the end, if there is an odd number of pages in PDF with PDFFiddler Playground"

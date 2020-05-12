@@ -6,5 +6,6 @@ configurationVariable: []
 inputFiles: {}
 resources: {}
 imgUrl: "#./image"
-keywords: "Add layer"
-headline: "Add layer"
+keywords: "Add layer to PDF, Create Layered PDF"
+headline: "Add layer to PDF"
+description: "Add another page or specific content as layer to PDF with PDFFiddler Playground"

@@ -11,7 +11,7 @@ doc.getPageCount()
 
 //Iterate over pages
 doc.getPages().each{
-    p -> //do anything with each page
+    Page p -> //do anything with each page
 }
 
 output(doc)

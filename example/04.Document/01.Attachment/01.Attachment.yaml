@@ -14,5 +14,6 @@ resources:
     relativePath: "resource/attachment.pdf"
     size: 2081
 imgUrl: "#./image"
-keywords: "Attachment"
-headline: "Attachment"
+keywords: "Add PDF as Attachment, Merge PDF"
+headline: "Add PDF as Attachment"
+description: "Add another PDF as attachment using PDFFiddler Playground" 

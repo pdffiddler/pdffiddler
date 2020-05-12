@@ -36,5 +36,6 @@ inputFiles:
     size: 17322
 resources: {}
 imgUrl: "#./image"
-keywords: "Delete Text"
-headline: "Delete Text"
+keywords: "Delete Text from PDF, Remove Text"
+headline: "Delete Text from PDF"
+description: "Delete any text from PDF, by drawing region over PDF using PDFFiddler Playground"

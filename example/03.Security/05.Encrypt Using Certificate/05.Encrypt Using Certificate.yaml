@@ -14,5 +14,6 @@ resources:
     relativePath: "resource/pdffiddler.cer"
     size: 1045
 imgUrl: "#./image"
-keywords: "Encrypt Using Certificate"
-headline: "Encrypt Using Certificate"
+keywords: "Encrypt PDF Using Certificate"
+headline: "Encrypt PDF Using Certificate"
+description: "Encrypt your PDF Files using your Digital Certificate with PDFFiddler Playground"

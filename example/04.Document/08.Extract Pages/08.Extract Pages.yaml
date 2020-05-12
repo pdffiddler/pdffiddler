@@ -10,5 +10,6 @@ inputFiles:
     size: 52923
 resources: {}
 imgUrl: "#./image"
-keywords: "Extract Pages"
-headline: "Extract Pages"
+keywords: "Extract Pages, Split PDF"
+headline: "Extract Pages from a PDF"
+description: "Extract Pages from your PDF into another document using PDFFiddler Playground"

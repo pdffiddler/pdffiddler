@@ -46,5 +46,6 @@ inputFiles:
     size: 65715
 resources: {}
 imgUrl: "#./image"
-keywords: "Edit Form"
-headline: "Edit Form"
+keywords: "Edit PDF Form field"
+headline: "Edit PDF Form field"
+description: "Edit any form field such as filling value, changing style etc.. within PDF using PDFFiddler Playground"

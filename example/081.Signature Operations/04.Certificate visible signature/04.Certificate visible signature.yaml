@@ -32,5 +32,6 @@ resources:
     relativePath: "resource/pdffiddlerWithPassword.pfx"
     size: 2645
 imgUrl: "#./image"
-keywords: "Certificate visible signature"
-headline: "Certificate visible signature"
+keywords: "Digital Certificate PDF Signature, PDF Signature"
+headline: "Digital Certificate as PDF signature"
+description: "Add your digital certificate to create a Visible PDF signature as a proof of authenticity and integrity, with PDFFiddler Playground"

@@ -20,5 +20,6 @@ inputFiles:
     size: 52923
 resources: {}
 imgUrl: "#./image"
-keywords: "Crop Page"
-headline: "Crop Page"
+keywords: "Crop PDF Page, Trim Page"
+headline: "Crop PDF Page"
+description: "Crop or Trim PDF Page to fit any viewport with PDFFiddler Playground"

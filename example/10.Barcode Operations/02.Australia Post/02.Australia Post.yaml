@@ -20,5 +20,6 @@ inputFiles:
     size: 46640
 resources: {}
 imgUrl: "#./image"
-keywords: "Australia Post"
-headline: "Australia Post"
+keywords: "Add Australia Post Barcode to PDF, Create Barcode"
+headline: "Add Australia Post Barcode to PDF"
+description: "Add Australia Post barcode to your PDF with PDFFiddler Playground"

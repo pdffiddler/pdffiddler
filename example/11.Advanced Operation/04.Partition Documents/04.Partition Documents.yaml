@@ -20,5 +20,6 @@ inputFiles:
     size: 467580
 resources: {}
 imgUrl: "#./image"
-keywords: "Partition Documents"
-headline: "Partition Documents"
+keywords: "Partition PDF Documents, Create various document stream"
+headline: "Partition PDF Documents"
+description: "Partition/index documents into various document stream based on PDF Document with PDFFiddler Playground"

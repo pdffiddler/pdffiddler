@@ -14,5 +14,6 @@ resources:
     relativePath: "resource/pdffiddlerWithPassword.pfx"
     size: 2645
 imgUrl: "#./image"
-keywords: "Remove All Security"
-headline: "Remove All Security"
+keywords: "Remove All Security From PDF, Remove Password"
+headline: "Remove All Security From PDF"
+description: "Remove any security such as password, encryption etc.. from PDF using PDFFiddler Playground"

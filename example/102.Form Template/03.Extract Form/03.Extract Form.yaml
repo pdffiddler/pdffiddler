@@ -10,5 +10,6 @@ inputFiles:
     size: 65661
 resources: {}
 imgUrl: "#./image"
-keywords: "Extract Form"
-headline: "Extract Form"
+keywords: "Extract PDF Form Data, Automate Form extraction"
+headline: "Extract PDF Form Data"
+description: "Automate extraction of form data from PDF using PDFFiddler Playground"

@@ -20,5 +20,6 @@ inputFiles:
     size: 46640
 resources: {}
 imgUrl: "#./image"
-keywords: "Delete Image"
-headline: "Delete Image"
+keywords: "Delete Image from PDF"
+headline: "Delete Image from PDF"
+description: "Delete any image from PDF, by drawing region over PDF using PDFFiddler Playground"

@@ -21,4 +21,5 @@ inputFiles:
 resources: {}
 imgUrl: "#./image"
 keywords: "Flatten Annotation"
-headline: "Flatten Annotation"
+headline: "Flatten Annotation in PDF"
+description: "How to flatten annotations in PDF so they are not interactable and editable anymore, with PDFFiddler Playground"

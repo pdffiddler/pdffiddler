@@ -21,5 +21,6 @@ inputFiles:
     size: 17322
 resources: {}
 imgUrl: "#./image"
-keywords: "Extract Tabular Data"
-headline: "Extract Tabular Data"
+keywords: "Extract Tabular Data, Extract Data"
+headline: "Extract Tabular Data from PDF"
+description: "Extract Tabular Data from your PDF with PDFFiddler Playground"

@@ -6,5 +6,6 @@ configurationVariable: []
 inputFiles: {}
 resources: {}
 imgUrl: "#./image"
-keywords: "Align Text"
-headline: "Align Text"
+keywords: "Align Text in PDF"
+headline: "Align Text in PDF"
+description: "Add any text in PDF at precise location and alignment such as Left, Right etc.. using PDFFiddler Playground"

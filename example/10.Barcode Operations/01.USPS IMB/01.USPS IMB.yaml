@@ -20,5 +20,7 @@ inputFiles:
     size: 46640
 resources: {}
 imgUrl: "#./image"
-keywords: "USPS IMB"
-headline: "USPS IMB"
+keywords: "Add USPS IMB Barcode to PDF, Create Barcode"
+headline: "Add USPS IMB Barcode to PDF"
+description: "Add USPS IMB barcode to your PDF with PDFFiddler Playground"
+

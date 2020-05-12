@@ -20,5 +20,6 @@ inputFiles:
     size: 20063
 resources: {}
 imgUrl: "#./image"
-keywords: "Redact Region"
-headline: "Redact Region"
+keywords: "Redact Region in PDF, Redact sensitive information"
+headline: "Redact Region in PDF"
+description: "Click and drag to draw any region, which you want to redact within PDF using PDFFiddler Playground"

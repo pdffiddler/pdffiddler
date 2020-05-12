@@ -20,5 +20,6 @@ inputFiles:
     size: 20063
 resources: {}
 imgUrl: "#./image"
-keywords: "Redact Text and Image"
-headline: "Redact Text and Image"
+keywords: "Redact Text and Image in PDF, Redact sensitive information"
+headline: "Redact Text and Image in PDF"
+description: "Redact texts or images or both within PDF using PDFFiddler Playground"

@@ -20,5 +20,6 @@ inputFiles:
     size: 52923
 resources: {}
 imgUrl: "#./image"
-keywords: "Add Watermark to Pages"
-headline: "Add Watermark to Pages"
+keywords: "Add Watermark to PDF"
+headline: "Add Watermark to PDF"
+description: "Add another page or specific content as watermark to the PDF with PDFFiddler Playground"

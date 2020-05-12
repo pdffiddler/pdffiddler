@@ -20,5 +20,6 @@ inputFiles:
     size: 20063
 resources: {}
 imgUrl: "#./image"
-keywords: "Find and Redact"
-headline: "Find and Redact"
+keywords: "Find & Redact Text within PDF, Redact Text, Redact sensitive information"
+headline: "Find & Redact Text within PDF"
+description: "Find any text or search any particular pattern within PDF and redact it, using PDFFiddler Playground"

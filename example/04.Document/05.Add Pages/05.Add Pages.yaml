@@ -14,5 +14,6 @@ resources:
     relativePath: "resource/policy.pdf"
     size: 505543
 imgUrl: "#./image"
-keywords: "Add Pages"
-headline: "Add Pages"
+keywords: "Add Page, Append Page, Insert Page"
+headline: "Add Pages to PDF"
+description: "Add pages from a PDF file anywhere to another, or insert blank page anywhere to PDF using PDFFiddler Playground"

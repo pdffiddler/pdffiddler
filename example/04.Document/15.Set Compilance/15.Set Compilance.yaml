@@ -10,5 +10,6 @@ inputFiles:
     size: 17322
 resources: {}
 imgUrl: "#./image"
-keywords: "Set Compilance"
-headline: "Set Compilance"
+keywords: "Set PDF Compilance level, PDF Archive"
+headline: "Set PDF Compilance level"
+description: "Set the compilance level of PDF to PDF/A 1b or 2b or 2c using PDFFiddler Playground"

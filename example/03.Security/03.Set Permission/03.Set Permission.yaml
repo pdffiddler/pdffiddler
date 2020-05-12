@@ -10,5 +10,6 @@ inputFiles:
     size: 17322
 resources: {}
 imgUrl: "#./image"
-keywords: "Set Permission"
-headline: "Set Permission"
+keywords: "Set PDF Permission At Granular Level"
+headline: "Set PDF Permission At Granular Level"
+description: "Set PDF Permission such as extract, form filling etc.. at granular level using PDFFiddler Playground"

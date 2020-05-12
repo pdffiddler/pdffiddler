@@ -10,5 +10,6 @@ inputFiles:
     size: 52923
 resources: {}
 imgUrl: "#./image"
-keywords: "Get or Transverse Page"
+keywords: "Get Page, Transverse Page, Loop Page"
 headline: "Get or Transverse Page"
+description: "Loop on Pages of PDF or Get a Page from PDF using PDFFiddler Playground"

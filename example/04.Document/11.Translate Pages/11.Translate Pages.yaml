@@ -10,5 +10,6 @@ inputFiles:
     size: 52923
 resources: {}
 imgUrl: "#./image"
-keywords: "Translate Pages"
-headline: "Translate Pages"
+keywords: "Move Page Content, Translate Page"
+headline: "Move Page Content of your PDF"
+description: "Move or Translate Page Content of your PDF with PDFFiddler Playground"

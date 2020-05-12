@@ -20,5 +20,6 @@ inputFiles:
     size: 46640
 resources: {}
 imgUrl: "#./image"
-keywords: "Extract Image"
-headline: "Extract Image"
+keywords: "Extract Image from PDF"
+headline: "Extract Image from PDF"
+description: "Extract any image from PDF and save it as file using PDFFiddler Playground"

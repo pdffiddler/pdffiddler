@@ -10,5 +10,6 @@ inputFiles:
     size: 17322
 resources: {}
 imgUrl: "#./image"
-keywords: "Encryption Algorithm"
-headline: "Encryption Algorithm"
+keywords: "Encrypt PDF using AES"
+headline: "Encrypt PDF using AES"
+description: "Encrypt your PDF Files using strong AES encryption with PDFFiddler Playground"

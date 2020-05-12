@@ -20,5 +20,6 @@ inputFiles:
     size: 46640
 resources: {}
 imgUrl: "#./image"
-keywords: "QR Code"
-headline: "QR Code"
+keywords: "Add QR Code to PDF, Create Barcode"
+headline: "Add QR Code to PDF"
+description: "Add QR barcode to your PDF with PDFFiddler Playground"

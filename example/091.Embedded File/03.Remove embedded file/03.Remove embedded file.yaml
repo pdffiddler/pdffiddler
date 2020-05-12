@@ -10,5 +10,6 @@ inputFiles:
     size: 17475
 resources: {}
 imgUrl: "#./image"
-keywords: "Remove embedded file"
-headline: "Remove embedded file"
+keywords: "Remove embedded file from PDF, Delete embedded file"
+headline: "Remove embedded file from PDF"
+description: "Remove or delete embedded file from PDF with PDFFiddler Playground"

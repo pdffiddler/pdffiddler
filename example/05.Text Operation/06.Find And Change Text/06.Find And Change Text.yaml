@@ -20,5 +20,6 @@ inputFiles:
     size: 17322
 resources: {}
 imgUrl: "#./image"
-keywords: "Find And Change Text"
-headline: "Find And Change Text"
+keywords: "Find And Change Text in PDF"
+headline: "Find And Change Text in PDF"
+description: "Find any text using regex pattern within PDF, and replace it with another text or change it's style using PDFFiddler Playground"

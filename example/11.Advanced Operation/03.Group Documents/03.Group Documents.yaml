@@ -20,5 +20,6 @@ inputFiles:
     size: 467580
 resources: {}
 imgUrl: "#./image"
-keywords: "Group Documents"
-headline: "Group Documents"
+keywords: "Group PDF Documents"
+headline: "Group PDF Documents"
+description: "Group documents into multiple PDF Documents based upon some text content within PDF using PDFFiddler Playground"

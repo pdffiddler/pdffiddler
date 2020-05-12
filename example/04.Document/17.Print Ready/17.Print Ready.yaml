@@ -10,5 +10,6 @@ inputFiles:
     size: 65661
 resources: {}
 imgUrl: "#./image"
-keywords: "Print Ready"
-headline: "Print Ready"
+keywords: "Make PDF Print Ready"
+headline: "Make PDF Print Ready"
+description: "Make the PDF Print Ready by embedded all font, flattening it and Image quality to 300 dpi using PDFFiddler Playground"

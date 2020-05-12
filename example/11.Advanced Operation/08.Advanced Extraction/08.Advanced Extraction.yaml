@@ -85,5 +85,6 @@ inputFiles:
     size: 508924
 resources: {}
 imgUrl: "#./image"
-keywords: "Advanced Extraction"
-headline: "Advanced Extraction"
+keywords: "Data Extraction from PDF"
+headline: "Data Extraction from PDF"
+description: "Extract any data such as texts, images, forms, or tabular data from PDF using PDFFiddler Playground"

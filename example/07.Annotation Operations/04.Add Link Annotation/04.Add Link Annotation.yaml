@@ -48,4 +48,5 @@ resources:
     size: 3970
 imgUrl: "#./image"
 keywords: "Add Link Annotation"
-headline: "Add Link Annotation"
+headline: "Add Link Annotation in PDF"
+description: "To add a hyperlink or intra-document link annotation to a PDF Document page with PDFFiddler Playground"

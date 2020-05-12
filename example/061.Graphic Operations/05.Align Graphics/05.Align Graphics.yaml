@@ -6,5 +6,6 @@ configurationVariable: []
 inputFiles: {}
 resources: {}
 imgUrl: "#./image"
-keywords: "Align Graphics"
-headline: "Align Graphics"
+keywords: "Align Graphics, Align Rectangle Circle"
+headline: "Draw And Align Shapes"
+description: "How to add any shape such as rectangle, circle etc.. and align them properly for precise location in PDF with PDFFiddler Playground"

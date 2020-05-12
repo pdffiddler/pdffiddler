@@ -20,5 +20,6 @@ inputFiles:
     size: 22618
 resources: {}
 imgUrl: "#./image"
-keywords: "Delete Annotation"
-headline: "Delete Annotation"
+keywords: "Delete Annotation, Remove Annotation"
+headline: "Delete Annotation from PDF"
+description: "How to delete unwanted annotations from PDF with PDFFiddler Playground"

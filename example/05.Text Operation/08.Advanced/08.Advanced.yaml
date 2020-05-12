@@ -16,5 +16,6 @@ configurationVariable:
 inputFiles: {}
 resources: {}
 imgUrl: "#./image"
-keywords: "Advanced"
-headline: "Advanced"
+keywords: "Advanced Text Operations in PDF"
+headline: "Advanced Text Operations in PDF"
+description: "Add any text with advanced alignment and formatting such as character spacing, Justification etc.. using PDFFiddler Playground"

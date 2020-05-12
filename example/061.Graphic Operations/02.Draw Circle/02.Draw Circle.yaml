@@ -6,5 +6,6 @@ configurationVariable: []
 inputFiles: {}
 resources: {}
 imgUrl: "#./image"
-keywords: "Draw Circle"
-headline: "Draw Circle"
+keywords: "Draw Circle, Add Circle"
+headline: "Draw Circle in PDF"
+description: "By clicking and dragging mouse over PDF, you can add new circle in PDF with PDFFiddler Playground"

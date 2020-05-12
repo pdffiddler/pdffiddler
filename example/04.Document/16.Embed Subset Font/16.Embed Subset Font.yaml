@@ -10,5 +10,6 @@ inputFiles:
     size: 3028
 resources: {}
 imgUrl: "#./image"
-keywords: "Embed Subset Font"
-headline: "Embed Subset Font"
+keywords: "Embed All Font in PDF"
+headline: "Embed All Font in PDF"
+description: "Embed all the font within PDF using PDFFiddler Playground"

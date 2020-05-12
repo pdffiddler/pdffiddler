@@ -40,5 +40,6 @@ inputFiles:
     size: 17322
 resources: {}
 imgUrl: "#./image"
-keywords: "Add Text"
-headline: "Add Text"
+keywords: "Add Text to PDF, Insert Text"
+headline: "Add Text to PDF"
+description: "Add any text to PDF at any location with PDFFiddler Playground"

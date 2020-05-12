@@ -10,5 +10,6 @@ inputFiles:
     size: 52923
 resources: {}
 imgUrl: "#./image"
-keywords: "Delete Pages"
-headline: "Delete Pages"
+keywords: "Delete Page, Remove Page, Discard Page"
+headline: "Delete Pages from PDF"
+description: "Delete pages from anywhere in your PDF document using PDFFiddler Playground"

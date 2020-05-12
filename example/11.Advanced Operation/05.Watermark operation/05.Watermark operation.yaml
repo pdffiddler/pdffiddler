@@ -24,5 +24,6 @@ resources:
     relativePath: "resource/pdffiddle64.png"
     size: 2149
 imgUrl: "#./image"
-keywords: "Watermark operation"
-headline: "Watermark operation"
+keywords: "Add Watermark to PDF"
+headline: "Add Watermark to PDF"
+description: "Add another page or specific content as watermark to any page of the PDF with PDFFiddler Playground"

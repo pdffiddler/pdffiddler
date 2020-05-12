@@ -8,3 +8,4 @@ resources: {}
 imgUrl: "#./image"
 keywords: "Create Blank Document"
 headline: "Create Blank Document"
+description: "Create Blank PDF with Pages using PDFFiddler Playground"

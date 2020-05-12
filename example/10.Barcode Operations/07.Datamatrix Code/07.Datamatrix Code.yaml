@@ -20,5 +20,6 @@ inputFiles:
     size: 46640
 resources: {}
 imgUrl: "#./image"
-keywords: "Datamatrix Code"
-headline: "Datamatrix Code"
+keywords: "Add Datamatrix Barcode to PDF, Create Barcode"
+headline: "Add Datamatrix Barcode to PDF"
+description: "Add Datamatrix barcode to your PDF with PDFFiddler Playground"

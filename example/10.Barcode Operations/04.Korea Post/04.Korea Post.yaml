@@ -20,5 +20,6 @@ inputFiles:
     size: 46640
 resources: {}
 imgUrl: "#./image"
-keywords: "Korea Post"
-headline: "Korea Post"
+keywords: "Add Korea Post Barcode to PDF, Create Barcode"
+headline: "Add Korea Post Barcode to PDF"
+description: "Add Korea Post barcode to your PDF with PDFFiddler Playground"

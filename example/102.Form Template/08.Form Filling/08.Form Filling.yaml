@@ -14,5 +14,6 @@ resources:
     relativePath: "resource/formExample.pdf"
     size: 65715
 imgUrl: "#./image"
-keywords: "Form Filling"
-headline: "Form Filling"
+keywords: "Fill PDF Form, Automate PDF Form filling"
+headline: "Fill PDF Form"
+description: "Automate the process of PDF Form filling using PDFFiddler Playground"

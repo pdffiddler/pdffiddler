@@ -14,5 +14,6 @@ resources:
     relativePath: "resource/singleInvoice.xml"
     size: 192
 imgUrl: "#./image"
-keywords: "Add embedded file"
-headline: "Add embedded file"
+keywords: "Embed file in PDF, Add Embedded file"
+headline: "Embed file in PDF"
+description: "You can embed any file in PDF with PDFFiddler Playground"

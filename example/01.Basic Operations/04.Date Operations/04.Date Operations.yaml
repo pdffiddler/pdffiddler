@@ -16,5 +16,6 @@ configurationVariable:
 inputFiles: {}
 resources: {}
 imgUrl: "#./image"
-keywords: "Date Operations"
+keywords: "Date Operations, PDF Date Parser,  PDF Date Formatter"
 headline: "Date Operations"
+description: "How to extract date and format date in PDF using PDFFiddler Playground"

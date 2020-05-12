@@ -38,5 +38,6 @@ resources:
     relativePath: "resource/pdffiddle64.png"
     size: 2149
 imgUrl: "#./image"
-keywords: "Add Image"
-headline: "Add Image"
+keywords: "Add Image in PDF"
+headline: "Add Image in PDF"
+description: "Add any image to PDF at any location with PDFFiddler Playground"

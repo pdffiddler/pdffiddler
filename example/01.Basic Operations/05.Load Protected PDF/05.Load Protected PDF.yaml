@@ -18,5 +18,7 @@ resources:
     relativePath: "resource/pdffiddlerWithPassword.pfx"
     size: 2645
 imgUrl: "#./image"
-keywords: "Load Protected PDF"
-headline: "Load Protected PDF"
+keywords: "Load Protected PDF, Remove Password, Remove Security"
+headline: "Load Protected PDF And Remove Password"
+description: "How to load protected PDF and remove all password and security using\
+  \ PDFFiddler Playground"

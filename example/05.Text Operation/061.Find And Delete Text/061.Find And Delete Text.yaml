@@ -20,5 +20,7 @@ inputFiles:
     size: 17322
 resources: {}
 imgUrl: "#./image"
-keywords: "Find And Delete Text"
-headline: "Find And Delete Text"
+keywords: "Find And Delete Text in PDF"
+headline: "Find And Delete Text in PDF"
+description: "Search any text using regex Pattern, and delete it, using PDFFiddler Playground"
+

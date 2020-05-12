@@ -20,5 +20,6 @@ inputFiles:
     size: 467580
 resources: {}
 imgUrl: "#./image"
-keywords: "Sort Documents"
-headline: "Sort Documents"
+keywords: "Sort PDF Documents, Reorder PDF Documents"
+headline: "Sort PDF Documents"
+description: "Reorder or Sort PDF documents based upon some text content within PDF using PDFFiddler Playground"

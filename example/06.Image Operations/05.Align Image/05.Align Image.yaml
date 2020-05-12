@@ -30,5 +30,6 @@ resources:
     relativePath: "resource/pdffiddle64.jpg"
     size: 3970
 imgUrl: "#./image"
-keywords: "Align Image"
-headline: "Align Image"
+keywords: "Align Image in PDF"
+headline: "Align Image in PDF"
+description: "Add any image in PDF at precise location and alignment such as Left, Right etc.. using PDFFiddler Playground"

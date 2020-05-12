@@ -10,5 +10,6 @@ inputFiles:
     size: 17322
 resources: {}
 imgUrl: "#./image"
-keywords: "Set MetaData"
-headline: "Set MetaData"
+keywords: "Set MetaData, Add MetaData"
+headline: "Set MetaData in PDF"
+description: "Add metadata such as author, title, keywords, creator etc.. in PDF with PDFFiddler Playground"

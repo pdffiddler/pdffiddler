@@ -20,5 +20,6 @@ inputFiles:
     size: 17322
 resources: {}
 imgUrl: "#./image"
-keywords: "Timestamp invisible signature"
-headline: "Timestamp invisible signature"
+keywords: "Timestamp invisible signature, Digital Timestamp Signature, Timestamp PDF"
+headline: "Digital Timestamp as Invisible PDF Signature"
+description: "Add digital timestamp mark a invisible PDF signature with the time and date as proof of integrity with PDFFiddler Playground"

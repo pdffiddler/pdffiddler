@@ -24,5 +24,7 @@ resources:
     relativePath: "resource/pdffiddlerWithPassword.pfx"
     size: 2645
 imgUrl: "#./image"
-keywords: "Certificate invisible signature"
-headline: "Certificate invisible signature"
+keywords: "Digital Certificate invisible signature, Digital Certificate Signature"
+headline: "Add Digital Certificate as Invisible PDF Signature"
+description: "Add your digital certificate to mark a invisible PDF signature as a proof of authenticity and integrity with PDFFiddler Playground"
+

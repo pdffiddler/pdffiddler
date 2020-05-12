@@ -10,5 +10,6 @@ inputFiles:
     size: 18827
 resources: {}
 imgUrl: "#./image"
-keywords: "Remove MetaData"
-headline: "Remove MetaData"
+keywords: "Remove MetaData, Delete MetaData"
+headline: "Remove MetaData from PDF"
+description: "Remove any metadata such as author, keywords, title etc.. from PDF with PDFFiddler Playground"

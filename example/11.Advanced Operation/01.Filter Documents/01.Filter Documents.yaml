@@ -26,5 +26,6 @@ inputFiles:
     size: 346056
 resources: {}
 imgUrl: "#./image"
-keywords: "Filter Documents"
-headline: "Filter Documents"
+keywords: "Filter PDF Documents, Remove unwanted PDF"
+headline: "Filter PDF Documents"
+description: "Remove unwanted document from a list of PDF documents with PDFFiddler Playground"

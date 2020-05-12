@@ -20,5 +20,7 @@ inputFiles:
     size: 505543
 resources: {}
 imgUrl: "#./image"
-keywords: "On Match"
-headline: "On Match"
+keywords: "Split PDF If Content Matches"
+headline: "Split PDF If Content Matches"
+description: "Splitting PDF document, if a specific text content matches within a\
+  \ Region of Interest using PDFFiddler Playground"

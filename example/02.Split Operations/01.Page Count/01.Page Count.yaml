@@ -10,5 +10,6 @@ inputFiles:
     size: 52923
 resources: {}
 imgUrl: "#./image"
-keywords: "Page Count"
-headline: "Page Count"
+keywords: "Split PDF By Page Count"
+headline: "Split PDF By Page Count"
+description: "Splitting a PDF Document by a number of pages using PDFFiddler Playground"

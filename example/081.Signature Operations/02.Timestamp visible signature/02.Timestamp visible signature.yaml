@@ -28,5 +28,6 @@ resources:
     relativePath: "resource/pdffiddle64.jpg"
     size: 3970
 imgUrl: "#./image"
-keywords: "Timestamp visible signature"
-headline: "Timestamp visible signature"
+keywords: "Timestamp visible signature, Digital Signature, Digital Timestamp, Timestamp PDF"
+headline: "Visible Timestamp as PDF Signature"
+description: "Add digital timestamp mark a PDF signature with the time and date as proof of integrity with PDFFiddler Playground"

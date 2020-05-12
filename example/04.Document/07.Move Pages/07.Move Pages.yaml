@@ -10,5 +10,6 @@ inputFiles:
     size: 52923
 resources: {}
 imgUrl: "#./image"
-keywords: "Move Pages"
-headline: "Move Pages"
+keywords: "Reorder Pages, Rearrange Pages, Move Page"
+headline: "Reorder Page in PDF"
+description: "Change the order of pages in PDF document using PDFFiddler Playground"

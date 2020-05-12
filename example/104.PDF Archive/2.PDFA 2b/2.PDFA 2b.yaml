@@ -14,5 +14,6 @@ resources:
     relativePath: "resource/default_cmyk.icc"
     size: 187484
 imgUrl: "#./image"
-keywords: "PDFA 2b"
-headline: "PDFA 2b"
+keywords: "Convert PDF to PDF/A-2b, PDF Archive"
+headline: "Convert PDF to PDF/A-2b"
+description: "Convert any PDF to PDF/A-2b with PDFFiddler Playground"

@@ -21,5 +21,6 @@ inputFiles:
     size: 65661
 resources: {}
 imgUrl: "#./image"
-keywords: "Delete Form"
-headline: "Delete Form"
+keywords: "Delete Form field from PDF, Remove Form field"
+headline: "Delete Form field from PDF"
+description: "Remove any form field such as signature, textbox etc.. from PDF using PDFFiddler Playground"

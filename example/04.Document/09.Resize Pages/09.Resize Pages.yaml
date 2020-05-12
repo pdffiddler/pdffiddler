@@ -10,5 +10,6 @@ inputFiles:
     size: 52923
 resources: {}
 imgUrl: "#./image"
-keywords: "Resize Pages"
-headline: "Resize Pages"
+keywords: "Resize Page, Scale Content"
+headline: "Resize Page or Content or Both"
+description: "Change the page size or page content or both of your PDF using PDFFiddler Playground"

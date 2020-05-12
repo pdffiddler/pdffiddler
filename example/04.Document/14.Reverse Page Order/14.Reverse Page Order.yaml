@@ -10,5 +10,6 @@ inputFiles:
     size: 52923
 resources: {}
 imgUrl: "#./image"
-keywords: "Reverse Page Order"
-headline: "Reverse Page Order"
+keywords: "Reverse Page Order of PDF"
+headline: "Reverse Page Order of PDF"
+description: "Reverse the order of pages and create a new PDF document using PDFFiddler Playground"

@@ -20,5 +20,6 @@ inputFiles:
     size: 46640
 resources: {}
 imgUrl: "#./image"
-keywords: "Royal Mail Post"
-headline: "Royal Mail Post"
+keywords: "Add RoyalMail Post Barcode to PDF, Create Barcode"
+headline: "Add RoyalMail Post Barcode to PDF"
+description: "Add RoyalMail Post barcode to your PDF with PDFFiddler Playground"

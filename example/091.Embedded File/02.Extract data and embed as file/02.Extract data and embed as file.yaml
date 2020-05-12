@@ -62,5 +62,6 @@ inputFiles:
     size: 17322
 resources: {}
 imgUrl: "#./image"
-keywords: "Extract data and embed as file"
-headline: "Extract data and embed as file"
+keywords: "Extract data and embed as file in PDf"
+headline: "Extract data and embed as file in PDF"
+description: "Extract any data from PDF and embed it as file within PDF for further processing using PDFFiddler Playground"

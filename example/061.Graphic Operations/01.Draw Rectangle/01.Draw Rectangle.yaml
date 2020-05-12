@@ -6,5 +6,6 @@ configurationVariable: []
 inputFiles: {}
 resources: {}
 imgUrl: "#./image"
-keywords: "Draw Rectangle"
-headline: "Draw Rectangle"
+keywords: "Draw Rectangle, Add Rectangle"
+headline: "Draw Rectangle in PDF"
+description: "By clicking and dragging mouse over PDF, you can add new rectangle in PDF with PDFFiddler Playground"
